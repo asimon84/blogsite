@@ -1453,9 +1453,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js" integrity="sha512-wOeEC+9qERAzhliwBFPDb6t8TiFFxdxG8vhK/Ygs7TuC44bpg8pg/X2/U/u+0X4fK05wb9id1EIipnF02+CFQw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <!-- Menu JS -->
-<script src="assets/js/menu.js"></script>
+<script src="{{ asset('js/menu.js') }}"></script>
 
 <!-- Main JS -->
-<script src="assets/js/main.js"></script>
+<script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
