@@ -415,7 +415,7 @@
                             <div class="video-wrapper">
                                 <video loop="" muted="" autoplay="" playsinline="">
                                     <source
-                                            src="https://res.cloudinary.com/ducryslbe/video/upload/v1740329511/Quanto/video.sakebul.com.mp4"
+                                            src="https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.mp4?_=6"
                                             type="video/mp4"
                                     />
                                 </video>
