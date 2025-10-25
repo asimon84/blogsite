@@ -7,16 +7,16 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
-    <title>Quanto - Creative Agency Template</title>
+    <title>Alexander Simon - Software Architect / Senior Software Engineer</title>
 
     <!-- SEO Meta Tags -->
     <meta
             name="description"
-            content="Quanto is a modern and creative agency template designed for businesses and freelancers to showcase their work."
+            content="Alexander Simon is a Software Architect and Senior Software Engineer and this is a portfolio to showcase past work."
     />
     <meta
             name="keywords"
-            content="creative agency, modern template, business website, freelancer portfolio, Quanto"
+            content="creative, business website, freelancer portfolio, Senior Software engineer, software architect"
     />
 
     <!-- Favicon -->
