@@ -22,11 +22,8 @@
     <!-- Favicon -->
     <link rel="icon" href="assets/images/favicon.png" type="image/gif" />
 
-    <!-- CSS Files -->
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/css/plugins.css" />
-    <!-- Main Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    @vite(['resources/css/app.css', 'resources/css/style.css', 'resources/js/app.js', 'resources/js/menu.js', 'resources/js/main.js'])
+
 </head>
 
 <body>
@@ -1451,8 +1448,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js" integrity="sha512-kz526itdNcpyMs18TLPOhsnIeOIO1JywWKbbF77zR+ZKpZ4gwubXhwaURHpt5Se9AAqSK2j8ID0LnfXsB2Jkjg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js" integrity="sha512-wOeEC+9qERAzhliwBFPDb6t8TiFFxdxG8vhK/Ygs7TuC44bpg8pg/X2/U/u+0X4fK05wb9id1EIipnF02+CFQw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-@vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/menu.js', 'resources/js/main.js'])
 
 </body>
 </html>
