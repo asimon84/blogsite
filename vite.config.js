@@ -9,6 +9,7 @@ export default defineConfig({
                 'resources/css/app.css',
                 'resources/css/style.css',
                 'resources/js/app.js',
+                'resources/js/viewport.js',
                 'resources/js/main.js',
                 'resources/js/menu.js',
             ],

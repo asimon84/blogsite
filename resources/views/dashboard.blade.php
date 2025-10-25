@@ -22,7 +22,7 @@
     <!-- Favicon -->
     <link rel="icon" href="assets/images/favicon.png" type="image/gif" />
 
-    @vite(['resources/css/app.css', 'resources/css/style.css', 'resources/js/app.js', 'resources/js/menu.js', 'resources/js/main.js'])
+    @vite(['resources/css/app.css', 'resources/css/style.css', 'resources/js/app.js', 'resources/js/viewport.js', 'resources/js/menu.js', 'resources/js/main.js'])
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
@@ -1454,8 +1454,7 @@
 <!-- Magnific Popup JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/jquery.magnific-popup.min.js" integrity="sha512-fCRpXk4VumjVNtE0j+OyOqzPxF1eZwacU3kN3SsznRPWHgMTSSo7INc8aY03KQDBWztuMo5KjKzCFXI/a5rVYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- Odometer JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
-<script src=" https://cdn.jsdelivr.net/npm/jquery.viewport@1.0.1/jquery.viewport.min.js "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js" integrity="sha512-51WDTV7haD9BBDc8RWH2r5TnuSiRyAqEnbGyuKHYn+qpYCrCckxFeqlr1I5UoOULijyLV2vnHO9LS4MrAzHxwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <!-- gsap JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
