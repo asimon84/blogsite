@@ -1452,10 +1452,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js" integrity="sha512-wOeEC+9qERAzhliwBFPDb6t8TiFFxdxG8vhK/Ygs7TuC44bpg8pg/X2/U/u+0X4fK05wb9id1EIipnF02+CFQw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<!-- Menu JS -->
-<script src="{{ asset('js/menu.js') }}"></script>
+@vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/menu.js', 'resources/js/main.js'])
 
-<!-- Main JS -->
-<script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
