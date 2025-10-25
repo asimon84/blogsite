@@ -20,7 +20,7 @@
     />
 
     <!-- Favicon -->
-    <link rel="icon" href="assets/images/favicon.png" type="image/gif" />
+    <link rel="icon" href="{{ asset('/storage/images/favicon.png') }}" type="image/gif" />
 
     @vite(['resources/css/app.css', 'resources/css/style.css', 'resources/js/app.js', 'resources/js/viewport.js', 'resources/js/menu.js', 'resources/js/main.js'])
 
