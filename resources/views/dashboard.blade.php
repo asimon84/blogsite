@@ -53,7 +53,7 @@
 <div class="preloader">
     <div class="spinner-wrap">
         <div class="preloader-logo">
-            <img src="assets/images/preloader.svg" alt="" class="img-fluid" />
+            <img src="{{ asset('/storage/images/preloader.svg') }}" alt="" class="img-fluid" />
         </div>
         <div class="spinner"></div>
     </div>
@@ -73,7 +73,7 @@
         <div class="quanto-menu-mobile-top">
             <div class="mobile-logo">
                 <a href="index.html">
-                    <img src="./assets/images/logo-1.svg" alt="logo" />
+                    <img src="{{ asset('/storage/images/logo-1.svg') }}" alt="logo" />
                 </a>
             </div>
             <button class="quanto-menu-toggle mobile">
@@ -200,7 +200,7 @@
                         <div class="col-8 col-sm-auto">
                             <div class="header-logo">
                                 <a href="index.html">
-                                    <img src="./assets/images/logo-1.svg" alt="logo" />
+                                    <img src="{{ asset('/storage/images/logo-1.svg') }}" alt="logo" />
                                 </a>
                             </div>
                         </div>
@@ -382,15 +382,15 @@
                             <div class="client-info fade-anim" data-delay="0.60">
                                 <div class="client-images">
                                     <img
-                                            src="./assets/images/hero/avatar-add.png"
+                                            src="{{ asset('/storage/images/hero/avatar-add.png') }}"
                                             alt="avatar-add"
                                     />
                                     <img
-                                            src="./assets/images/hero/avatar-1.png"
+                                            src="{{ asset('/storage/images/hero/avatar-1.png') }}"
                                             alt="avatar"
                                     />
                                     <img
-                                            src="./assets/images/hero/avatar-2.png"
+                                            src="{{ asset('/storage/images/hero/avatar-2.png') }}"
                                             alt="avatar"
                                     />
                                 </div>
@@ -557,7 +557,7 @@
                                     <a href="./portfolio-details.html">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
-                                                    src="./assets/images/project/project-1.png"
+                                                    src="{{ asset('/storage/images/project/project-1.png') }}"
                                                     alt="project-thumb"
                                                     class="w-100 img_reveal"
                                             />
@@ -582,7 +582,7 @@
                                     <a href="./portfolio-details.html">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
-                                                    src="./assets/images/project/project-3.png"
+                                                    src="{{ asset('/storage/images/project/project-3.png') }}"
                                                     alt="project-thumb"
                                                     class="w-100 img_reveal"
                                             />
@@ -607,7 +607,7 @@
                                     <a href="./portfolio-details.html">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
-                                                    src="./assets/images/project/project-5.png"
+                                                    src="{{ asset('/storage/images/project/project-5.png') }}"
                                                     alt="project-thumb"
                                                     class="w-100 img_reveal"
                                             />
@@ -651,7 +651,7 @@
                                                 class="quanto-project-thumb max-655 overflow-hidden"
                                         >
                                             <img
-                                                    src="./assets/images/project/project-2.png"
+                                                    src="{{ asset('/storage/images/project/project-2.png') }}"
                                                     alt="project-thumb"
                                                     class="w-100 img_reveal"
                                             />
@@ -676,7 +676,7 @@
                                     <a href="./portfolio-details.html">
                                         <div class="quanto-project-thumboverflow-hidden">
                                             <img
-                                                    src="./assets/images/project/project-4.png"
+                                                    src="{{ asset('/storage/images/project/project-4.png') }}"
                                                     alt="project-thumb"
                                                     class="w-100 img_reveal"
                                             />
@@ -701,7 +701,7 @@
                                     <a href="./portfolio-details.html">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
-                                                    src="./assets/images/project/project-6.png"
+                                                    src="{{ asset('/storage/images/project/project-6.png') }}"
                                                     alt="project-thumb"
                                                     class="w-100 img_reveal"
                                             />
@@ -749,7 +749,7 @@
                         <div class="quanto-service-box move-anim">
                             <div class="quanto-iconbox-icon">
                                 <img
-                                        src="./assets/images/service/service-icon-1.svg"
+                                        src="{{ asset('/storage/images/service/service-icon-1.svg') }}"
                                         alt="service-icon"
                                 />
                             </div>
@@ -775,7 +775,7 @@
                         <div class="quanto-service-box move-anim">
                             <div class="quanto-iconbox-icon">
                                 <img
-                                        src="./assets/images/service/service-icon-2.svg"
+                                        src="{{ asset('/storage/images/service/service-icon-2.svg') }}"
                                         alt="service-icon"
                                 />
                             </div>
@@ -801,7 +801,7 @@
                         <div class="quanto-service-box move-anim">
                             <div class="quanto-iconbox-icon">
                                 <img
-                                        src="./assets/images/service/service-icon-3.svg"
+                                        src="{{ asset('/storage/images/service/service-icon-3.svg') }}"
                                         alt="service-icon"
                                 />
                             </div>
@@ -828,7 +828,7 @@
                         <div class="quanto-service-box move-anim">
                             <div class="quanto-iconbox-icon">
                                 <img
-                                        src="./assets/images/service/service-icon-4.svg"
+                                        src="{{ asset('/storage/images/service/service-icon-4.svg') }}"
                                         alt="service-icon"
                                 />
                             </div>
@@ -887,7 +887,7 @@
                                             class="testimonial-img"
                                             data-speed="0.8"
                                             style="
-                          background-image: url(./assets/images/testimonial/Testimonial-1.png);
+                          background-image: url("{{ asset('/storage/images/testimonial/Testimonial-1.png') }}");
                         "
                                     ></div>
                                 </div>
@@ -896,7 +896,7 @@
                                             class="testimonial-img"
                                             data-speed="0.8"
                                             style="
-                          background-image: url(./assets/images/testimonial/Testimonial-2.png);
+                          background-image: url("{{ asset('/storage/images/testimonial/Testimonial-2.png') }}");
                         "
                                     ></div>
                                 </div>
@@ -905,7 +905,7 @@
                                             class="testimonial-img"
                                             data-speed="0.8"
                                             style="
-                          background-image: url(./assets/images/testimonial/Testimonial-3.png);
+                          background-image: url("{{ asset('/storage/images/testimonial/Testimonial-3.png') }}");
                         "
                                     ></div>
                                 </div>
@@ -914,7 +914,7 @@
                                             class="testimonial-img"
                                             data-speed="0.8"
                                             style="
-                          background-image: url(./assets/images/testimonial/Testimonial-4.png);
+                          background-image: url("{{ asset('/storage/images/testimonial/Testimonial-4.png') }}");
                         "
                                     ></div>
                                 </div>
@@ -923,7 +923,7 @@
                                             class="testimonial-img"
                                             data-speed="0.8"
                                             style="
-                          background-image: url(./assets/images/testimonial/Testimonial-5.png);
+                          background-image: url("{{ asset('/storage/images/testimonial/Testimonial-5.png') }}");
                         "
                                     ></div>
                                 </div>
@@ -1063,7 +1063,7 @@
                                         data-direction="right"
                                 >
                                     <img
-                                            src="./assets/images/clients/logo-1.png"
+                                            src="{{ asset('/storage/images/clients/logo-1.png') }}"
                                             alt="client-logo"
                                     />
                                 </div>
@@ -1073,7 +1073,7 @@
                                         data-direction="right"
                                 >
                                     <img
-                                            src="./assets/images/clients/logo-2.png"
+                                            src="{{ asset('/storage/images/clients/logo-2.png') }}"
                                             alt="client-logo"
                                     />
                                 </div>
@@ -1084,13 +1084,13 @@
                         <div class="col-12 clients__box-wrapper">
                             <div class="client-box d-none">
                                 <img
-                                        src="./assets/images/clients/logo-1.png"
+                                        src="{{ asset('/storage/images/clients/logo-1.png') }}"
                                         alt="client-logo"
                                 />
                             </div>
                             <div class="client-box d-none">
                                 <img
-                                        src="./assets/images/clients/logo-2.png"
+                                        src="{{ asset('/storage/images/clients/logo-2.png') }}"
                                         alt="client-logo"
                                 />
                             </div>
@@ -1100,7 +1100,7 @@
                                     data-direction="right"
                             >
                                 <img
-                                        src="./assets/images/clients/logo-3.png"
+                                        src="{{ asset('/storage/images/clients/logo-3.png') }}"
                                         alt="client-logo"
                                 />
                             </div>
@@ -1110,7 +1110,7 @@
                                     data-direction="right"
                             >
                                 <img
-                                        src="./assets/images/clients/logo-4.png"
+                                        src="{{ asset('/storage/images/clients/logo-4.png') }}"
                                         alt="client-logo"
                                 />
                             </div>
@@ -1120,7 +1120,7 @@
                                     data-direction="right"
                             >
                                 <img
-                                        src="./assets/images/clients/logo-5.png"
+                                        src="{{ asset('/storage/images/clients/logo-5.png') }}"
                                         alt="client-logo"
                                 />
                             </div>
@@ -1130,7 +1130,7 @@
                                     data-direction="right"
                             >
                                 <img
-                                        src="./assets/images/clients/logo-6.png"
+                                        src="{{ asset('/storage/images/clients/logo-6.png') }}"
                                         alt="client-logo"
                                 />
                             </div>
@@ -1140,7 +1140,7 @@
                                     data-direction="right"
                             >
                                 <img
-                                        src="./assets/images/clients/logo-7.png"
+                                        src="{{ asset('/storage/images/clients/logo-7.png') }}"
                                         alt="client-logo"
                                 />
                             </div>
@@ -1150,7 +1150,7 @@
                                     data-direction="right"
                             >
                                 <img
-                                        src="./assets/images/clients/logo-8.png"
+                                        src="{{ asset('/storage/images/clients/logo-8.png') }}"
                                         alt="client-logo"
                                 />
                             </div>
@@ -1163,7 +1163,7 @@
                                     data-direction="right"
                             >
                                 <img
-                                        src="./assets/images/clients/logo-9.png"
+                                        src="{{ asset('/storage/images/clients/logo-9.png') }}"
                                         alt="client-logo"
                                 />
                             </div>
@@ -1173,7 +1173,7 @@
                                     data-direction="right"
                             >
                                 <img
-                                        src="./assets/images/clients/logo-10.png"
+                                        src="{{ asset('/storage/images/clients/logo-10.png') }}"
                                         alt="client-logo"
                                 />
                             </div>
@@ -1225,7 +1225,7 @@
                             <div class="quanto-blog-thumb">
                                 <a href="./blog-details.html">
                                     <img
-                                            src="./assets/images/blog/blog-thumb-1.png"
+                                            src="{{ asset('/storage/images/blog/blog-thumb-1.png') }}"
                                             alt="blog-thumb"
                                     />
                                 </a>
@@ -1250,7 +1250,7 @@
                             <div class="quanto-blog-thumb">
                                 <a href="./blog-details.html">
                                     <img
-                                            src="./assets/images/blog/blog-thumb-2.png"
+                                            src="{{ asset('/storage/images/blog/blog-thumb-2.png') }}"
                                             alt="blog-thumb"
                                     />
                                 </a>
@@ -1271,7 +1271,7 @@
                             <div class="quanto-blog-thumb">
                                 <a href="./blog-details.html">
                                     <img
-                                            src="./assets/images/blog/blog-thumb-3.png"
+                                            src="{{ asset('/storage/images/blog/blog-thumb-3.png') }}"
                                             alt="blog-thumb"
                                     />
                                 </a>
