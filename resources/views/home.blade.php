@@ -1330,7 +1330,7 @@
                                     </div>
                                 </div>
                                 <div class="footer-widgets fade-anim" data-delay="0.2">
-                                    <h6 class="widget-title text-color-white">Agency</h6>
+                                    <h6 class="widget-title text-color-white">Architect</h6>
                                     <div class="widget-links">
                                         <ul class="custom-ul">
                                             <li>
