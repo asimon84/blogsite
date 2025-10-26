@@ -366,8 +366,8 @@
                         </div>
                         <div class="quanto-hero__info">
                             <p class="word-anim" data-delay="0.60">
-                                As long as your dreams revolve around something like; being
-                                the proud owner spectacular website.
+                                Whatever you can dream up, <br/>
+                                together we can make it real!
                             </p>
                             <div class="client-info fade-anim" data-delay="0.60">
                                 <div class="client-images">
@@ -386,14 +386,14 @@
                                 </div>
                                 <div class="client-data">
                                     <h6 class="counter-item d-flex align-items-center">
-                        <span
-                                class="odometer d-inline-block"
-                                data-odometer-final="2"
-                        >.</span
-                        >
-                                        <em>k+ Clients</em>
+                        {{--<span--}}
+                                {{--class="odometer d-inline-block"--}}
+                                {{--data-odometer-final=""--}}
+                        {{-->.</span--}}
+                        {{-->--}}
+                                        <em>$200m+ in Revenue</em>
                                     </h6>
-                                    <span>Award winning agency</span>
+                                    <span>Software Architect</span>
                                 </div>
                             </div>
                         </div>
