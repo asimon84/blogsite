@@ -436,16 +436,12 @@
                                     data-delay="0.5"
                             >
                                 <p class="">
-
-
-                                    Whether it's crafting a visually stunning brand identity,
-                                    designing immersive digital experiences, or developing
-                                    strategic marketing campaigns, we approach each project
-                                    with meticulous attention to detail and an unwavering
-                                    dedication to quality.
+                                    Whatever you are crafting, you need an experienced
+                                    veteran who approaches each project with meticulous
+                                    attention to detail and unwavering dedication to quality.
                                 </p>
                                 <a class="quanto-link-btn" href="./about-us.html"
-                                >More about us
+                                >Read More
                                     <span>
                         <i class="fa-solid fa-arrow-right arry1"></i>
                         <i class="fa-solid fa-arrow-right arry2"></i>
