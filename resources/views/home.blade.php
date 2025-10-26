@@ -471,12 +471,12 @@
                                 <h2 class="counter-item d-inline-flex align-items-center">
                       <span
                               class="odometer d-inline-block"
-                              data-odometer-final="17"
+                              data-odometer-final="18"
                       >.</span
                       >
                                     <em>+</em>
                                 </h2>
-                                <span class="funfact-info">Years of agency experience</span>
+                                <span class="funfact-info">Years of experience</span>
                             </div>
                             <div
                                     class="quanto-funfact-box fade-anim"
@@ -486,12 +486,12 @@
                                 <h2 class="counter-item d-inline-flex align-items-center">
                       <span
                               class="odometer d-inline-block"
-                              data-odometer-final="220"
+                              data-odometer-final="200"
                       >.</span
                       >
                                     <em>+</em>
                                 </h2>
-                                <span class="funfact-info">Successfully projects done</span>
+                                <span class="funfact-info">Million in revenue</span>
                             </div>
                             <div
                                     class="quanto-funfact-box fade-anim"
@@ -501,12 +501,12 @@
                                 <h2 class="counter-item d-inline-flex align-items-center">
                       <span
                               class="odometer d-inline-block"
-                              data-odometer-final="46"
+                              data-odometer-final="12"
                       >.</span
                       >
                                     <em>+</em>
                                 </h2>
-                                <span class="funfact-info">World-wide team members</span>
+                                <span class="funfact-info">Enterprise level applications</span>
                             </div>
                             <div
                                     class="quanto-funfact-box fade-anim"
@@ -516,13 +516,13 @@
                                 <h2 class="counter-item d-inline-flex align-items-center">
                       <span
                               class="odometer d-inline-block"
-                              data-odometer-final="98"
+                              data-odometer-final="100"
                       >.</span
                       >
                                     <em>%</em>
                                 </h2>
                                 <span class="funfact-info"
-                                >Clients satisfied & retention</span
+                                >Satisfaction</span
                                 >
                             </div>
                         </div>
