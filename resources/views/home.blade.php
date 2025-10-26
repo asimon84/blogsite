@@ -140,13 +140,12 @@
         </div>
         <div class="quanto-mobile-menu-btn">
             <div class="sidebar-wrap">
-                <h6>27 Division St, New York,</h6>
-                <h6>NY 10002, USA</h6>
+                <h6>Henderson, NV USA</h6>
             </div>
             <div class="sidebar-wrap">
-                <h6><a href="tel:1800123654987">+1 800 123 654 987 </a></h6>
+                <h6><a href="tel:19518925183">+1 951 892 5183 </a></h6>
                 <h6>
-                    <a href="mailto:quanto.agency@mail.com">quanto.agency@mail.com</a>
+                    <a href="mailto:ajsimon1984@gmail.com">ajsimon1984@gmail.com</a>
                 </h6>
             </div>
             <div class="social-btn style3">
@@ -1194,7 +1193,7 @@
                                 class="quanto__headerr d-flex justify-content-center justify-content-lg-end"
                         >
                             <a class="quanto-link-btn" href="./blog-grid.html"
-                            >View all articles
+                            >View Codebase
                                 <span>
                       <i class="fa-solid fa-arrow-right arry1"></i>
                       <i class="fa-solid fa-arrow-right arry2"></i>
@@ -1416,7 +1415,7 @@
                         <div class="col-12">
                             <div class="footer__bottom-content row-padding-bottom">
                                 <div class="copyright-text text-color-white">
-                                    All rights reserved — 2025 &copy; Alexander Simon
+                                    All rights reserved — {{ date('Y') }} &copy; Alexander Simon
                                 </div>
                                 <a href="#header" class="scroll-to-top section-link">
                                     Back to top
