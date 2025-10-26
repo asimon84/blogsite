@@ -62,7 +62,7 @@
     <div class="quanto-menu-area text-center">
         <div class="quanto-menu-mobile-top">
             <div class="mobile-logo">
-                <a href="index.html">
+                <a href="{{ route('home') }}">
                     <img src="{{ asset('/storage/images/logo-1.svg') }}" alt="logo" />
                 </a>
             </div>
@@ -76,7 +76,7 @@
                     <a href="#">Demo</a>
                     <ul class="sub-menu">
                         <li>
-                            <a href="index.html">Digital Agency</a>
+                            <a href="{{ route('home') }}">Digital Agency</a>
                         </li>
                         <li>
                             <a href="index-2.html">Creative Agency</a>
@@ -188,7 +188,7 @@
                     <div class="row gx-3 align-items-center justify-content-between">
                         <div class="col-8 col-sm-auto">
                             <div class="header-logo">
-                                <a href="index.html">
+                                <a href="{{ route('home') }}">
                                     <img src="{{ asset('/storage/images/logo-1.svg') }}" alt="logo" />
                                 </a>
                             </div>
@@ -199,7 +199,9 @@
                                     <li class="menu-item-has-children">
                                         <a href="#">Home</a>
                                         <ul class="sub-menu">
-                                            <li><a href="index.html">Digital Agency</a></li>
+                                            <li>
+                                                <a href="{{ route('home') }}">Overview</a>
+                                            </li>
                                             <li>
                                                 <a href="index-2.html">Creative Agency</a>
                                             </li>
@@ -1334,7 +1336,7 @@
                                     <div class="widget-links">
                                         <ul class="custom-ul">
                                             <li>
-                                                <a href="index.html">Home</a>
+                                                <a href="{{ route('home') }}">Overview</a>
                                             </li>
                                             <li>
                                                 <a href="portfolio-masonry.html">Case Studies</a>
