@@ -743,7 +743,7 @@
                             </div>
                             <div class="quanto-iconbox-data">
                                 <div class="quanto-iconbox-data-wrapper">
-                                    <h5>Brand Strategy</h5>
+                                    <h5>RESTful APIs</h5>
                                     <p>
                                         Brand identity design a the have to success whether you
                                         breath onfire quanto agency.
@@ -769,7 +769,7 @@
                             </div>
                             <div class="quanto-iconbox-data">
                                 <div class="quanto-iconbox-data-wrapper">
-                                    <h5>Web Development</h5>
+                                    <h5>SaaS Development</h5>
                                     <p>
                                         Brand identity design a the have to success whether you
                                         breath onfire quanto agency.
@@ -795,7 +795,7 @@
                             </div>
                             <div class="quanto-iconbox-data">
                                 <div class="quanto-iconbox-data-wrapper">
-                                    <h5>UI/UX Design</h5>
+                                    <h5>eCommerce</h5>
                                     <p>
                                         Brand identity design a the have to success whether you
                                         breath onfire quanto agency.
@@ -822,7 +822,7 @@
                             </div>
                             <div class="quanto-iconbox-data">
                                 <div class="quanto-iconbox-data-wrapper">
-                                    <h5>Digital Marketing</h5>
+                                    <h5>AI / ML</h5>
                                     <p>
                                         Brand identity design a the have to success whether you
                                         breath onfire quanto agency.
@@ -1360,16 +1360,16 @@
                                     <div class="widget-links">
                                         <ul class="custom-ul">
                                             <li>
-                                                <a href="service-details.html">Brand Strategy</a>
+                                                <a href="service-details.html">RESTful APIs</a>
                                             </li>
                                             <li>
-                                                <a href="service-details.html">Web Development</a>
+                                                <a href="service-details.html">SaaS Development</a>
                                             </li>
                                             <li>
-                                                <a href="service-details.html">UI/UX Design</a>
+                                                <a href="service-details.html">eCommerce</a>
                                             </li>
                                             <li>
-                                                <a href="service-details.html">Digital Marketing</a>
+                                                <a href="service-details.html">AI / ML</a>
                                             </li>
                                         </ul>
                                     </div>
