@@ -624,7 +624,7 @@
                                     <a
                                             class="quanto-link-btn btn-dark"
                                             href="portfolio-gallery.html"
-                                    >View more works
+                                    >View Codebase
                                         <span>
                           <i class="fa-solid fa-arrow-right arry1"></i>
                           <i class="fa-solid fa-arrow-right arry2"></i>
@@ -750,7 +750,7 @@
                                     </p>
                                 </div>
                                 <a class="quanto-link-btn" href="./service-details.html"
-                                >View details
+                                >View Details
                                     <span>
                         <i class="fa-solid fa-arrow-right arry1"></i>
                         <i class="fa-solid fa-arrow-right arry2"></i>
@@ -776,7 +776,7 @@
                                     </p>
                                 </div>
                                 <a class="quanto-link-btn" href="./service-details.html"
-                                >View details
+                                >View Details
                                     <span>
                         <i class="fa-solid fa-arrow-right arry1"></i>
                         <i class="fa-solid fa-arrow-right arry2"></i>
@@ -803,7 +803,7 @@
                                 </div>
 
                                 <a class="quanto-link-btn" href="./service-details.html"
-                                >View details
+                                >View Details
                                     <span>
                         <i class="fa-solid fa-arrow-right arry1"></i>
                         <i class="fa-solid fa-arrow-right arry2"></i>
@@ -829,7 +829,7 @@
                                     </p>
                                 </div>
                                 <a class="quanto-link-btn" href="./service-details.html"
-                                >View details
+                                >View Details
                                     <span>
                         <i class="fa-solid fa-arrow-right arry1"></i>
                         <i class="fa-solid fa-arrow-right arry2"></i>
