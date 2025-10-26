@@ -426,16 +426,18 @@
                     <div class="col-lg-10 col-xl-9 col-xxl-10">
                         <div class="quanto-about__content">
                             <h4 class="move-anim text_invert">
-                                Our digital strategies and design expertise focus on
-                                promoting social economy businesses, cutting-edge brands,
-                                and eco-friendly products to motivate consumers to make
-                                informed decisions towards sustainable products and services
+                                Full LAMP stack engineer with an emphasis on
+                                backend PHP and MySQL development. Front end experience
+                                in React and Vue. Expert in the Laravel framework, RESTful
+                                APIs, microservice architecture, and SaaS development.
                             </h4>
                             <div
                                     class="about-info row-margin-top move-anim"
                                     data-delay="0.5"
                             >
                                 <p class="">
+
+
                                     Whether it's crafting a visually stunning brand identity,
                                     designing immersive digital experiences, or developing
                                     strategic marketing campaigns, we approach each project
