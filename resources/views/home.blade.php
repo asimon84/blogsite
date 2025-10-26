@@ -728,7 +728,7 @@
                                 data-delay="0.30"
                                 data-direction="left"
                         >
-                            <h3 class="title">We help you to build digital business</h3>
+                            <h3 class="title">Build digital businesses</h3>
                         </div>
                     </div>
                 </div>
@@ -1313,18 +1313,18 @@
                                 >
                                     <h6 class="widget-title text-color-white">Contact</h6>
                                     <p class="address">
-                                        740 New South Head Rd, Triple Bay Swfw 3108, New York
+                                        Henderson, NV
                                     </p>
                                     <div class="contacts">
                                         <ul class="custom-ul">
                                             <li>
-                                                <a class="email" href="mailto:hello@quanto.agency"
-                                                >hello@quanto.agency</a
+                                                <a class="email" href="mailto:ajsimon1984@gmail.com"
+                                                >ajsimon1984@gmail.com</a
                                                 >
                                             </li>
                                             <li>
-                                                <a class="mobile" href="tel:+18884567890"
-                                                >+1 888 456 7890</a
+                                                <a class="mobile" href="tel:+19518925183"
+                                                >1 951 892 5183</a
                                                 >
                                             </li>
                                         </ul>
@@ -1416,7 +1416,7 @@
                         <div class="col-12">
                             <div class="footer__bottom-content row-padding-bottom">
                                 <div class="copyright-text text-color-white">
-                                    All rights reserved — 2025 &copy; MirrorTheme
+                                    All rights reserved — 2025 &copy; Alexander Simon
                                 </div>
                                 <a href="#header" class="scroll-to-top section-link">
                                     Back to top
