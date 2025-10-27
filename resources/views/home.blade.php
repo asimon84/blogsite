@@ -105,7 +105,7 @@
                             veteran who approaches each project with meticulous
                             attention to detail and unwavering dedication to quality.
                         </p>
-                        <a class="quanto-link-btn" href="./about-us.html"
+                        <a class="quanto-link-btn" href="{{ route('about') }}"
                         >Read More
                             <span>
                         <i class="fa-solid fa-arrow-right arry1"></i>
@@ -207,7 +207,7 @@
                 <div class="row g-0">
                     <div class="col-md-12 project-row-gap">
                         <div class="quanto-project-box overflow-hidden">
-                            <a href="./portfolio-details.html">
+                            <a href="{{ route('portfolio') }}">
                                 <div class="quanto-project-thumb overflow-hidden">
                                     <img
                                             src="{{ asset('/storage/images/project/project-1.png') }}"
@@ -218,7 +218,7 @@
                             </a>
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
-                                    <a href="./portfolio-details.html"
+                                    <a href="{{ route('portfolio') }}"
                                     >Kinetic Sandscapes</a
                                     >
                                 </h5>
@@ -232,7 +232,7 @@
                     </div>
                     <div class="col-md-8 mx-auto project-row-gap">
                         <div class="quanto-project-box overflow-hidden">
-                            <a href="./portfolio-details.html">
+                            <a href="{{ route('portfolio') }}">
                                 <div class="quanto-project-thumb overflow-hidden">
                                     <img
                                             src="{{ asset('/storage/images/project/project-3.png') }}"
@@ -243,7 +243,7 @@
                             </a>
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
-                                    <a href="./portfolio-details.html"
+                                    <a href="{{ route('portfolio') }}"
                                     >Brooklyn Brewery</a
                                     >
                                 </h5>
@@ -257,7 +257,7 @@
                     </div>
                     <div class="col-md-12">
                         <div class="quanto-project-box overflow-hidden">
-                            <a href="./portfolio-details.html">
+                            <a href="{{ route('portfolio') }}">
                                 <div class="quanto-project-thumb overflow-hidden">
                                     <img
                                             src="{{ asset('/storage/images/project/project-5.png') }}"
@@ -268,7 +268,7 @@
                             </a>
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
-                                    <a href="./portfolio-details.html"
+                                    <a href="{{ route('portfolio') }}"
                                     >Regenerative Farming</a
                                     >
                                 </h5>
@@ -288,7 +288,7 @@
                         <div class="quanto__header text-center text-md-end">
                             <a
                                     class="quanto-link-btn btn-dark"
-                                    href="portfolio-gallery.html"
+                                    href="https://github.com/asimon84"
                             >View Codebase
                                 <span>
                           <i class="fa-solid fa-arrow-right arry1"></i>
@@ -299,7 +299,7 @@
                     </div>
                     <div class="col-md-10 ms-auto project-row-gap">
                         <div class="quanto-project-box overflow-hidden">
-                            <a href="./portfolio-details.html">
+                            <a href="{{ route('portfolio') }}">
                                 <div
                                         class="quanto-project-thumb max-655 overflow-hidden"
                                 >
@@ -312,7 +312,7 @@
                             </a>
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
-                                    <a href="./portfolio-details.html"
+                                    <a href="{{ route('portfolio') }}"
                                     >Hopscotch Payments</a
                                     >
                                 </h5>
@@ -326,7 +326,7 @@
                     </div>
                     <div class="col-md-9 me-auto project-row-gap">
                         <div class="quanto-project-box overflow-hidden">
-                            <a href="./portfolio-details.html">
+                            <a href="{{ route('portfolio') }}">
                                 <div class="quanto-project-thumboverflow-hidden">
                                     <img
                                             src="{{ asset('/storage/images/project/project-4.png') }}"
@@ -337,7 +337,7 @@
                             </a>
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
-                                    <a href="./portfolio-details.html"
+                                    <a href="{{ route('portfolio') }}"
                                     >Stories Worthwhile</a
                                     >
                                 </h5>
@@ -351,7 +351,7 @@
                     </div>
                     <div class="col-md-10 ms-auto">
                         <div class="quanto-project-box overflow-hidden">
-                            <a href="./portfolio-details.html">
+                            <a href="{{ route('portfolio') }}">
                                 <div class="quanto-project-thumb overflow-hidden">
                                     <img
                                             src="{{ asset('/storage/images/project/project-6.png') }}"
@@ -362,7 +362,7 @@
                             </a>
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
-                                    <a href="./portfolio-details.html"
+                                    <a href="{{ route('portfolio') }}"
                                     >Fintech Accelerator</a
                                     >
                                 </h5>
@@ -858,7 +858,7 @@
                 <div
                         class="quanto__headerr d-flex justify-content-center justify-content-lg-end"
                 >
-                    <a class="quanto-link-btn" href="./blog-grid.html"
+                    <a class="quanto-link-btn" href="{{ route('blog') }}"
                     >View Codebase
                         <span>
                       <i class="fa-solid fa-arrow-right arry1"></i>
@@ -876,7 +876,7 @@
                         data-direction="right"
                 >
                     <div class="quanto-blog-thumb">
-                        <a href="./blog-details.html">
+                        <a href="{{ route('blog') }}">
                             <img
                                     src="{{ asset('/storage/images/blog/blog-thumb-1.png') }}"
                                     alt="blog-thumb"
@@ -885,7 +885,7 @@
                     </div>
                     <div class="quanto-blog-content">
                         <h5 class="line-clamp-2">
-                            <a href="./blog-details.html"
+                            <a href="{{ route('blog') }}"
                             >Reveal business opportunities with our five point brand
                                 audit</a
                             >
@@ -901,7 +901,7 @@
                         data-direction="right"
                 >
                     <div class="quanto-blog-thumb">
-                        <a href="./blog-details.html">
+                        <a href="{{ route('blog') }}">
                             <img
                                     src="{{ asset('/storage/images/blog/blog-thumb-2.png') }}"
                                     alt="blog-thumb"
@@ -910,7 +910,7 @@
                     </div>
                     <div class="quanto-blog-content">
                         <h5 class="line-clamp-2">
-                            <a href="./blog-details.html"
+                            <a href="{{ route('blog') }}"
                             >Quanto agency revolutionizes work with the power of
                                 ai-driven</a
                             >
@@ -922,7 +922,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="quanto-blog-box fade-anim" data-delay="0.60">
                     <div class="quanto-blog-thumb">
-                        <a href="./blog-details.html">
+                        <a href="{{ route('blog') }}">
                             <img
                                     src="{{ asset('/storage/images/blog/blog-thumb-3.png') }}"
                                     alt="blog-thumb"
@@ -931,7 +931,7 @@
                     </div>
                     <div class="quanto-blog-content">
                         <h5 class="line-clamp-2">
-                            <a href="./blog-details.html"
+                            <a href="{{ route('blog') }}"
                             >How young leaders can take charge of their professional
                                 growth</a
                             >
