@@ -15,6 +15,6 @@ class ContactController extends Controller
      * @return \Illuminate\View\View
      */
     public function index(Request $request):View {
-        return view('about', []);
+        return view('contact', []);
     }
 }
