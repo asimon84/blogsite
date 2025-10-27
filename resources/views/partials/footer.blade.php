@@ -53,7 +53,7 @@
                             <div class="widget-links">
                                 <ul class="custom-ul">
                                     <li>
-                                        <a href="{{ route('home') }}">Overview</a>
+                                        <a href="{{ route('home') }}">Home</a>
                                     </li>
                                     <li>
                                         <a href="{{ route('about') }}">About</a>
