@@ -414,7 +414,7 @@
                                 breath onfire quanto agency.
                             </p>
                         </div>
-                        <a class="quanto-link-btn" href="{{ route('service') }}"
+                        <a class="quanto-link-btn" href="{{ route('service') }}#rest"
                         >View Details
                             <span>
                         <i class="fa-solid fa-arrow-right arry1"></i>
@@ -440,7 +440,7 @@
                                 breath onfire quanto agency.
                             </p>
                         </div>
-                        <a class="quanto-link-btn" href="{{ route('service') }}"
+                        <a class="quanto-link-btn" href="{{ route('service') }}#saas"
                         >View Details
                             <span>
                         <i class="fa-solid fa-arrow-right arry1"></i>
@@ -467,7 +467,7 @@
                             </p>
                         </div>
 
-                        <a class="quanto-link-btn" href="{{ route('service') }}"
+                        <a class="quanto-link-btn" href="{{ route('service') }}#ecommerce"
                         >View Details
                             <span>
                         <i class="fa-solid fa-arrow-right arry1"></i>
@@ -493,7 +493,7 @@
                                 breath onfire quanto agency.
                             </p>
                         </div>
-                        <a class="quanto-link-btn" href="{{ route('service') }}"
+                        <a class="quanto-link-btn" href="{{ route('service') }}#ai"
                         >View Details
                             <span>
                         <i class="fa-solid fa-arrow-right arry1"></i>
@@ -509,440 +509,440 @@
 <!-- Serivce section End -->
 
 <!-- Testimonial section Start -->
-<section
-        class="quanto-testimonial-section section-padding-top overflow-hidden"
->
-    <div class="container custom-container">
-        <div class="row">
-            <div class="col-12">
-                <div class="quanto__header">
-                    <h3
-                            class="title fade-anim"
-                            data-delay="0.30"
-                            data-direction="right"
-                    >
-                        Client testimonials
-                    </h3>
-                </div>
-            </div>
-        </div>
-        <div class="row g-4 justify-content-between">
-            <div class="col-12 col-lg-6 col-xl-5">
-                <!-- Thumbnail Swiper -->
-                <div
-                        class="swiper quanto-testimonial__thumb-slider h-100 fade-anim"
-                        data-delay="0.30"
-                        data-direction="right"
-                >
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div
-                                    class="testimonial-img"
-                                    data-speed="0.8"
-                                    style="
-                          background-image: url("{{ asset('/storage/images/testimonial/Testimonial-1.png') }}");
-                            "
-                            ></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div
-                                class="testimonial-img"
-                                data-speed="0.8"
-                                style="
-                          background-image: url("{{ asset('/storage/images/testimonial/Testimonial-2.png') }}");
-                        "
-                        ></div>
-                </div>
-                <div class="swiper-slide">
-                    <div
-                            class="testimonial-img"
-                            data-speed="0.8"
-                            style="
-                          background-image: url("{{ asset('/storage/images/testimonial/Testimonial-3.png') }}");
-                    "
-                    ></div>
-            </div>
-            <div class="swiper-slide">
-                <div
-                        class="testimonial-img"
-                        data-speed="0.8"
-                        style="
-                          background-image: url("{{ asset('/storage/images/testimonial/Testimonial-4.png') }}");
-                "
-                ></div>
-        </div>
-        <div class="swiper-slide">
-            <div
-                    class="testimonial-img"
-                    data-speed="0.8"
-                    style="
-                          background-image: url("{{ asset('/storage/images/testimonial/Testimonial-5.png') }}");
-            "
-            ></div>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="col-12 col-lg-6 col-xl-6">
-        <div class="swiper quanto-testimonial__content-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="testimonial-content">
-                        <p>
-                            “Quanto team quickly understood our business
-                            requirements and were proactive and flexible with our
-                            ongoing support and developments. You can definitely
-                            trust them for complex project requirements as they
-                            are top-notch in their field and we can only recommend
-                            it.”
-                        </p>
-                        <div class="author">
-                            <h5 class="author-title">Jenny Bennett</h5>
-                            <span class="author-designation"
-                            >Senior Marketing Manager at Caya</span
-                            >
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="testimonial-content">
-                        <p>
-                            “Quanto team quickly understood our business
-                            requirements and were proactive and flexible with our
-                            ongoing support and developments. You can definitely
-                            trust them for complex project requirements as they
-                            are top-notch in their field and we can only recommend
-                            it.”
-                        </p>
-                        <div class="author">
-                            <h5 class="author-title">Jenny Bennett</h5>
-                            <span class="author-designation"
-                            >Senior Marketing Manager at Caya</span
-                            >
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="testimonial-content">
-                        <p>
-                            “Quanto team quickly understood our business
-                            requirements and were proactive and flexible with our
-                            ongoing support and developments. You can definitely
-                            trust them for complex project requirements as they
-                            are top-notch in their field and we can only recommend
-                            it.”
-                        </p>
-                        <div class="author">
-                            <h5 class="author-title">Jenny Bennett</h5>
-                            <span class="author-designation"
-                            >Senior Marketing Manager at Caya</span
-                            >
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="testimonial-content">
-                        <p>
-                            “Quanto team quickly understood our business
-                            requirements and were proactive and flexible with our
-                            ongoing support and developments. You can definitely
-                            trust them for complex project requirements as they
-                            are top-notch in their field and we can only recommend
-                            it.”
-                        </p>
-                        <div class="author">
-                            <h5 class="author-title">Jenny Bennett</h5>
-                            <span class="author-designation"
-                            >Senior Marketing Manager at Caya</span
-                            >
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="testimonial-content">
-                        <p>
-                            “Quanto team quickly understood our business
-                            requirements and were proactive and flexible with our
-                            ongoing support and developments. You can definitely
-                            trust them for complex project requirements as they
-                            are top-notch in their field and we can only recommend
-                            it.”
-                        </p>
-                        <div class="author">
-                            <h5 class="author-title">Jenny Bennett</h5>
-                            <span class="author-designation"
-                            >Senior Marketing Manager at Caya</span
-                            >
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="quanto-testimonial__navigation">
-            <div class="quanto-testimonial__prev prev-slide">
-                <i class="fa-solid fa-arrow-left"></i>
-            </div>
-            <div class="quanto-testimonial__next next-slide">
-                <i class="fa-solid fa-arrow-right"></i>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-</section>
+{{--<section--}}
+        {{--class="quanto-testimonial-section section-padding-top overflow-hidden"--}}
+{{-->--}}
+    {{--<div class="container custom-container">--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-12">--}}
+                {{--<div class="quanto__header">--}}
+                    {{--<h3--}}
+                            {{--class="title fade-anim"--}}
+                            {{--data-delay="0.30"--}}
+                            {{--data-direction="right"--}}
+                    {{-->--}}
+                        {{--Client testimonials--}}
+                    {{--</h3>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="row g-4 justify-content-between">--}}
+            {{--<div class="col-12 col-lg-6 col-xl-5">--}}
+                {{--<!-- Thumbnail Swiper -->--}}
+                {{--<div--}}
+                        {{--class="swiper quanto-testimonial__thumb-slider h-100 fade-anim"--}}
+                        {{--data-delay="0.30"--}}
+                        {{--data-direction="right"--}}
+                {{-->--}}
+                    {{--<div class="swiper-wrapper">--}}
+                        {{--<div class="swiper-slide">--}}
+                            {{--<div--}}
+                                    {{--class="testimonial-img"--}}
+                                    {{--data-speed="0.8"--}}
+                                    {{--style="--}}
+                          {{--background-image: url("{{ asset('/storage/images/testimonial/Testimonial-1.png') }}");--}}
+                            {{--"--}}
+                            {{--></div>--}}
+                    {{--</div>--}}
+                    {{--<div class="swiper-slide">--}}
+                        {{--<div--}}
+                                {{--class="testimonial-img"--}}
+                                {{--data-speed="0.8"--}}
+                                {{--style="--}}
+                          {{--background-image: url("{{ asset('/storage/images/testimonial/Testimonial-2.png') }}");--}}
+                        {{--"--}}
+                        {{--></div>--}}
+                {{--</div>--}}
+                {{--<div class="swiper-slide">--}}
+                    {{--<div--}}
+                            {{--class="testimonial-img"--}}
+                            {{--data-speed="0.8"--}}
+                            {{--style="--}}
+                          {{--background-image: url("{{ asset('/storage/images/testimonial/Testimonial-3.png') }}");--}}
+                    {{--"--}}
+                    {{--></div>--}}
+            {{--</div>--}}
+            {{--<div class="swiper-slide">--}}
+                {{--<div--}}
+                        {{--class="testimonial-img"--}}
+                        {{--data-speed="0.8"--}}
+                        {{--style="--}}
+                          {{--background-image: url("{{ asset('/storage/images/testimonial/Testimonial-4.png') }}");--}}
+                {{--"--}}
+                {{--></div>--}}
+        {{--</div>--}}
+        {{--<div class="swiper-slide">--}}
+            {{--<div--}}
+                    {{--class="testimonial-img"--}}
+                    {{--data-speed="0.8"--}}
+                    {{--style="--}}
+                          {{--background-image: url("{{ asset('/storage/images/testimonial/Testimonial-5.png') }}");--}}
+            {{--"--}}
+            {{--></div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--<div class="col-12 col-lg-6 col-xl-6">--}}
+        {{--<div class="swiper quanto-testimonial__content-slider">--}}
+            {{--<div class="swiper-wrapper">--}}
+                {{--<div class="swiper-slide">--}}
+                    {{--<div class="testimonial-content">--}}
+                        {{--<p>--}}
+                            {{--“Quanto team quickly understood our business--}}
+                            {{--requirements and were proactive and flexible with our--}}
+                            {{--ongoing support and developments. You can definitely--}}
+                            {{--trust them for complex project requirements as they--}}
+                            {{--are top-notch in their field and we can only recommend--}}
+                            {{--it.”--}}
+                        {{--</p>--}}
+                        {{--<div class="author">--}}
+                            {{--<h5 class="author-title">Jenny Bennett</h5>--}}
+                            {{--<span class="author-designation"--}}
+                            {{-->Senior Marketing Manager at Caya</span--}}
+                            {{-->--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="swiper-slide">--}}
+                    {{--<div class="testimonial-content">--}}
+                        {{--<p>--}}
+                            {{--“Quanto team quickly understood our business--}}
+                            {{--requirements and were proactive and flexible with our--}}
+                            {{--ongoing support and developments. You can definitely--}}
+                            {{--trust them for complex project requirements as they--}}
+                            {{--are top-notch in their field and we can only recommend--}}
+                            {{--it.”--}}
+                        {{--</p>--}}
+                        {{--<div class="author">--}}
+                            {{--<h5 class="author-title">Jenny Bennett</h5>--}}
+                            {{--<span class="author-designation"--}}
+                            {{-->Senior Marketing Manager at Caya</span--}}
+                            {{-->--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="swiper-slide">--}}
+                    {{--<div class="testimonial-content">--}}
+                        {{--<p>--}}
+                            {{--“Quanto team quickly understood our business--}}
+                            {{--requirements and were proactive and flexible with our--}}
+                            {{--ongoing support and developments. You can definitely--}}
+                            {{--trust them for complex project requirements as they--}}
+                            {{--are top-notch in their field and we can only recommend--}}
+                            {{--it.”--}}
+                        {{--</p>--}}
+                        {{--<div class="author">--}}
+                            {{--<h5 class="author-title">Jenny Bennett</h5>--}}
+                            {{--<span class="author-designation"--}}
+                            {{-->Senior Marketing Manager at Caya</span--}}
+                            {{-->--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="swiper-slide">--}}
+                    {{--<div class="testimonial-content">--}}
+                        {{--<p>--}}
+                            {{--“Quanto team quickly understood our business--}}
+                            {{--requirements and were proactive and flexible with our--}}
+                            {{--ongoing support and developments. You can definitely--}}
+                            {{--trust them for complex project requirements as they--}}
+                            {{--are top-notch in their field and we can only recommend--}}
+                            {{--it.”--}}
+                        {{--</p>--}}
+                        {{--<div class="author">--}}
+                            {{--<h5 class="author-title">Jenny Bennett</h5>--}}
+                            {{--<span class="author-designation"--}}
+                            {{-->Senior Marketing Manager at Caya</span--}}
+                            {{-->--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="swiper-slide">--}}
+                    {{--<div class="testimonial-content">--}}
+                        {{--<p>--}}
+                            {{--“Quanto team quickly understood our business--}}
+                            {{--requirements and were proactive and flexible with our--}}
+                            {{--ongoing support and developments. You can definitely--}}
+                            {{--trust them for complex project requirements as they--}}
+                            {{--are top-notch in their field and we can only recommend--}}
+                            {{--it.”--}}
+                        {{--</p>--}}
+                        {{--<div class="author">--}}
+                            {{--<h5 class="author-title">Jenny Bennett</h5>--}}
+                            {{--<span class="author-designation"--}}
+                            {{-->Senior Marketing Manager at Caya</span--}}
+                            {{-->--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="quanto-testimonial__navigation">--}}
+            {{--<div class="quanto-testimonial__prev prev-slide">--}}
+                {{--<i class="fa-solid fa-arrow-left"></i>--}}
+            {{--</div>--}}
+            {{--<div class="quanto-testimonial__next next-slide">--}}
+                {{--<i class="fa-solid fa-arrow-right"></i>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+{{--</section>--}}
 <!-- Testimonial section End -->
 
 <!-- Clients section Start -->
-<div class="clients-area section-padding-top overflow-hidden">
-    <div class="clients__wrapper">
-        <div class="container custom-container">
-            <div class="row align-items-end">
-                <div class="col-md-6">
-                    <div class="quanto__header text-center text-md-start">
-                        <p
-                                class="title mx-auto mx-md-0 fade-anim"
-                                data-delay="0.30"
-                                data-direction="left"
-                        >
-                            We worked with largest global brands
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 ps-md-0">
-                    <div class="quanto__header logo">
-                        <div
-                                class="client-box fade-anim"
-                                data-delay="0.30"
-                                data-direction="right"
-                        >
-                            <img
-                                    src="{{ asset('/storage/images/clients/logo-1.png') }}"
-                                    alt="client-logo"
-                            />
-                        </div>
-                        <div
-                                class="client-box fade-anim"
-                                data-delay="0.30"
-                                data-direction="right"
-                        >
-                            <img
-                                    src="{{ asset('/storage/images/clients/logo-2.png') }}"
-                                    alt="client-logo"
-                            />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 clients__box-wrapper">
-                    <div class="client-box d-none">
-                        <img
-                                src="{{ asset('/storage/images/clients/logo-1.png') }}"
-                                alt="client-logo"
-                        />
-                    </div>
-                    <div class="client-box d-none">
-                        <img
-                                src="{{ asset('/storage/images/clients/logo-2.png') }}"
-                                alt="client-logo"
-                        />
-                    </div>
-                    <div
-                            class="client-box fade-anim"
-                            data-delay="0.30"
-                            data-direction="right"
-                    >
-                        <img
-                                src="{{ asset('/storage/images/clients/logo-3.png') }}"
-                                alt="client-logo"
-                        />
-                    </div>
-                    <div
-                            class="client-box fade-anim"
-                            data-delay="0.30"
-                            data-direction="right"
-                    >
-                        <img
-                                src="{{ asset('/storage/images/clients/logo-4.png') }}"
-                                alt="client-logo"
-                        />
-                    </div>
-                    <div
-                            class="client-box fade-anim"
-                            data-delay="0.30"
-                            data-direction="right"
-                    >
-                        <img
-                                src="{{ asset('/storage/images/clients/logo-5.png') }}"
-                                alt="client-logo"
-                        />
-                    </div>
-                    <div
-                            class="client-box fade-anim"
-                            data-delay="0.30"
-                            data-direction="right"
-                    >
-                        <img
-                                src="{{ asset('/storage/images/clients/logo-6.png') }}"
-                                alt="client-logo"
-                        />
-                    </div>
-                    <div
-                            class="client-box fade-anim"
-                            data-delay="0.30"
-                            data-direction="right"
-                    >
-                        <img
-                                src="{{ asset('/storage/images/clients/logo-7.png') }}"
-                                alt="client-logo"
-                        />
-                    </div>
-                    <div
-                            class="client-box fade-anim"
-                            data-delay="0.30"
-                            data-direction="right"
-                    >
-                        <img
-                                src="{{ asset('/storage/images/clients/logo-8.png') }}"
-                                alt="client-logo"
-                        />
-                    </div>
-                    <div
-                            class="client-box d-none d-sm-block d-md-none d-lg-block border-0"
-                    ></div>
-                    <div
-                            class="client-box fade-anim"
-                            data-delay="0.30"
-                            data-direction="right"
-                    >
-                        <img
-                                src="{{ asset('/storage/images/clients/logo-9.png') }}"
-                                alt="client-logo"
-                        />
-                    </div>
-                    <div
-                            class="client-box fade-anim"
-                            data-delay="0.30"
-                            data-direction="right"
-                    >
-                        <img
-                                src="{{ asset('/storage/images/clients/logo-10.png') }}"
-                                alt="client-logo"
-                        />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+{{--<div class="clients-area section-padding-top overflow-hidden">--}}
+    {{--<div class="clients__wrapper">--}}
+        {{--<div class="container custom-container">--}}
+            {{--<div class="row align-items-end">--}}
+                {{--<div class="col-md-6">--}}
+                    {{--<div class="quanto__header text-center text-md-start">--}}
+                        {{--<p--}}
+                                {{--class="title mx-auto mx-md-0 fade-anim"--}}
+                                {{--data-delay="0.30"--}}
+                                {{--data-direction="left"--}}
+                        {{-->--}}
+                            {{--We worked with largest global brands--}}
+                        {{--</p>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="col-md-6 ps-md-0">--}}
+                    {{--<div class="quanto__header logo">--}}
+                        {{--<div--}}
+                                {{--class="client-box fade-anim"--}}
+                                {{--data-delay="0.30"--}}
+                                {{--data-direction="right"--}}
+                        {{-->--}}
+                            {{--<img--}}
+                                    {{--src="{{ asset('/storage/images/clients/logo-1.png') }}"--}}
+                                    {{--alt="client-logo"--}}
+                            {{--/>--}}
+                        {{--</div>--}}
+                        {{--<div--}}
+                                {{--class="client-box fade-anim"--}}
+                                {{--data-delay="0.30"--}}
+                                {{--data-direction="right"--}}
+                        {{-->--}}
+                            {{--<img--}}
+                                    {{--src="{{ asset('/storage/images/clients/logo-2.png') }}"--}}
+                                    {{--alt="client-logo"--}}
+                            {{--/>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="row">--}}
+                {{--<div class="col-12 clients__box-wrapper">--}}
+                    {{--<div class="client-box d-none">--}}
+                        {{--<img--}}
+                                {{--src="{{ asset('/storage/images/clients/logo-1.png') }}"--}}
+                                {{--alt="client-logo"--}}
+                        {{--/>--}}
+                    {{--</div>--}}
+                    {{--<div class="client-box d-none">--}}
+                        {{--<img--}}
+                                {{--src="{{ asset('/storage/images/clients/logo-2.png') }}"--}}
+                                {{--alt="client-logo"--}}
+                        {{--/>--}}
+                    {{--</div>--}}
+                    {{--<div--}}
+                            {{--class="client-box fade-anim"--}}
+                            {{--data-delay="0.30"--}}
+                            {{--data-direction="right"--}}
+                    {{-->--}}
+                        {{--<img--}}
+                                {{--src="{{ asset('/storage/images/clients/logo-3.png') }}"--}}
+                                {{--alt="client-logo"--}}
+                        {{--/>--}}
+                    {{--</div>--}}
+                    {{--<div--}}
+                            {{--class="client-box fade-anim"--}}
+                            {{--data-delay="0.30"--}}
+                            {{--data-direction="right"--}}
+                    {{-->--}}
+                        {{--<img--}}
+                                {{--src="{{ asset('/storage/images/clients/logo-4.png') }}"--}}
+                                {{--alt="client-logo"--}}
+                        {{--/>--}}
+                    {{--</div>--}}
+                    {{--<div--}}
+                            {{--class="client-box fade-anim"--}}
+                            {{--data-delay="0.30"--}}
+                            {{--data-direction="right"--}}
+                    {{-->--}}
+                        {{--<img--}}
+                                {{--src="{{ asset('/storage/images/clients/logo-5.png') }}"--}}
+                                {{--alt="client-logo"--}}
+                        {{--/>--}}
+                    {{--</div>--}}
+                    {{--<div--}}
+                            {{--class="client-box fade-anim"--}}
+                            {{--data-delay="0.30"--}}
+                            {{--data-direction="right"--}}
+                    {{-->--}}
+                        {{--<img--}}
+                                {{--src="{{ asset('/storage/images/clients/logo-6.png') }}"--}}
+                                {{--alt="client-logo"--}}
+                        {{--/>--}}
+                    {{--</div>--}}
+                    {{--<div--}}
+                            {{--class="client-box fade-anim"--}}
+                            {{--data-delay="0.30"--}}
+                            {{--data-direction="right"--}}
+                    {{-->--}}
+                        {{--<img--}}
+                                {{--src="{{ asset('/storage/images/clients/logo-7.png') }}"--}}
+                                {{--alt="client-logo"--}}
+                        {{--/>--}}
+                    {{--</div>--}}
+                    {{--<div--}}
+                            {{--class="client-box fade-anim"--}}
+                            {{--data-delay="0.30"--}}
+                            {{--data-direction="right"--}}
+                    {{-->--}}
+                        {{--<img--}}
+                                {{--src="{{ asset('/storage/images/clients/logo-8.png') }}"--}}
+                                {{--alt="client-logo"--}}
+                        {{--/>--}}
+                    {{--</div>--}}
+                    {{--<div--}}
+                            {{--class="client-box d-none d-sm-block d-md-none d-lg-block border-0"--}}
+                    {{--></div>--}}
+                    {{--<div--}}
+                            {{--class="client-box fade-anim"--}}
+                            {{--data-delay="0.30"--}}
+                            {{--data-direction="right"--}}
+                    {{-->--}}
+                        {{--<img--}}
+                                {{--src="{{ asset('/storage/images/clients/logo-9.png') }}"--}}
+                                {{--alt="client-logo"--}}
+                        {{--/>--}}
+                    {{--</div>--}}
+                    {{--<div--}}
+                            {{--class="client-box fade-anim"--}}
+                            {{--data-delay="0.30"--}}
+                            {{--data-direction="right"--}}
+                    {{-->--}}
+                        {{--<img--}}
+                                {{--src="{{ asset('/storage/images/clients/logo-10.png') }}"--}}
+                                {{--alt="client-logo"--}}
+                        {{--/>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</div>--}}
 <!-- Clients section End -->
 
 <!-- Blog section Start -->
-<section
-        class="quanto-blog-section section-padding-top-bottom overflow-hidden"
->
-    <div class="container custom-container">
-        <div class="row g-3 align-items-end">
-            <div class="col-12 col-lg-9 col-xl-7 col-xxl-6">
-                <div class="quanto__header text-center text-md-start">
-                    <h3
-                            class="title fade-anim"
-                            data-delay="0.30"
-                            data-direction="left"
-                    >
-                        Latest blog to boost your productivity
-                    </h3>
-                </div>
-            </div>
-            <div class="col-12 col-lg-3 col-xl-5 col-xxl-6">
-                <div
-                        class="quanto__headerr d-flex justify-content-center justify-content-lg-end"
-                >
-                    <a class="quanto-link-btn" href="{{ route('blog') }}"
-                    >View Codebase
-                        <span>
-                      <i class="fa-solid fa-arrow-right arry1"></i>
-                      <i class="fa-solid fa-arrow-right arry2"></i>
-                    </span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row g-4 row-padding-top">
-            <div class="col-md-6 col-lg-4">
-                <div
-                        class="quanto-blog-box fade-anim"
-                        data-delay="0.30"
-                        data-direction="right"
-                >
-                    <div class="quanto-blog-thumb">
-                        <a href="{{ route('blog') }}">
-                            <img
-                                    src="{{ asset('/storage/images/blog/blog-thumb-1.png') }}"
-                                    alt="blog-thumb"
-                            />
-                        </a>
-                    </div>
-                    <div class="quanto-blog-content">
-                        <h5 class="line-clamp-2">
-                            <a href="{{ route('blog') }}"
-                            >Reveal business opportunities with our five point brand
-                                audit</a
-                            >
-                        </h5>
-                        <span class="quanto-blog-date">March 8, 2024</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div
-                        class="quanto-blog-box fade-anim"
-                        data-delay="0.45"
-                        data-direction="right"
-                >
-                    <div class="quanto-blog-thumb">
-                        <a href="{{ route('blog') }}">
-                            <img
-                                    src="{{ asset('/storage/images/blog/blog-thumb-2.png') }}"
-                                    alt="blog-thumb"
-                            />
-                        </a>
-                    </div>
-                    <div class="quanto-blog-content">
-                        <h5 class="line-clamp-2">
-                            <a href="{{ route('blog') }}"
-                            >Quanto agency revolutionizes work with the power of
-                                ai-driven</a
-                            >
-                        </h5>
-                        <span class="quanto-blog-date">March 8, 2024</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="quanto-blog-box fade-anim" data-delay="0.60">
-                    <div class="quanto-blog-thumb">
-                        <a href="{{ route('blog') }}">
-                            <img
-                                    src="{{ asset('/storage/images/blog/blog-thumb-3.png') }}"
-                                    alt="blog-thumb"
-                            />
-                        </a>
-                    </div>
-                    <div class="quanto-blog-content">
-                        <h5 class="line-clamp-2">
-                            <a href="{{ route('blog') }}"
-                            >How young leaders can take charge of their professional
-                                growth</a
-                            >
-                        </h5>
-                        <span class="quanto-blog-date">March 8, 2024</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+{{--<section--}}
+        {{--class="quanto-blog-section section-padding-top-bottom overflow-hidden"--}}
+{{-->--}}
+    {{--<div class="container custom-container">--}}
+        {{--<div class="row g-3 align-items-end">--}}
+            {{--<div class="col-12 col-lg-9 col-xl-7 col-xxl-6">--}}
+                {{--<div class="quanto__header text-center text-md-start">--}}
+                    {{--<h3--}}
+                            {{--class="title fade-anim"--}}
+                            {{--data-delay="0.30"--}}
+                            {{--data-direction="left"--}}
+                    {{-->--}}
+                        {{--Latest blog to boost your productivity--}}
+                    {{--</h3>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="col-12 col-lg-3 col-xl-5 col-xxl-6">--}}
+                {{--<div--}}
+                        {{--class="quanto__headerr d-flex justify-content-center justify-content-lg-end"--}}
+                {{-->--}}
+                    {{--<a class="quanto-link-btn" href="{{ route('blog') }}"--}}
+                    {{-->View Codebase--}}
+                        {{--<span>--}}
+                      {{--<i class="fa-solid fa-arrow-right arry1"></i>--}}
+                      {{--<i class="fa-solid fa-arrow-right arry2"></i>--}}
+                    {{--</span>--}}
+                    {{--</a>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="row g-4 row-padding-top">--}}
+            {{--<div class="col-md-6 col-lg-4">--}}
+                {{--<div--}}
+                        {{--class="quanto-blog-box fade-anim"--}}
+                        {{--data-delay="0.30"--}}
+                        {{--data-direction="right"--}}
+                {{-->--}}
+                    {{--<div class="quanto-blog-thumb">--}}
+                        {{--<a href="{{ route('blog') }}">--}}
+                            {{--<img--}}
+                                    {{--src="{{ asset('/storage/images/blog/blog-thumb-1.png') }}"--}}
+                                    {{--alt="blog-thumb"--}}
+                            {{--/>--}}
+                        {{--</a>--}}
+                    {{--</div>--}}
+                    {{--<div class="quanto-blog-content">--}}
+                        {{--<h5 class="line-clamp-2">--}}
+                            {{--<a href="{{ route('blog') }}"--}}
+                            {{-->Reveal business opportunities with our five point brand--}}
+                                {{--audit</a--}}
+                            {{-->--}}
+                        {{--</h5>--}}
+                        {{--<span class="quanto-blog-date">March 8, 2024</span>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-6 col-lg-4">--}}
+                {{--<div--}}
+                        {{--class="quanto-blog-box fade-anim"--}}
+                        {{--data-delay="0.45"--}}
+                        {{--data-direction="right"--}}
+                {{-->--}}
+                    {{--<div class="quanto-blog-thumb">--}}
+                        {{--<a href="{{ route('blog') }}">--}}
+                            {{--<img--}}
+                                    {{--src="{{ asset('/storage/images/blog/blog-thumb-2.png') }}"--}}
+                                    {{--alt="blog-thumb"--}}
+                            {{--/>--}}
+                        {{--</a>--}}
+                    {{--</div>--}}
+                    {{--<div class="quanto-blog-content">--}}
+                        {{--<h5 class="line-clamp-2">--}}
+                            {{--<a href="{{ route('blog') }}"--}}
+                            {{-->Quanto agency revolutionizes work with the power of--}}
+                                {{--ai-driven</a--}}
+                            {{-->--}}
+                        {{--</h5>--}}
+                        {{--<span class="quanto-blog-date">March 8, 2024</span>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-6 col-lg-4">--}}
+                {{--<div class="quanto-blog-box fade-anim" data-delay="0.60">--}}
+                    {{--<div class="quanto-blog-thumb">--}}
+                        {{--<a href="{{ route('blog') }}">--}}
+                            {{--<img--}}
+                                    {{--src="{{ asset('/storage/images/blog/blog-thumb-3.png') }}"--}}
+                                    {{--alt="blog-thumb"--}}
+                            {{--/>--}}
+                        {{--</a>--}}
+                    {{--</div>--}}
+                    {{--<div class="quanto-blog-content">--}}
+                        {{--<h5 class="line-clamp-2">--}}
+                            {{--<a href="{{ route('blog') }}"--}}
+                            {{-->How young leaders can take charge of their professional--}}
+                                {{--growth</a--}}
+                            {{-->--}}
+                        {{--</h5>--}}
+                        {{--<span class="quanto-blog-date">March 8, 2024</span>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</section>--}}
 <!-- Blog section End -->
 
 @endsection
