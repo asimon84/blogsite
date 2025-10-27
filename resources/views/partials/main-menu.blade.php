@@ -14,70 +14,20 @@
                         <nav class="main-menu menu-style1 d-none d-lg-block">
                             <ul>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Home</a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="{{ route('home') }}">Overview</a>
-                                        </li>
-                                        <li>
-                                            <a href="index-2.html">Creative Agency</a>
-                                        </li>
-                                        <li>
-                                            <a href="index-3.html">Design Studio</a>
-                                        </li>
-                                        <li>
-                                            <a href="index-4.html">branding agency</a>
-                                        </li>
-                                        <li>
-                                            <a href="index-5.html">modern agency</a>
-                                        </li>
-                                        <li>
-                                            <a href="index-6.html">personal portfolio</a>
-                                        </li>
-                                    </ul>
+                                    <a href="{{ route('home') }}">Home</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Pages</a>
+                                    <a href="#">About</a>
                                     <ul class="sub-menu">
-                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="{{ route('about') }}">About</a></li>
                                         <li class="menu-item-has-children">
-                                            <a class="no-border" href="#">Service</a>
+                                            <a class="no-border" href="{{ route('service') }}">Services</a>
                                             <ul class="sub-menu">
-                                                <li><a href="service.html">Service - 1</a></li>
-                                                <li><a href="service-2.html">Service - 2</a></li>
-                                                <li>
-                                                    <a href="service-details.html"
-                                                    >Service Details</a
-                                                    >
-                                                </li>
+                                                <li><a href="{{ route('service') }}#rest">RESTful APIs</a></li>
+                                                <li><a href="{{ route('service') }}#saas">SaaS Development</a></li>
+                                                <li><a href="{{ route('service') }}#ecommerce">eCommerce</a></li>
+                                                <li><a href="{{ route('service') }}#ai">AI / ML</a></li>
                                             </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a class="no-border" href="#">Career</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="career.html">Career</a></li>
-                                                <li>
-                                                    <a href="career-details.html">Career Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a class="no-border" href="#">Team</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="team.html">Team</a></li>
-                                                <li>
-                                                    <a href="team-details.html">Team Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="pricing.html">Pricing</a>
-                                        </li>
-                                        <li>
-                                            <a href="faq.html">FAQ's</a>
-                                        </li>
-                                        <li>
-                                            <a href="404.html">404</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -85,43 +35,33 @@
                                     <a href="#">Portfolio</a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="portfolio-masonry.html"
-                                            >Portfolio Masonry</a
-                                            >
+                                            <a href="https://github.com/asimon84">Github Codebase</a>
                                         </li>
                                         <li>
-                                            <a href="portfolio-standard.html"
-                                            >Portfolio Standard</a
-                                            >
+                                            <a href="https://github.com/asimon84/laravel-crm-livewire">Livewire CRM</a>
                                         </li>
                                         <li>
-                                            <a href="portfolio-gallery.html"
-                                            >Portfolio Gallery</a
-                                            >
+                                            <a href="https://github.com/asimon84/laravel-crm-react">React CRM</a>
                                         </li>
                                         <li>
-                                            <a href="portfolio-slider.html">Portfolio Slider</a>
+                                            <a href="https://github.com/asimon84/laravel-crm-vue">Vue.js CRM</a>
                                         </li>
                                         <li>
-                                            <a href="portfolio-card.html">Portfolio Card</a>
+                                            <a href="https://github.com/asimon84/task-scheduler">Task Scheduler</a>
                                         </li>
                                         <li>
-                                            <a href="portfolio-details.html"
-                                            >Portfolio Details</a
-                                            >
+                                            <a href="https://github.com/asimon84/rest-api">RESTful API</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/asimon84/laravel-ai">Boost AI</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog-grid.html">Blog Grid</a></li>
-                                        <li><a href="blog-list.html">Blog List</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
+                                    <a href="{{ route('blog') }}">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="contact.html">Contact</a>
+                                    <a href="{{ route('contact') }}">Contact</a>
                                 </li>
                             </ul>
                         </nav>
@@ -143,7 +83,7 @@
                         </button>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <a class="quanto-link-btn btn-pill" href="./contact.html"
+                        <a class="quanto-link-btn btn-pill" href="{{ route('contact') }}"
                         >Get in touch
                             <span>
                       <i class="fa-solid fa-arrow-right arry1"></i>
