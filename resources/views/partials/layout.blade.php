@@ -28,7 +28,7 @@
     <div class="has-smooth" id="has_smooth"></div>
     <div id="smooth-wrapper">
 
-        @include('main-menu')
+        @include('partials.main-menu')
 
         <div id="smooth-content">
             @yield('content')
