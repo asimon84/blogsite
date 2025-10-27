@@ -2,7 +2,7 @@
 <footer class="footer-area bg-color-primary overflow-hidden">
     <div class="marquee-container fade-anim">
         <div class="marquee">
-            <a class="marquee-item-container" href="contact.html">
+            <a class="marquee-item-container" href="{{ route('contact') }}">
                 <div class="marquee-item text-color-white">
                     <h1 class="text-color-white">Let’s work together</h1>
                     <svg
@@ -56,19 +56,16 @@
                                         <a href="{{ route('home') }}">Overview</a>
                                     </li>
                                     <li>
-                                        <a href="portfolio-masonry.html">Case Studies</a>
+                                        <a href="{{ route('about') }}">About</a>
                                     </li>
                                     <li>
-                                        <a href="about.html">About Us</a>
+                                        <a href="{{ route('service') }}">Services</a>
                                     </li>
                                     <li>
-                                        <a href="service.html">Services</a>
+                                        <a href="{{ route('contact') }}">Contact</a>
                                     </li>
                                     <li>
-                                        <a href="#">Testimonials</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">Contact</a>
+                                        <a href="https://github.com/asimon84">Codebase</a>
                                     </li>
                                 </ul>
                             </div>
@@ -78,16 +75,16 @@
                             <div class="widget-links">
                                 <ul class="custom-ul">
                                     <li>
-                                        <a href="service-details.html">RESTful APIs</a>
+                                        <a href="{{ route('service') }}#rest">RESTful APIs</a>
                                     </li>
                                     <li>
-                                        <a href="service-details.html">SaaS Development</a>
+                                        <a href="{{ route('service') }}#saas">SaaS Development</a>
                                     </li>
                                     <li>
-                                        <a href="service-details.html">eCommerce</a>
+                                        <a href="{{ route('service') }}#ecommerce">eCommerce</a>
                                     </li>
                                     <li>
-                                        <a href="service-details.html">AI / ML</a>
+                                        <a href="{{ route('service') }}#ai">AI / ML</a>
                                     </li>
                                 </ul>
                             </div>
