@@ -74,17 +74,17 @@
                         </div>
                         <div class="contact-info">
                             <h5>
-                                <a href="mailto:hello@quanto.agency"
-                                >hello@quanto.agency</a
+                                <a href="mailto:ajsimon1984@gmail.com"
+                                >ajsimon1984@gmail.com</a
                                 >
                             </h5>
-                            <a href="tel:+18884567890">+1 888 456 7890</a>
+                            <a href="tel:+19518925183">+19518925183</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xxl-6">
                     <form
-                            action="index.html"
+                            action="{{ route('contact.form') }}"
                             class="quanto-contact__form"
                             autocomplete="off"
                     >
