@@ -55,7 +55,8 @@ class Contact extends Model
      *
      * @return bool
      */
-    function sendemail(int  $id): bool {
+    public static function sendemail(int  $id): bool
+    {
 
     }
 }
