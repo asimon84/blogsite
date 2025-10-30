@@ -71,6 +71,10 @@ class Contact extends Model
         $headers = "From: $contact->email\r\n";
         $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 
-        return mail($to, $subject, $message, $headers);
+        $success = mail($to, $subject, $message, $headers);
+
+        $contact->sent = $success;
+
+        return $success;
     }
 }
