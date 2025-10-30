@@ -57,6 +57,20 @@ class Contact extends Model
      */
     public static function sendemail(int  $id): bool
     {
+        $contact = Contact::find($id);
 
+        $message = "Website Contact\r\n";
+        $message .= "Name: $contact->name\r\n";
+        $message .= "Company Name: $contact->company_name\r\n";
+        $message .= "\r\n\r\n";
+        $message .= $contact->message
+
+        $to = "asimon1984@gmail.com";
+        $subject = $contact->subject;
+        $message = $message;
+        $headers = "From: $contact->email\r\n";
+        $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+
+        return mail($to, $subject, $message, $headers);
     }
 }
