@@ -35,8 +35,8 @@ class ContactController extends Controller
         $contact->subject = $request->input('subject');
         $contact->message = $request->input('message');
 
-        //TODO - sendemail
+        $contact->save();
 
-        return $contact->save();
+        return Contact::sendemail($contact->id);
     }
 }
