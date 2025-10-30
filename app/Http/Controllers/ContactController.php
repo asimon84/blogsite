@@ -27,15 +27,13 @@ class ContactController extends Controller
      * @return bool
      */
     public function form(Request $request):bool {
-        $contact = new Contact();
-
-        $contact->name = $request->input('name');
-        $contact->company_name = $request->input('company_name');
-        $contact->email = $request->input('email');
-        $contact->subject = $request->input('subject');
-        $contact->message = $request->input('message');
-
-        $contact->save();
+        $contact = Contact::create([
+            'name' => $request->input('name'),
+            'company_name' => $request->input('company_name'),
+            'email' => $request->input('email'),
+            'subject' => $request->input('subject'),
+            'message' => $request->input('message')
+        ]);
 
         return Contact::sendemail($contact->id);
     }
