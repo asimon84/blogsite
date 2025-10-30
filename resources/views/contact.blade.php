@@ -15,7 +15,7 @@
                             class="quanto-hero-common__content move-anim"
                             data-delay="0.45"
                     >
-                        <h1 class="title">We’re just a message away to help you</h1>
+                        <h1 class="title">Just a message away!</h1>
                     </div>
                 </div>
             </div>
@@ -58,10 +58,10 @@
             <div class="row g-4 justify-content-between">
                 <div class="col-lg-6 col-xxl-5">
                     <div class="quanto-contact__content">
-                        <h3 class="title">Let’s create together!</h3>
+                        <h3 class="title">Let’s collaborate!</h3>
                         <p>
-                            Whether you’re interested in hiring full time or for
-                            contract work, reach out for a conversation!
+                            Whether you’re looking for a full time engineer,
+                            or for contract work, reach out for a conversation!
                         </p>
                         <div class="address">
                             <h6>Address:</h6>
