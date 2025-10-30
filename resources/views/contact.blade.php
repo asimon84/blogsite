@@ -60,16 +60,15 @@
             <div class="row g-4 justify-content-between">
                 <div class="col-lg-6 col-xxl-5">
                     <div class="quanto-contact__content">
-                        <h3 class="title">Let’s create your brand that shines!</h3>
+                        <h3 class="title">Let’s create together!</h3>
                         <p>
-                            Whether you’re interested in collaborating with us on your
-                            next project or simply want to reach out for a conversation.
+                            Whether you’re interested in hiring full time or for
+                            contract work, reach out for a conversation!
                         </p>
                         <div class="address">
                             <h6>Address:</h6>
                             <span>
-                      740 New South Head Rd, <br />
-                      Triple Bay Swfw 3108, New York
+                      Henderson, NV 89002
                     </span>
                         </div>
                         <div class="contact-info">
