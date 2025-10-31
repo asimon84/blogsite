@@ -29,7 +29,7 @@
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
-                    <a href="#">Portfolio</a>
+                    <a href="{{ route('portfolio') }}">Portfolio</a>
                     <ul class="sub-menu">
                         <li>
                             <a href="https://github.com/asimon84">Github Codebase</a>

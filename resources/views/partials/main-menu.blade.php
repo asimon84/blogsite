@@ -17,7 +17,7 @@
                                     <a href="{{ route('home') }}">Home</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">About</a>
+                                    <a href="{{ route('about') }}">About</a>
                                 </li>
                                 <li class="menu-item-has-children">
                                     <a class="no-border" href="{{ route('service') }}">Services</a>
@@ -29,7 +29,7 @@
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Portfolio</a>
+                                    <a href="{{ route('portfolio') }}">Portfolio</a>
                                     <ul class="sub-menu">
                                         <li>
                                             <a href="https://github.com/asimon84">Github Codebase</a>
