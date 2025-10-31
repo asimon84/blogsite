@@ -82,7 +82,7 @@
                                         aria-expanded="true"
                                         aria-controls="collapseOne"
                                 >
-                                    What happens after the design is ready & I approve it?
+                                    How many years experience?
                                 </button>
                             </h6>
                             <div
@@ -91,9 +91,7 @@
                                     data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    How quick is quick? For most design, we’re talking 2-3
-                                    business days. We balance speed with quality,ensuring
-                                    you get top-north design swiftly
+                                    I have over 18 years professional web development experience, including 10 years with enterprise level application development.
                                 </div>
                             </div>
                         </div>
