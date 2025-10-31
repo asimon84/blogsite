@@ -137,9 +137,7 @@
                                     data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    How quick is quick? For most design, we’re talking 2-3
-                                    business days. We balance speed with quality,ensuring
-                                    you get top-north design swiftly
+                                    I have 10 years experience with Laravel, and 2 years experience with Symfony.
                                 </div>
                             </div>
                         </div>
