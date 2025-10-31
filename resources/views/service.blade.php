@@ -305,7 +305,7 @@
                             muted
                             autoplay
                             loop
-                            src="https://res.cloudinary.com/ducryslbe/video/upload/v1740329511/Quanto/video.sakebul.com.mp4"
+                            src="https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.mp4?_=6"
                             class="quanto-video d-block w-100"
                             data-speed="0.8"
                             id="quanto-video-2"
