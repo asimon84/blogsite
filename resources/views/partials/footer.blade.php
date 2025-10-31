@@ -93,30 +93,30 @@
                             <div class="social-links">
                                 <ul class="custom-ul">
                                     <li>
-                                        <a href="https://x.com" target="_blank">
+                                        <a href="https://x.com/AlexanderS21097" target="_blank">
                                             <i class="fab fa-x-twitter"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://instagram.com" target="_blank">
+                                        <a href="https://www.instagram.com/ajsimon19843/" target="_blank">
                                             <i class="fab fa-instagram"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://linkedin.com" target="_blank">
+                                        <a href="https://www.linkedin.com/in/alexander-simon-b1564a29a/" target="_blank">
                                             <i class="fab fa-linkedin"></i>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="https://behance.net" target="_blank">
-                                            <i class="fab fa-behance"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://dribbble.com" target="_blank">
-                                            <i class="fab fa-dribbble"></i>
-                                        </a>
-                                    </li>
+                                    {{--<li>--}}
+                                        {{--<a href="https://behance.net" target="_blank">--}}
+                                            {{--<i class="fab fa-behance"></i>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a href="https://dribbble.com" target="_blank">--}}
+                                            {{--<i class="fab fa-dribbble"></i>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
                                 </ul>
                             </div>
                         </div>
