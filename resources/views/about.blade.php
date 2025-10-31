@@ -202,6 +202,9 @@
                                     base by sending requests through an API. Job requests are received and placed in a
                                     queue, allowing the queue to be processed independently by a load balanced network
                                     for the greatest scalability.
+
+                                    Check out the <a href="https://chargebacks911.com/refund-based-prevention-alerts/">Chargebacks911 Refund Alerts API</a> for a REST API designed and built by
+                                    yours truly!
                                 </div>
                             </div>
                         </div>
@@ -224,7 +227,9 @@
                                     data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    I have worked on many SaaS (Software as a Service) applications.
+                                    I have worked on many SaaS (Software as a Service) applications. I was architect and
+                                    team lead on the initial version of the MIDigator ecommerce fraud prevention
+                                    software that recently sold for over 150 million dollars!
                                 </div>
                             </div>
                         </div>
