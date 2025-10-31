@@ -128,7 +128,7 @@
                                         aria-expanded="false"
                                         aria-controls="collapseThree"
                                 >
-                                    Do you charge for additional revisions?
+                                    What frameworks are you proficient in?
                                 </button>
                             </h6>
                             <div
