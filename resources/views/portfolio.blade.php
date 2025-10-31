@@ -15,7 +15,7 @@
                             class="quanto-hero-common__content move-anim"
                             data-delay="0.45"
                     >
-                        <h1 class="title">Hopscotch Payments</h1>
+                        <h1 class="title">Portfolio</h1>
                     </div>
                 </div>
             </div>
