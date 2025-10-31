@@ -118,7 +118,8 @@
                                     data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    I have over 18 years professional web development experience, including 10 years with enterprise level application development.
+                                    I have over 18 years professional web development experience, including over 10
+                                    years experience with enterprise level application development.
                                 </div>
                             </div>
                         </div>
@@ -141,7 +142,10 @@
                                     data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    I have 10 years experience with Laravel, and 2 years experience with Symfony.
+                                    I am most experienced with the Laravel framework. I have used Laravel from version 3
+                                    up until now, with the latest version 12. I have 10 years of professional
+                                    development experience with Laravel, and 2 years experience with the Symfony
+                                    framework.
                                 </div>
                             </div>
                         </div>
@@ -164,7 +168,9 @@
                                     data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    React, Vue, some Angular, and Blade templating.
+                                    React, Vue, some Angular for JavaScript frameworks. I am most experienced with the
+                                    Bootstrap CSS framework but have also used Tailwind CSS. Obviously, I am very
+                                    proficient with the jQuery library as well.
                                 </div>
                             </div>
                         </div>
@@ -178,7 +184,7 @@
                                         aria-expanded="false"
                                         aria-controls="collapseFive"
                                 >
-                                    Microservices? REST APIs?
+                                    What about Microservices and REST APIs?
                                 </button>
                             </h6>
                             <div
@@ -187,7 +193,15 @@
                                     data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    I am proficient in microservice architecture and RESTful API development.
+                                    I have utilized microservice architecture for most of the past 10 years. This
+                                    allows independent, loosely coupled services that perform individual business
+                                    functions to communicate with each other.
+
+                                    I have also utilized RESTful APIs for coordinating microservices. This allows
+                                    multiple applications - both internal and client facing - to utilize the same code
+                                    base by sending requests through an API. Job requests are received and placed in a
+                                    queue, allowing the queue to be processed independently by a load balanced network
+                                    for the greatest scalability.
                                 </div>
                             </div>
                         </div>
