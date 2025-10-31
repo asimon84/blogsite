@@ -151,7 +151,7 @@
                                         aria-expanded="false"
                                         aria-controls="collapseFour"
                                 >
-                                    I have an agency. Can I outsource work to you?
+                                    What front end frameworks are you proficient in?
                                 </button>
                             </h6>
                             <div
@@ -160,9 +160,7 @@
                                     data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    How quick is quick? For most design, we’re talking 2-3
-                                    business days. We balance speed with quality,ensuring
-                                    you get top-north design swiftly
+                                    React, Vue, some Angular, and Blade templating.
                                 </div>
                             </div>
                         </div>
