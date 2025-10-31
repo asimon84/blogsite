@@ -29,7 +29,7 @@
             <a href="#quanto-faq-area" class="scroll-down section-link">
                 Scroll down
                 <img
-                        src="./assets/images/icons/scroll-down.svg"
+                        src="{{ asset('storage/images/icons/scroll-down.svg') }}"
                         alt="Scroll down"
                 />
             </a>
@@ -37,7 +37,7 @@
                 <div class="col-12">
                     <div class="quanto-hero__thumb text-center">
                         <img
-                                src="./assets/images/hero/common-hero-thumb-6.png"
+                                src="{{ asset('storage/images/hero/common-hero-thumb-6.png') }}"
                                 alt="hero-thumb"
                                 data-speed="0.8"
                                 class="w-100"
