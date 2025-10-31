@@ -105,7 +105,7 @@
                                         aria-expanded="false"
                                         aria-controls="collapseTwo"
                                 >
-                                    Can you work with wireframes or our existing designs?
+                                    What is your expertise?
                                 </button>
                             </h6>
                             <div
@@ -114,9 +114,7 @@
                                     data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    How quick is quick? For most design, we’re talking 2-3
-                                    business days. We balance speed with quality,ensuring
-                                    you get top-north design swiftly
+                                    I am a full stack LAMP stack developer, specializing in backend PHP and MySQL development.
                                 </div>
                             </div>
                         </div>
