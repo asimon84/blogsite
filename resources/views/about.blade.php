@@ -79,7 +79,7 @@
                                         type="button"
                                         data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne"
-                                        aria-expanded="false"
+                                        aria-expanded="true"
                                         aria-controls="collapseOne"
                                 >
                                     What's your story?
@@ -99,6 +99,35 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="accordion-item fade-anim">
+                            <h6 class="accordion-header">
+                                <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo"
+                                >
+                                    What's your story?
+                                </button>
+                            </h6>
+                            <div
+                                    id="collapseTwo"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    I am a full stack senior software engineer with a backend focus. I started my
+                                    software development journey in high school and college studying C++ and C#. My first
+                                    job offers were in web development, so I began working with the LAMP stack. Over the
+                                    last twelve years this has evolved into a focus on backend development in PHP and
+                                    MySQL working on enterprise level SaaS applications and REST APIs.
+                                </div>
+                            </div>
+                        </div>
+
                         {{--<div class="accordion-item fade-anim">--}}
                             {{--<h6 class="accordion-header">--}}
                                 {{--<button--}}
