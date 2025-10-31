@@ -15,7 +15,7 @@
                             class="quanto-hero-faq__content move-anim"
                             data-delay="0.45"
                     >
-                        <h1 class="title">Quick answers to common questions</h1>
+                        <h1 class="title">About</h1>
                     </div>
                 </div>
             </div>
