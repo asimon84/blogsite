@@ -174,7 +174,7 @@
                                         aria-expanded="false"
                                         aria-controls="collapseFive"
                                 >
-                                    What do I need to give you to get started?
+                                    Microservices? REST APIs?
                                 </button>
                             </h6>
                             <div
@@ -183,9 +183,7 @@
                                     data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    How quick is quick? For most design, we’re talking 2-3
-                                    business days. We balance speed with quality,ensuring
-                                    you get top-north design swiftly
+                                    I am proficient in microservice architecture and RESTful API development.
                                 </div>
                             </div>
                         </div>
