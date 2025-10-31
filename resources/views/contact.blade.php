@@ -29,7 +29,7 @@
             <a href="#quanto-contact-section" class="scroll-down section-link">
                 Scroll down
                 <img
-                        src="./assets/images/icons/scroll-down.svg"
+                        src="{{ asset('storage/images/icons/scroll-down.svg') }}"
                         alt="Scroll down"
                 />
             </a>
