@@ -58,7 +58,7 @@
                                     class="d-inline-block overflow-hidden"
                             >
                                 <img
-                                        src="./assets/images/blog/blog-thumb-1.png"
+                                        src="{{ asset('storage/images/blog/blog-thumb-1.png') }}"
                                         alt="blog-thumb"
                                         class="w-100"
                                 />
@@ -95,7 +95,7 @@
                                     class="d-inline-block overflow-hidden"
                             >
                                 <img
-                                        src="./assets/images/blog/blog-thumb-2.png"
+                                        src="{{ asset('storage/images/blog/blog-thumb-2.png') }}"
                                         alt="blog-thumb"
                                         class="w-100"
                                 />
@@ -132,7 +132,7 @@
                                     class="d-inline-block overflow-hidden"
                             >
                                 <img
-                                        src="./assets/images/blog/blog-thumb-3.png"
+                                        src="{{ asset('storage/images/blog/blog-thumb-3.png') }}"
                                         alt="blog-thumb"
                                         class="w-100"
                                 />
@@ -168,7 +168,7 @@
                                     class="d-inline-block overflow-hidden"
                             >
                                 <img
-                                        src="./assets/images/blog/blog-thumb-4.png"
+                                        src="{{ asset('storage/images/blog/blog-thumb-4.png') }}"
                                         alt="blog-thumb"
                                         class="w-100"
                                 />
@@ -205,7 +205,7 @@
                                     class="d-inline-block overflow-hidden"
                             >
                                 <img
-                                        src="./assets/images/blog/blog-thumb-5.png"
+                                        src="{{ asset('storage/images/blog/blog-thumb-5.png') }}"
                                         alt="blog-thumb"
                                         class="w-100"
                                 />
@@ -242,7 +242,7 @@
                                     class="d-inline-block overflow-hidden"
                             >
                                 <img
-                                        src="./assets/images/blog/blog-thumb-6.png"
+                                        src="{{ asset('storage/images/blog/blog-thumb-6.png') }}"
                                         alt="blog-thumb"
                                 />
                             </a>
@@ -278,7 +278,7 @@
                                     class="d-inline-block overflow-hidden"
                             >
                                 <img
-                                        src="./assets/images/blog/blog-thumb-7.png"
+                                        src="{{ asset('storage/images/blog/blog-thumb-7.png') }}"
                                         alt="blog-thumb"
                                         class="w-100"
                                 />
@@ -315,7 +315,7 @@
                                     class="d-inline-block overflow-hidden"
                             >
                                 <img
-                                        src="./assets/images/blog/blog-thumb-9.png"
+                                        src="{{ asset('storage/images/blog/blog-thumb-9.png') }}"
                                         alt="blog-thumb"
                                         class="w-100"
                                 />

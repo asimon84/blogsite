@@ -32,7 +32,7 @@
             >
                 Scroll down
                 <img
-                        src="./assets/images/icons/scroll-down.svg"
+                        src="{{ asset('storage/images/icons/scroll-down.svg') }}"
                         alt="Scroll down"
                 />
             </a>
@@ -40,7 +40,7 @@
                 <div class="col-12">
                     <div class="quanto-hero__thumb text-end">
                         <img
-                                src="./assets/images/portfolio-details/portfolio-details-thumb.png"
+                                src="{{ asset('storage/images/portfolio-details/portfolio-details-thumb.png') }}"
                                 alt="Image Area"
                                 data-speed="0.8"
                                 class="d-block w-100"
@@ -124,7 +124,7 @@
             <div class="row g-3 g-lg-4 section-padding-top">
                 <div class="col-sm-6 overflow-hidden">
                     <img
-                            src="./assets/images/portfolio-details/portfolio-details-fig-1.png"
+                            src="{{ asset('storage/images/portfolio-details/portfolio-details-fig-1.png') }}"
                             alt="portfolio-details-fig"
                             data-speed="0.8"
                             class="w-100"
@@ -132,7 +132,7 @@
                 </div>
                 <div class="col-sm-6 overflow-hidden">
                     <img
-                            src="./assets/images/portfolio-details/portfolio-details-fig-2.png"
+                            src="{{ asset('storage/images/portfolio-details/portfolio-details-fig-2.png') }}"
                             alt="portfolio-details-fig"
                             data-speed="0.8"
                             class="w-100"
@@ -140,7 +140,7 @@
                 </div>
                 <div class="col-12 overflow-hidden">
                     <img
-                            src="./assets/images/portfolio-details/portfolio-details-fig-3.png"
+                            src="{{ asset('storage/images/portfolio-details/portfolio-details-fig-3.png') }}"
                             alt="portfolio-details-fig"
                             data-speed="0.8"
                             class="w-100"
