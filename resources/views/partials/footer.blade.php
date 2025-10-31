@@ -59,7 +59,7 @@
                                         <a href="{{ route('about') }}">About</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('service') }}">Services</a>
+                                        <a href="{{ route('services') }}">Services</a>
                                     </li>
                                     <li>
                                         <a href="{{ route('contact') }}">Contact</a>
@@ -75,16 +75,16 @@
                             <div class="widget-links">
                                 <ul class="custom-ul">
                                     <li>
-                                        <a href="{{ route('service') }}#rest">RESTful APIs</a>
+                                        <a href="{{ route('services') }}#rest">RESTful APIs</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('service') }}#saas">SaaS Development</a>
+                                        <a href="{{ route('services') }}#saas">SaaS Development</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('service') }}#ecommerce">eCommerce</a>
+                                        <a href="{{ route('services') }}#ecommerce">eCommerce</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('service') }}#ai">AI / ML</a>
+                                        <a href="{{ route('services') }}#ai">AI / ML</a>
                                     </li>
                                 </ul>
                             </div>

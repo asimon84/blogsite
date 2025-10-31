@@ -15,6 +15,6 @@ class ServiceController extends Controller
      * @return \Illuminate\View\View
      */
     public function index(Request $request):View {
-        return view('service', []);
+        return view('services', []);
     }
 }

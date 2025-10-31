@@ -20,6 +20,6 @@ Route::get('/contact-form', [ContactController::class, 'form'])->name('contact.f
 
 Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
 
-Route::get('/service', [ServiceController::class, 'index'])->name('service');
+Route::get('/services', [ServiceController::class, 'index'])->name('services');
 
 

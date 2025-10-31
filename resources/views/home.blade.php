@@ -414,7 +414,7 @@
                                 breath onfire quanto agency.
                             </p>
                         </div>
-                        <a class="quanto-link-btn" href="{{ route('service') }}#rest"
+                        <a class="quanto-link-btn" href="{{ route('services') }}#rest"
                         >View Details
                             <span>
                         <i class="fa-solid fa-arrow-right arry1"></i>
@@ -440,7 +440,7 @@
                                 breath onfire quanto agency.
                             </p>
                         </div>
-                        <a class="quanto-link-btn" href="{{ route('service') }}#saas"
+                        <a class="quanto-link-btn" href="{{ route('services') }}#saas"
                         >View Details
                             <span>
                         <i class="fa-solid fa-arrow-right arry1"></i>
@@ -467,7 +467,7 @@
                             </p>
                         </div>
 
-                        <a class="quanto-link-btn" href="{{ route('service') }}#ecommerce"
+                        <a class="quanto-link-btn" href="{{ route('services') }}#ecommerce"
                         >View Details
                             <span>
                         <i class="fa-solid fa-arrow-right arry1"></i>
@@ -493,7 +493,7 @@
                                 breath onfire quanto agency.
                             </p>
                         </div>
-                        <a class="quanto-link-btn" href="{{ route('service') }}#ai"
+                        <a class="quanto-link-btn" href="{{ route('services') }}#ai"
                         >View Details
                             <span>
                         <i class="fa-solid fa-arrow-right arry1"></i>
