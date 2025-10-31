@@ -197,7 +197,7 @@
                                         aria-expanded="false"
                                         aria-controls="collapseSix"
                                 >
-                                    How does the agile manifesto address planning?
+                                    What about SaaS applications?
                                 </button>
                             </h6>
                             <div
@@ -206,9 +206,7 @@
                                     data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    How quick is quick? For most design, we’re talking 2-3
-                                    business days. We balance speed with quality,ensuring
-                                    you get top-north design swiftly
+                                    I have worked on many SaaS (Software as a Service) applications.
                                 </div>
                             </div>
                         </div>
@@ -222,7 +220,7 @@
                                         aria-expanded="false"
                                         aria-controls="collapseSeven"
                                 >
-                                    What is a statement of work in project management?
+                                    Do you have experience with CD/CI? Docker? Kubernetes?
                                 </button>
                             </h6>
                             <div
@@ -231,9 +229,9 @@
                                     data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    How quick is quick? For most design, we’re talking 2-3
-                                    business days. We balance speed with quality,ensuring
-                                    you get top-north design swiftly
+                                    I have many years experience working alongside DevOps or in the role of a DevOps
+                                    engineer. I have worked with CD/CI tools like github automation and jenkins deployments.
+                                    I have worked with VMWare, Docker, and Kubernetes.
                                 </div>
                             </div>
                         </div>
@@ -247,7 +245,7 @@
                                         aria-expanded="false"
                                         aria-controls="collapseEight"
                                 >
-                                    How to become an agile project manager?
+                                    Do you have experience with Agile development?
                                 </button>
                             </h6>
                             <div
@@ -256,9 +254,9 @@
                                     data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    How quick is quick? For most design, we’re talking 2-3
-                                    business days. We balance speed with quality,ensuring
-                                    you get top-north design swiftly
+                                    Of course! Most of my career has been in agile environments. I have also worked with
+                                    Kanban and waterfall environments but there is always a lot of overlap. It is all
+                                    about production and continuous improvement.
                                 </div>
                             </div>
                         </div>
