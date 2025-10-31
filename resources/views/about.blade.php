@@ -253,8 +253,9 @@
                             >
                                 <div class="accordion-body">
                                     I have many years experience working alongside DevOps or in the role of a DevOps
-                                    engineer. I have worked with CD/CI tools like github automation and jenkins deployments.
-                                    I have worked with VMWare, Docker, and Kubernetes.
+                                    engineer. I have worked with CD/CI tools like github automation and jenkins
+                                    deployments. I have worked with virtualization and containerization using VMWare,
+                                    Docker, and Kubernetes.
                                 </div>
                             </div>
                         </div>
@@ -277,8 +278,8 @@
                                     data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    Of course! Most of my career has been in agile environments. I have also worked with
-                                    Kanban and waterfall environments but there is always a lot of overlap. It is all
+                                    Of course! Most of my career has been in Agile environments. I have also worked in
+                                    Kanban and Waterfall environments but there is always a lot of overlap. It is all
                                     about production and continuous improvement.
                                 </div>
                             </div>
