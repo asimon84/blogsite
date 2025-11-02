@@ -17,4 +17,18 @@ class PortfolioController extends Controller
     public function index(Request $request):View {
         return view('portfolio', []);
     }
+
+    /**
+     * Get data for project portfolio details page
+     *
+     * @param Request $request
+     * @param int $id
+     *
+     * @return mixed
+     */
+    public function show(Request $request, int $id) {
+        $project = Project::find($id)->toJSON();
+
+        view('portfolio-details', compact('project'));
+    }
 }
