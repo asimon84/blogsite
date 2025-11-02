@@ -39,7 +39,7 @@
                                     <a href="portfolio-details.html">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
-                                                    src="./assets/images/project/portfolio-gallery-1.png"
+                                                    src="{{ asset('storage/images/project/portfolio-gallery-1.png') }}"
                                                     alt="project-thumb"
                                                     class="w-100 img_reveal"
                                             />
@@ -64,7 +64,7 @@
                                     <a href="portfolio-details.html">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
-                                                    src="./assets/images/project/portfolio-gallery-2.png"
+                                                    src="{{ asset('storage/images/project/portfolio-gallery-2.png') }}"
                                                     alt="project-thumb"
                                                     class="w-100 img_reveal"
                                             />
@@ -89,7 +89,7 @@
                                     <a href="portfolio-details.html">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
-                                                    src="./assets/images/project/portfolio-gallery-3.png"
+                                                    src="{{ asset('storage/images/project/portfolio-gallery-3.png') }}"
                                                     alt="project-thumb"
                                                     class="w-100 img_reveal"
                                             />
@@ -114,7 +114,7 @@
                                     <a href="portfolio-details.html">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
-                                                    src="./assets/images/project/portfolio-gallery-4.png"
+                                                    src="{{ asset('storage/images/project/portfolio-gallery-4.png') }}"
                                                     alt="project-thumb"
                                                     class="w-100 img_reveal"
                                             />
@@ -139,7 +139,7 @@
                                     <a href="portfolio-details.html">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
-                                                    src="./assets/images/project/portfolio-gallery-5.png"
+                                                    src="{{ asset('storage/images/project/portfolio-gallery-5.png') }}"
                                                     alt="project-thumb"
                                                     class="w-100 img_reveal"
                                             />
@@ -164,7 +164,7 @@
                                     <a href="portfolio-details.html">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
-                                                    src="./assets/images/project/portfolio-gallery-6.png"
+                                                    src="{{ asset('storage/images/project/portfolio-gallery-6.png') }}"
                                                     alt="project-thumb"
                                                     class="w-100 img_reveal"
                                             />
