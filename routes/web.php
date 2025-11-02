@@ -19,6 +19,7 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::get('/contact-form', [ContactController::class, 'form'])->name('contact.form');
 
 Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
+Route::get('/portfolio/{id}', [PortfolioController::class, 'show'])->name('portfolio.details');
 
 Route::get('/services', [ServiceController::class, 'index'])->name('services');
 
