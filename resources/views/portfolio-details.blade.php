@@ -1,6 +1,6 @@
 @extends('partials.layout')
 
-@section('title', 'Portfolio')
+@section('title', 'Project')
 
 @section('content')
 
@@ -15,7 +15,7 @@
                             class="quanto-hero-common__content move-anim"
                             data-delay="0.45"
                     >
-                        <h1 class="title">Portfolio</h1>
+                        <h1 class="title">Project</h1>
                     </div>
                 </div>
             </div>

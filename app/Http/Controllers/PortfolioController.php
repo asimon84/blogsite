@@ -30,6 +30,6 @@ class PortfolioController extends Controller
     public function show(Request $request, int $id) {
         $project = Project::find($id)->toJSON();
 
-        view('portfolio-details', compact('project'));
+        return view('portfolio-details', compact('project'));
     }
 }
