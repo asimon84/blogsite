@@ -17,7 +17,9 @@ class Project extends Model
      */
     protected $fillable = [
         'name',
-        'repo_link',
+        'repo',
+        'image',
+        'brief',
     ];
 
     /**
@@ -38,7 +40,9 @@ class Project extends Model
     {
         return [
             'name' => 'string',
-            'repo_link' => 'string',
+            'repo' => 'string',
+            'image' => 'string',
+            'brief' => 'string',
         ];
     }
 }

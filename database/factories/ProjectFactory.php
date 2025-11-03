@@ -18,7 +18,9 @@ class ProjectFactory extends Factory
     {
         return [
             'name' => fake()->name(),
-            'repo_link' => fake()->name(),
+            'repo' => fake()->name(),
+            'image' => fake()->name(),
+            'brief' => fake()->name(),
         ];
     }
 }
