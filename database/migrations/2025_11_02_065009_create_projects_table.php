@@ -14,7 +14,9 @@ return new class extends Migration
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('repo_link');
+            $table->string('repo');
+            $table->string('image');
+            $table->string('brief');
             $table->timestamps();
         });
     }
