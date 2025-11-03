@@ -36,7 +36,7 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="quanto-project-box overflow-hidden">
-                                    <a href="{{ route('portfolio.details', ['id' => 1]) }}">
+                                    <a href="{{ route('project', ['id' => 1]) }}">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
                                                     src="{{ asset('storage/images/project/portfolio-gallery-1.png') }}"
@@ -47,7 +47,7 @@
                                     </a>
                                     <div class="quanto-project-content">
                                         <h5 class="text-color-primary line-clamp-1">
-                                            <a href="{{ route('portfolio.details', ['id' => 1]) }}"
+                                            <a href="{{ route('project', ['id' => 1]) }}"
                                             >Kinetic Sandscapes</a
                                             >
                                         </h5>
@@ -61,7 +61,7 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="quanto-project-box overflow-hidden">
-                                    <a href="{{ route('portfolio.details', ['id' => 1]) }}">
+                                    <a href="{{ route('project', ['id' => 1]) }}">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
                                                     src="{{ asset('storage/images/project/portfolio-gallery-2.png') }}"
@@ -72,7 +72,7 @@
                                     </a>
                                     <div class="quanto-project-content">
                                         <h5 class="text-color-primary line-clamp-1">
-                                            <a href="{{ route('portfolio.details', ['id' => 1]) }}"
+                                            <a href="{{ route('project', ['id' => 1]) }}"
                                             >Hopscotch Payments</a
                                             >
                                         </h5>
@@ -86,7 +86,7 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="quanto-project-box overflow-hidden">
-                                    <a href="{{ route('portfolio.details', ['id' => 1]) }}">
+                                    <a href="{{ route('project', ['id' => 1]) }}">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
                                                     src="{{ asset('storage/images/project/portfolio-gallery-3.png') }}"
@@ -97,7 +97,7 @@
                                     </a>
                                     <div class="quanto-project-content">
                                         <h5 class="text-color-primary line-clamp-1">
-                                            <a href="{{ route('portfolio.details', ['id' => 1]) }}"
+                                            <a href="{{ route('project', ['id' => 1]) }}"
                                             >Brooklyn Brewery</a
                                             >
                                         </h5>
@@ -111,7 +111,7 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="quanto-project-box overflow-hidden">
-                                    <a href="{{ route('portfolio.details', ['id' => 1]) }}">
+                                    <a href="{{ route('project', ['id' => 1]) }}">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
                                                     src="{{ asset('storage/images/project/portfolio-gallery-4.png') }}"
@@ -122,7 +122,7 @@
                                     </a>
                                     <div class="quanto-project-content">
                                         <h5 class="text-color-primary line-clamp-1">
-                                            <a href="{{ route('portfolio.details', ['id' => 1]) }}"
+                                            <a href="{{ route('project', ['id' => 1]) }}"
                                             >Regenerative Farming</a
                                             >
                                         </h5>
@@ -136,7 +136,7 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="quanto-project-box overflow-hidden">
-                                    <a href="{{ route('portfolio.details', ['id' => 1]) }}">
+                                    <a href="{{ route('project', ['id' => 1]) }}">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
                                                     src="{{ asset('storage/images/project/portfolio-gallery-5.png') }}"
@@ -147,7 +147,7 @@
                                     </a>
                                     <div class="quanto-project-content">
                                         <h5 class="text-color-primary line-clamp-1">
-                                            <a href="{{ route('portfolio.details', ['id' => 1]) }}"
+                                            <a href="{{ route('project', ['id' => 1]) }}"
                                             >Stories Worthwhile</a
                                             >
                                         </h5>
@@ -161,7 +161,7 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="quanto-project-box overflow-hidden">
-                                    <a href="{{ route('portfolio.details', ['id' => 1]) }}">
+                                    <a href="{{ route('project', ['id' => 1]) }}">
                                         <div class="quanto-project-thumb overflow-hidden">
                                             <img
                                                     src="{{ asset('storage/images/project/portfolio-gallery-6.png') }}"
@@ -172,7 +172,7 @@
                                     </a>
                                     <div class="quanto-project-content">
                                         <h5 class="text-color-primary line-clamp-1">
-                                            <a href="{{ route('portfolio.details', ['id' => 1]) }}"
+                                            <a href="{{ route('project', ['id' => 1]) }}"
                                             >Fintech Accelerator</a
                                             >
                                         </h5>

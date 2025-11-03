@@ -20,7 +20,7 @@ class PortfolioController extends Controller
     }
 
     /**
-     * Get data for project portfolio details page
+     * Get data for project details page
      *
      * @param Request $request
      * @param int $id
@@ -30,6 +30,6 @@ class PortfolioController extends Controller
     public function show(Request $request, int $id) {
         $project = Project::find($id)->toJSON();
 
-        return view('portfolio-details', compact('project'));
+        return view('project', compact('project'));
     }
 }
