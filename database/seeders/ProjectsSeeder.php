@@ -13,8 +13,28 @@ class ProjectsSeeder extends Seeder
     public function run(): void
     {
         Project::factory()->create([
-            'name' => 'Test Project 1',
-            'repo_link' => 'https://github.com/test1',
+            'name' => 'RESTful API',
+            'repo_link' => 'https://github.com/asimon84/rest-api',
+        ]);
+
+        Project::factory()->create([
+            'name' => 'Task Scheduler',
+            'repo_link' => 'https://github.com/asimon84/task-scheduler',
+        ]);
+
+        Project::factory()->create([
+            'name' => 'Laravel CRM (Blade/Livewire)',
+            'repo_link' => 'https://github.com/asimon84/laravel-crm-livewire',
+        ]);
+
+        Project::factory()->create([
+            'name' => 'Laravel CRM (React)',
+            'repo_link' => 'https://github.com/asimon84/laravel-crm-react',
+        ]);
+
+        Project::factory()->create([
+            'name' => 'Laravel CRM (Vue.js)',
+            'repo_link' => 'https://github.com/asimon84/laravel-crm-vue',
         ]);
     }
 }
