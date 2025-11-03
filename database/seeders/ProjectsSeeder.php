@@ -14,27 +14,37 @@ class ProjectsSeeder extends Seeder
     {
         Project::factory()->create([
             'name' => 'RESTful API',
-            'repo_link' => 'https://github.com/asimon84/rest-api',
+            'repo' => 'https://github.com/asimon84/rest-api',
+            'image' => 'storage/images/project/portfolio-gallery-1.png',
+            'brief' => 'Simple REST API and Client Portal',
         ]);
 
         Project::factory()->create([
             'name' => 'Task Scheduler',
-            'repo_link' => 'https://github.com/asimon84/task-scheduler',
+            'repo' => 'https://github.com/asimon84/task-scheduler',
+            'image' => 'storage/images/project/portfolio-gallery-1.png',
+            'brief' => 'Drag and drop Task Scheduler',
         ]);
 
         Project::factory()->create([
             'name' => 'Laravel CRM (Blade/Livewire)',
-            'repo_link' => 'https://github.com/asimon84/laravel-crm-livewire',
+            'repo' => 'https://github.com/asimon84/laravel-crm-livewire',
+            'image' => 'storage/images/project/portfolio-gallery-1.png',
+            'brief' => 'Laravel based CRM with Blade/Livewire frontend',
         ]);
 
         Project::factory()->create([
             'name' => 'Laravel CRM (React)',
-            'repo_link' => 'https://github.com/asimon84/laravel-crm-react',
+            'repo' => 'https://github.com/asimon84/laravel-crm-react',
+            'image' => 'storage/images/project/portfolio-gallery-1.png',
+            'brief' => 'Laravel based CRM with React frontend',
         ]);
 
         Project::factory()->create([
             'name' => 'Laravel CRM (Vue.js)',
-            'repo_link' => 'https://github.com/asimon84/laravel-crm-vue',
+            'repo' => 'https://github.com/asimon84/laravel-crm-vue',
+            'image' => 'storage/images/project/portfolio-gallery-1.png',
+            'brief' => 'Laravel based CRM with Vue.js frontend',
         ]);
     }
 }
