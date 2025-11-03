@@ -34,156 +34,186 @@
                 <div class="col-12 pe-0">
                     <div class="swiper quanto-project__slider">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="quanto-project-box overflow-hidden">
-                                    <a href="{{ route('project', ['id' => 1]) }}">
-                                        <div class="quanto-project-thumb overflow-hidden">
-                                            <img
-                                                    src="{{ asset('storage/images/project/portfolio-gallery-1.png') }}"
-                                                    alt="project-thumb"
-                                                    class="w-100 img_reveal"
-                                            />
+
+                            @foreach($projects as $project)
+                                <div class="swiper-slide">
+                                    <div class="quanto-project-box overflow-hidden">
+                                        <a href="{{ route('project', ['id' => $project->id]) }}">
+                                            <div class="quanto-project-thumb overflow-hidden">
+                                                <img
+                                                        src="{{ asset($project->image) }}"
+                                                        alt="project-thumb"
+                                                        class="w-100 img_reveal"
+                                                />
+                                            </div>
+                                        </a>
+                                        <div class="quanto-project-content">
+                                            <h5 class="text-color-primary line-clamp-1">
+                                                <a href="{{ route('project', ['id' => $project->id]) }}"
+                                                >{{ $project->name }}</a
+                                                >
+                                            </h5>
+                                            <span class="quanto-project-date text-color-primary">
+                                                2024 <i class="bi bi-dash"></i> Branding
+                                            </span>
                                         </div>
-                                    </a>
-                                    <div class="quanto-project-content">
-                                        <h5 class="text-color-primary line-clamp-1">
-                                            <a href="{{ route('project', ['id' => 1]) }}"
-                                            >Kinetic Sandscapes</a
-                                            >
-                                        </h5>
-                                        <span class="quanto-project-date text-color-primary">
-                            2024
-                            <i class="bi bi-dash"></i>
-                            Branding
-                          </span>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="quanto-project-box overflow-hidden">
-                                    <a href="{{ route('project', ['id' => 1]) }}">
-                                        <div class="quanto-project-thumb overflow-hidden">
-                                            <img
-                                                    src="{{ asset('storage/images/project/portfolio-gallery-2.png') }}"
-                                                    alt="project-thumb"
-                                                    class="w-100 img_reveal"
-                                            />
-                                        </div>
-                                    </a>
-                                    <div class="quanto-project-content">
-                                        <h5 class="text-color-primary line-clamp-1">
-                                            <a href="{{ route('project', ['id' => 1]) }}"
-                                            >Hopscotch Payments</a
-                                            >
-                                        </h5>
-                                        <span class="quanto-project-date text-color-primary">
-                            2024
-                            <i class="bi bi-dash"></i>
-                            Development
-                          </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="quanto-project-box overflow-hidden">
-                                    <a href="{{ route('project', ['id' => 1]) }}">
-                                        <div class="quanto-project-thumb overflow-hidden">
-                                            <img
-                                                    src="{{ asset('storage/images/project/portfolio-gallery-3.png') }}"
-                                                    alt="project-thumb"
-                                                    class="w-100 img_reveal"
-                                            />
-                                        </div>
-                                    </a>
-                                    <div class="quanto-project-content">
-                                        <h5 class="text-color-primary line-clamp-1">
-                                            <a href="{{ route('project', ['id' => 1]) }}"
-                                            >Brooklyn Brewery</a
-                                            >
-                                        </h5>
-                                        <span class="quanto-project-date text-color-primary">
-                            2024
-                            <i class="bi bi-dash"></i>
-                            Photography
-                          </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="quanto-project-box overflow-hidden">
-                                    <a href="{{ route('project', ['id' => 1]) }}">
-                                        <div class="quanto-project-thumb overflow-hidden">
-                                            <img
-                                                    src="{{ asset('storage/images/project/portfolio-gallery-4.png') }}"
-                                                    alt="project-thumb"
-                                                    class="w-100 img_reveal"
-                                            />
-                                        </div>
-                                    </a>
-                                    <div class="quanto-project-content">
-                                        <h5 class="text-color-primary line-clamp-1">
-                                            <a href="{{ route('project', ['id' => 1]) }}"
-                                            >Regenerative Farming</a
-                                            >
-                                        </h5>
-                                        <span class="quanto-project-date text-color-primary">
-                            2024
-                            <i class="bi bi-dash"></i>
-                            Branding
-                          </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="quanto-project-box overflow-hidden">
-                                    <a href="{{ route('project', ['id' => 1]) }}">
-                                        <div class="quanto-project-thumb overflow-hidden">
-                                            <img
-                                                    src="{{ asset('storage/images/project/portfolio-gallery-5.png') }}"
-                                                    alt="project-thumb"
-                                                    class="w-100 img_reveal"
-                                            />
-                                        </div>
-                                    </a>
-                                    <div class="quanto-project-content">
-                                        <h5 class="text-color-primary line-clamp-1">
-                                            <a href="{{ route('project', ['id' => 1]) }}"
-                                            >Stories Worthwhile</a
-                                            >
-                                        </h5>
-                                        <span class="quanto-project-date text-color-primary">
-                            2024
-                            <i class="bi bi-dash"></i>
-                            UI/UX Design
-                          </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="quanto-project-box overflow-hidden">
-                                    <a href="{{ route('project', ['id' => 1]) }}">
-                                        <div class="quanto-project-thumb overflow-hidden">
-                                            <img
-                                                    src="{{ asset('storage/images/project/portfolio-gallery-6.png') }}"
-                                                    alt="project-thumb"
-                                                    class="w-100 img_reveal"
-                                            />
-                                        </div>
-                                    </a>
-                                    <div class="quanto-project-content">
-                                        <h5 class="text-color-primary line-clamp-1">
-                                            <a href="{{ route('project', ['id' => 1]) }}"
-                                            >Fintech Accelerator</a
-                                            >
-                                        </h5>
-                                        <span class="quanto-project-date text-color-primary">
-                            2024
-                            <i class="bi bi-dash"></i>
-                            Development
-                          </span>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
+
+                            {{--<div class="swiper-slide">--}}
+                                {{--<div class="quanto-project-box overflow-hidden">--}}
+                                    {{--<a href="{{ route('project', ['id' => 1]) }}">--}}
+                                        {{--<div class="quanto-project-thumb overflow-hidden">--}}
+                                            {{--<img--}}
+                                                    {{--src="{{ asset('storage/images/project/portfolio-gallery-1.png') }}"--}}
+                                                    {{--alt="project-thumb"--}}
+                                                    {{--class="w-100 img_reveal"--}}
+                                            {{--/>--}}
+                                        {{--</div>--}}
+                                    {{--</a>--}}
+                                    {{--<div class="quanto-project-content">--}}
+                                        {{--<h5 class="text-color-primary line-clamp-1">--}}
+                                            {{--<a href="{{ route('project', ['id' => 1]) }}"--}}
+                                            {{-->Kinetic Sandscapes</a--}}
+                                            {{-->--}}
+                                        {{--</h5>--}}
+                                        {{--<span class="quanto-project-date text-color-primary">--}}
+                            {{--2024--}}
+                            {{--<i class="bi bi-dash"></i>--}}
+                            {{--Branding--}}
+                          {{--</span>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="swiper-slide">--}}
+                                {{--<div class="quanto-project-box overflow-hidden">--}}
+                                    {{--<a href="{{ route('project', ['id' => 1]) }}">--}}
+                                        {{--<div class="quanto-project-thumb overflow-hidden">--}}
+                                            {{--<img--}}
+                                                    {{--src="{{ asset('storage/images/project/portfolio-gallery-2.png') }}"--}}
+                                                    {{--alt="project-thumb"--}}
+                                                    {{--class="w-100 img_reveal"--}}
+                                            {{--/>--}}
+                                        {{--</div>--}}
+                                    {{--</a>--}}
+                                    {{--<div class="quanto-project-content">--}}
+                                        {{--<h5 class="text-color-primary line-clamp-1">--}}
+                                            {{--<a href="{{ route('project', ['id' => 1]) }}"--}}
+                                            {{-->Hopscotch Payments</a--}}
+                                            {{-->--}}
+                                        {{--</h5>--}}
+                                        {{--<span class="quanto-project-date text-color-primary">--}}
+                            {{--2024--}}
+                            {{--<i class="bi bi-dash"></i>--}}
+                            {{--Development--}}
+                          {{--</span>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="swiper-slide">--}}
+                                {{--<div class="quanto-project-box overflow-hidden">--}}
+                                    {{--<a href="{{ route('project', ['id' => 1]) }}">--}}
+                                        {{--<div class="quanto-project-thumb overflow-hidden">--}}
+                                            {{--<img--}}
+                                                    {{--src="{{ asset('storage/images/project/portfolio-gallery-3.png') }}"--}}
+                                                    {{--alt="project-thumb"--}}
+                                                    {{--class="w-100 img_reveal"--}}
+                                            {{--/>--}}
+                                        {{--</div>--}}
+                                    {{--</a>--}}
+                                    {{--<div class="quanto-project-content">--}}
+                                        {{--<h5 class="text-color-primary line-clamp-1">--}}
+                                            {{--<a href="{{ route('project', ['id' => 1]) }}"--}}
+                                            {{-->Brooklyn Brewery</a--}}
+                                            {{-->--}}
+                                        {{--</h5>--}}
+                                        {{--<span class="quanto-project-date text-color-primary">--}}
+                            {{--2024--}}
+                            {{--<i class="bi bi-dash"></i>--}}
+                            {{--Photography--}}
+                          {{--</span>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="swiper-slide">--}}
+                                {{--<div class="quanto-project-box overflow-hidden">--}}
+                                    {{--<a href="{{ route('project', ['id' => 1]) }}">--}}
+                                        {{--<div class="quanto-project-thumb overflow-hidden">--}}
+                                            {{--<img--}}
+                                                    {{--src="{{ asset('storage/images/project/portfolio-gallery-4.png') }}"--}}
+                                                    {{--alt="project-thumb"--}}
+                                                    {{--class="w-100 img_reveal"--}}
+                                            {{--/>--}}
+                                        {{--</div>--}}
+                                    {{--</a>--}}
+                                    {{--<div class="quanto-project-content">--}}
+                                        {{--<h5 class="text-color-primary line-clamp-1">--}}
+                                            {{--<a href="{{ route('project', ['id' => 1]) }}"--}}
+                                            {{-->Regenerative Farming</a--}}
+                                            {{-->--}}
+                                        {{--</h5>--}}
+                                        {{--<span class="quanto-project-date text-color-primary">--}}
+                            {{--2024--}}
+                            {{--<i class="bi bi-dash"></i>--}}
+                            {{--Branding--}}
+                          {{--</span>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="swiper-slide">--}}
+                                {{--<div class="quanto-project-box overflow-hidden">--}}
+                                    {{--<a href="{{ route('project', ['id' => 1]) }}">--}}
+                                        {{--<div class="quanto-project-thumb overflow-hidden">--}}
+                                            {{--<img--}}
+                                                    {{--src="{{ asset('storage/images/project/portfolio-gallery-5.png') }}"--}}
+                                                    {{--alt="project-thumb"--}}
+                                                    {{--class="w-100 img_reveal"--}}
+                                            {{--/>--}}
+                                        {{--</div>--}}
+                                    {{--</a>--}}
+                                    {{--<div class="quanto-project-content">--}}
+                                        {{--<h5 class="text-color-primary line-clamp-1">--}}
+                                            {{--<a href="{{ route('project', ['id' => 1]) }}"--}}
+                                            {{-->Stories Worthwhile</a--}}
+                                            {{-->--}}
+                                        {{--</h5>--}}
+                                        {{--<span class="quanto-project-date text-color-primary">--}}
+                            {{--2024--}}
+                            {{--<i class="bi bi-dash"></i>--}}
+                            {{--UI/UX Design--}}
+                          {{--</span>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="swiper-slide">--}}
+                                {{--<div class="quanto-project-box overflow-hidden">--}}
+                                    {{--<a href="{{ route('project', ['id' => 1]) }}">--}}
+                                        {{--<div class="quanto-project-thumb overflow-hidden">--}}
+                                            {{--<img--}}
+                                                    {{--src="{{ asset('storage/images/project/portfolio-gallery-6.png') }}"--}}
+                                                    {{--alt="project-thumb"--}}
+                                                    {{--class="w-100 img_reveal"--}}
+                                            {{--/>--}}
+                                        {{--</div>--}}
+                                    {{--</a>--}}
+                                    {{--<div class="quanto-project-content">--}}
+                                        {{--<h5 class="text-color-primary line-clamp-1">--}}
+                                            {{--<a href="{{ route('project', ['id' => 1]) }}"--}}
+                                            {{-->Fintech Accelerator</a--}}
+                                            {{-->--}}
+                                        {{--</h5>--}}
+                                        {{--<span class="quanto-project-date text-color-primary">--}}
+                            {{--2024--}}
+                            {{--<i class="bi bi-dash"></i>--}}
+                            {{--Development--}}
+                          {{--</span>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+
+
+
                         </div>
                     </div>
                     <div

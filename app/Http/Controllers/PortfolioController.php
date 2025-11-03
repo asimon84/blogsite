@@ -16,7 +16,9 @@ class PortfolioController extends Controller
      * @return \Illuminate\View\View
      */
     public function index(Request $request):View {
-        return view('portfolio', []);
+        $projects = Project::all();
+
+        return view('portfolio', compact('projects'));
     }
 
     /**
