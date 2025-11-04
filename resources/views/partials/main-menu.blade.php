@@ -19,16 +19,16 @@
                                 <li class="menu-item-has-children">
                                     <a href="{{ route('about') }}">About</a>
                                 </li>
-                                <li class="menu-item-has-children">
-                                    <a class="no-border" href="#">Services</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="{{ route('services') }}">All Services</a></li>
-                                        <li><a href="{{ route('services') }}#rest">RESTful APIs</a></li>
-                                        <li><a href="{{ route('services') }}#saas">SaaS Development</a></li>
-                                        <li><a href="{{ route('services') }}#ecommerce">eCommerce</a></li>
-                                        <li><a href="{{ route('services') }}#ai">AI / ML</a></li>
-                                    </ul>
-                                </li>
+                                {{--<li class="menu-item-has-children">--}}
+                                    {{--<a class="no-border" href="#">Services</a>--}}
+                                    {{--<ul class="sub-menu">--}}
+                                        {{--<li><a href="{{ route('services') }}">All Services</a></li>--}}
+                                        {{--<li><a href="{{ route('services') }}#rest">RESTful APIs</a></li>--}}
+                                        {{--<li><a href="{{ route('services') }}#saas">SaaS Development</a></li>--}}
+                                        {{--<li><a href="{{ route('services') }}#ecommerce">eCommerce</a></li>--}}
+                                        {{--<li><a href="{{ route('services') }}#ai">AI / ML</a></li>--}}
+                                    {{--</ul>--}}
+                                {{--</li>--}}
                                 <li class="menu-item-has-children">
                                     <a href="#">Portfolio</a>
                                     <ul class="sub-menu">
@@ -42,9 +42,9 @@
                                         <li><a href="https://github.com/asimon84/laravel-ai">Boost AI</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item-has-children">
-                                    <a href="{{ route('blog') }}">Blog</a>
-                                </li>
+                                {{--<li class="menu-item-has-children">--}}
+                                    {{--<a href="{{ route('blog') }}">Blog</a>--}}
+                                {{--</li>--}}
                                 <li>
                                     <a href="{{ route('contact') }}">Contact</a>
                                 </li>
