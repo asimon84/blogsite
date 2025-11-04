@@ -32,30 +32,14 @@
                                 <li class="menu-item-has-children">
                                     <a href="{{ route('portfolio') }}">Portfolio</a>
                                     <ul class="sub-menu">
-                                        <li>
-                                            <a href="{{ route('portfolio') }}">All Projects</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://github.com/asimon84">Github Codebase</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://github.com/asimon84/laravel-crm-livewire">Livewire CRM</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://github.com/asimon84/laravel-crm-react">React CRM</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://github.com/asimon84/laravel-crm-vue">Vue.js CRM</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://github.com/asimon84/task-scheduler">Task Scheduler</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://github.com/asimon84/rest-api">RESTful API</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://github.com/asimon84/laravel-ai">Boost AI</a>
-                                        </li>
+                                        <li><a href="{{ route('portfolio') }}">All Projects</a></li>
+                                        <li><a href="https://github.com/asimon84">Github Codebase</a></li>
+                                        <li><a href="https://github.com/asimon84/laravel-crm-livewire">Livewire CRM</a></li>
+                                        <li><a href="https://github.com/asimon84/laravel-crm-react">React CRM</a></li>
+                                        <li><a href="https://github.com/asimon84/laravel-crm-vue">Vue.js CRM</a></li>
+                                        <li><a href="https://github.com/asimon84/task-scheduler">Task Scheduler</a></li>
+                                        <li><a href="https://github.com/asimon84/rest-api">RESTful API</a></li>
+                                        <li><a href="https://github.com/asimon84/laravel-ai">Boost AI</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
