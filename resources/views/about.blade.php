@@ -4,50 +4,50 @@
 
 @section('content')
 
-    <!-- Hero section Start -->
-    <section
-            class="quanto-hero-faq-section section-padding-bottom overflow-hidden"
-    >
-        <div class="container custom-container">
-            <div class="row g-4">
-                <div class="col-lg-12 col-xxl-11">
-                    <div
-                            class="quanto-hero-faq__content move-anim"
-                            data-delay="0.45"
-                    >
-                        <h1 class="title">About</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Hero section End -->
+    {{--<!-- Hero section Start -->--}}
+    {{--<section--}}
+            {{--class="quanto-hero-faq-section section-padding-bottom overflow-hidden"--}}
+    {{-->--}}
+        {{--<div class="container custom-container">--}}
+            {{--<div class="row g-4">--}}
+                {{--<div class="col-lg-12 col-xxl-11">--}}
+                    {{--<div--}}
+                            {{--class="quanto-hero-faq__content move-anim"--}}
+                            {{--data-delay="0.45"--}}
+                    {{-->--}}
+                        {{--<h1 class="title">About</h1>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
+    {{--<!-- Hero section End -->--}}
 
-    <!-- Video section Start -->
-    <div class="quanto-video-area style-2 overflow-hidden">
-        <div class="container custom-container position-relative">
-            <a href="#quanto-faq-area" class="scroll-down section-link">
-                Scroll down
-                <img
-                        src="{{ asset('storage/images/icons/scroll-down.svg') }}"
-                        alt="Scroll down"
-                />
-            </a>
-            <div class="row">
-                <div class="col-12">
-                    <div class="quanto-hero__thumb text-center">
-                        <img
-                                src="{{ asset('storage/images/hero/common-hero-thumb-6.png') }}"
-                                alt="hero-thumb"
-                                data-speed="0.8"
-                                class="w-100"
-                        />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Video section End -->
+    {{--<!-- Video section Start -->--}}
+    {{--<div class="quanto-video-area style-2 overflow-hidden">--}}
+        {{--<div class="container custom-container position-relative">--}}
+            {{--<a href="#quanto-faq-area" class="scroll-down section-link">--}}
+                {{--Scroll down--}}
+                {{--<img--}}
+                        {{--src="{{ asset('storage/images/icons/scroll-down.svg') }}"--}}
+                        {{--alt="Scroll down"--}}
+                {{--/>--}}
+            {{--</a>--}}
+            {{--<div class="row">--}}
+                {{--<div class="col-12">--}}
+                    {{--<div class="quanto-hero__thumb text-center">--}}
+                        {{--<img--}}
+                                {{--src="{{ asset('storage/images/hero/common-hero-thumb-6.png') }}"--}}
+                                {{--alt="hero-thumb"--}}
+                                {{--data-speed="0.8"--}}
+                                {{--class="w-100"--}}
+                        {{--/>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+    {{--<!-- Video section End -->--}}
 
     <!-- FAQ section Start -->
     <section
@@ -58,13 +58,9 @@
             <div class="row g-4 justify-content-between">
                 <div class="col-lg-6 col-xl-5 col-xxl-4 gsap-sticky">
                     <div class="quanto__header">
-                        <h3
-                                class="title fade-anim"
-                                data-delay="0.30"
-                                data-direction="left"
-                        >
-                            Questions and answers
-                        </h3>
+                        <h1 class="title fade-anim" data-delay="0.30" data-direction="left">
+                            About
+                        </h1>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-7 col-xxl-7">
@@ -290,5 +286,82 @@
         </div>
     </section>
     <!-- FAQ section End -->
+
+    <!-- Funfacts section Start -->
+    <section
+            class="quanto-funfacts-section section-padding-top-bottom overflow-hidden"
+    >
+        <div class="container custom-container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="quanto-funfacts__wrapper">
+                        <div
+                                class="quanto-funfact-box fade-anim"
+                                data-delay="0.30"
+                                data-direction="right"
+                        >
+                            <h2 class="counter-item d-inline-flex align-items-center">
+                      <span
+                              class="odometer d-inline-block"
+                              data-odometer-final="18"
+                      >.</span
+                      >
+                                <em>+</em>
+                            </h2>
+                            <span class="funfact-info">Years of experience</span>
+                        </div>
+                        <div
+                                class="quanto-funfact-box fade-anim"
+                                data-delay="0.30"
+                                data-direction="right"
+                        >
+                            <h2 class="counter-item d-inline-flex align-items-center">
+                      <span
+                              class="odometer d-inline-block"
+                              data-odometer-final="200"
+                      >.</span
+                      >
+                                <em>+</em>
+                            </h2>
+                            <span class="funfact-info">Million in revenue</span>
+                        </div>
+                        <div
+                                class="quanto-funfact-box fade-anim"
+                                data-delay="0.30"
+                                data-direction="right"
+                        >
+                            <h2 class="counter-item d-inline-flex align-items-center">
+                      <span
+                              class="odometer d-inline-block"
+                              data-odometer-final="12"
+                      >.</span
+                      >
+                                <em>+</em>
+                            </h2>
+                            <span class="funfact-info">Enterprise level applications</span>
+                        </div>
+                        <div
+                                class="quanto-funfact-box fade-anim"
+                                data-delay="0.30"
+                                data-direction="right"
+                        >
+                            <h2 class="counter-item d-inline-flex align-items-center">
+                      <span
+                              class="odometer d-inline-block"
+                              data-odometer-final="100"
+                      >.</span
+                      >
+                                <em>%</em>
+                            </h2>
+                            <span class="funfact-info"
+                            >Satisfaction</span
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Funfacts section End -->
 
 @endsection
