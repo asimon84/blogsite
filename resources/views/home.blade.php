@@ -64,20 +64,20 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="quanto-hero__thumb section-margin-top">
-                    <div class="video-wrapper">
-                        <video loop="" muted="" autoplay="" playsinline="">
-                            <source
-                                    src="https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.mp4?_=6"
-                                    type="video/mp4"
-                            />
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </div>
+        {{--<div class="row">--}}
+            {{--<div class="col-lg-12">--}}
+                {{--<div class="quanto-hero__thumb section-margin-top">--}}
+                    {{--<div class="video-wrapper">--}}
+                        {{--<video loop="" muted="" autoplay="" playsinline="">--}}
+                            {{--<source--}}
+                                    {{--src="https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.mp4?_=6"--}}
+                                    {{--type="video/mp4"--}}
+                            {{--/>--}}
+                        {{--</video>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
     </div>
 </section>
 <!-- Hero section End -->
@@ -381,132 +381,132 @@
 </section>
 <!-- Project section End -->
 
-<!-- Serivce section Start -->
-<section
-        class="quanto-service-section section-padding-top-bottom overflow-hidden"
->
-    <div class="container custom-container">
-        <div class="row">
-            <div class="col-12 col-lg-9 col-xl-7 col-xxl-6">
-                <div
-                        class="quanto__header fade-anim"
-                        data-delay="0.30"
-                        data-direction="left"
-                >
-                    <h3 class="title">Build digital businesses</h3>
-                </div>
-            </div>
-        </div>
-        <div class="row g-4 row-padding-top">
-            <div class="col-md-6 col-lg-4 col-xxl-3">
-                <div class="quanto-service-box move-anim">
-                    <div class="quanto-iconbox-icon">
-                        <img
-                                src="{{ asset('/storage/images/service/service-icon-1.svg') }}"
-                                alt="service-icon"
-                        />
-                    </div>
-                    <div class="quanto-iconbox-data">
-                        <div class="quanto-iconbox-data-wrapper">
-                            <h5>RESTful APIs</h5>
-                            <p>
-                                Brand identity design a the have to success whether you
-                                breath onfire quanto agency.
-                            </p>
-                        </div>
-                        <a class="quanto-link-btn" href="{{ route('services') }}#rest"
-                        >View Details
-                            <span>
-                        <i class="fa-solid fa-arrow-right arry1"></i>
-                        <i class="fa-solid fa-arrow-right arry2"></i>
-                      </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xxl-3">
-                <div class="quanto-service-box move-anim">
-                    <div class="quanto-iconbox-icon">
-                        <img
-                                src="{{ asset('/storage/images/service/service-icon-2.svg') }}"
-                                alt="service-icon"
-                        />
-                    </div>
-                    <div class="quanto-iconbox-data">
-                        <div class="quanto-iconbox-data-wrapper">
-                            <h5>SaaS Development</h5>
-                            <p>
-                                Brand identity design a the have to success whether you
-                                breath onfire quanto agency.
-                            </p>
-                        </div>
-                        <a class="quanto-link-btn" href="{{ route('services') }}#saas"
-                        >View Details
-                            <span>
-                        <i class="fa-solid fa-arrow-right arry1"></i>
-                        <i class="fa-solid fa-arrow-right arry2"></i>
-                      </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xxl-3">
-                <div class="quanto-service-box move-anim">
-                    <div class="quanto-iconbox-icon">
-                        <img
-                                src="{{ asset('/storage/images/service/service-icon-3.svg') }}"
-                                alt="service-icon"
-                        />
-                    </div>
-                    <div class="quanto-iconbox-data">
-                        <div class="quanto-iconbox-data-wrapper">
-                            <h5>eCommerce</h5>
-                            <p>
-                                Brand identity design a the have to success whether you
-                                breath onfire quanto agency.
-                            </p>
-                        </div>
+{{--<!-- Serivce section Start -->--}}
+{{--<section--}}
+        {{--class="quanto-service-section section-padding-top-bottom overflow-hidden"--}}
+{{-->--}}
+    {{--<div class="container custom-container">--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-12 col-lg-9 col-xl-7 col-xxl-6">--}}
+                {{--<div--}}
+                        {{--class="quanto__header fade-anim"--}}
+                        {{--data-delay="0.30"--}}
+                        {{--data-direction="left"--}}
+                {{-->--}}
+                    {{--<h3 class="title">Build digital businesses</h3>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="row g-4 row-padding-top">--}}
+            {{--<div class="col-md-6 col-lg-4 col-xxl-3">--}}
+                {{--<div class="quanto-service-box move-anim">--}}
+                    {{--<div class="quanto-iconbox-icon">--}}
+                        {{--<img--}}
+                                {{--src="{{ asset('/storage/images/service/service-icon-1.svg') }}"--}}
+                                {{--alt="service-icon"--}}
+                        {{--/>--}}
+                    {{--</div>--}}
+                    {{--<div class="quanto-iconbox-data">--}}
+                        {{--<div class="quanto-iconbox-data-wrapper">--}}
+                            {{--<h5>RESTful APIs</h5>--}}
+                            {{--<p>--}}
+                                {{--Brand identity design a the have to success whether you--}}
+                                {{--breath onfire quanto agency.--}}
+                            {{--</p>--}}
+                        {{--</div>--}}
+                        {{--<a class="quanto-link-btn" href="{{ route('services') }}#rest"--}}
+                        {{-->View Details--}}
+                            {{--<span>--}}
+                        {{--<i class="fa-solid fa-arrow-right arry1"></i>--}}
+                        {{--<i class="fa-solid fa-arrow-right arry2"></i>--}}
+                      {{--</span>--}}
+                        {{--</a>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-6 col-lg-4 col-xxl-3">--}}
+                {{--<div class="quanto-service-box move-anim">--}}
+                    {{--<div class="quanto-iconbox-icon">--}}
+                        {{--<img--}}
+                                {{--src="{{ asset('/storage/images/service/service-icon-2.svg') }}"--}}
+                                {{--alt="service-icon"--}}
+                        {{--/>--}}
+                    {{--</div>--}}
+                    {{--<div class="quanto-iconbox-data">--}}
+                        {{--<div class="quanto-iconbox-data-wrapper">--}}
+                            {{--<h5>SaaS Development</h5>--}}
+                            {{--<p>--}}
+                                {{--Brand identity design a the have to success whether you--}}
+                                {{--breath onfire quanto agency.--}}
+                            {{--</p>--}}
+                        {{--</div>--}}
+                        {{--<a class="quanto-link-btn" href="{{ route('services') }}#saas"--}}
+                        {{-->View Details--}}
+                            {{--<span>--}}
+                        {{--<i class="fa-solid fa-arrow-right arry1"></i>--}}
+                        {{--<i class="fa-solid fa-arrow-right arry2"></i>--}}
+                      {{--</span>--}}
+                        {{--</a>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-6 col-lg-4 col-xxl-3">--}}
+                {{--<div class="quanto-service-box move-anim">--}}
+                    {{--<div class="quanto-iconbox-icon">--}}
+                        {{--<img--}}
+                                {{--src="{{ asset('/storage/images/service/service-icon-3.svg') }}"--}}
+                                {{--alt="service-icon"--}}
+                        {{--/>--}}
+                    {{--</div>--}}
+                    {{--<div class="quanto-iconbox-data">--}}
+                        {{--<div class="quanto-iconbox-data-wrapper">--}}
+                            {{--<h5>eCommerce</h5>--}}
+                            {{--<p>--}}
+                                {{--Brand identity design a the have to success whether you--}}
+                                {{--breath onfire quanto agency.--}}
+                            {{--</p>--}}
+                        {{--</div>--}}
 
-                        <a class="quanto-link-btn" href="{{ route('services') }}#ecommerce"
-                        >View Details
-                            <span>
-                        <i class="fa-solid fa-arrow-right arry1"></i>
-                        <i class="fa-solid fa-arrow-right arry2"></i>
-                      </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xxl-3">
-                <div class="quanto-service-box move-anim">
-                    <div class="quanto-iconbox-icon">
-                        <img
-                                src="{{ asset('/storage/images/service/service-icon-4.svg') }}"
-                                alt="service-icon"
-                        />
-                    </div>
-                    <div class="quanto-iconbox-data">
-                        <div class="quanto-iconbox-data-wrapper">
-                            <h5>AI / ML</h5>
-                            <p>
-                                Brand identity design a the have to success whether you
-                                breath onfire quanto agency.
-                            </p>
-                        </div>
-                        <a class="quanto-link-btn" href="{{ route('services') }}#ai"
-                        >View Details
-                            <span>
-                        <i class="fa-solid fa-arrow-right arry1"></i>
-                        <i class="fa-solid fa-arrow-right arry2"></i>
-                      </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Serivce section End -->
+                        {{--<a class="quanto-link-btn" href="{{ route('services') }}#ecommerce"--}}
+                        {{-->View Details--}}
+                            {{--<span>--}}
+                        {{--<i class="fa-solid fa-arrow-right arry1"></i>--}}
+                        {{--<i class="fa-solid fa-arrow-right arry2"></i>--}}
+                      {{--</span>--}}
+                        {{--</a>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-6 col-lg-4 col-xxl-3">--}}
+                {{--<div class="quanto-service-box move-anim">--}}
+                    {{--<div class="quanto-iconbox-icon">--}}
+                        {{--<img--}}
+                                {{--src="{{ asset('/storage/images/service/service-icon-4.svg') }}"--}}
+                                {{--alt="service-icon"--}}
+                        {{--/>--}}
+                    {{--</div>--}}
+                    {{--<div class="quanto-iconbox-data">--}}
+                        {{--<div class="quanto-iconbox-data-wrapper">--}}
+                            {{--<h5>AI / ML</h5>--}}
+                            {{--<p>--}}
+                                {{--Brand identity design a the have to success whether you--}}
+                                {{--breath onfire quanto agency.--}}
+                            {{--</p>--}}
+                        {{--</div>--}}
+                        {{--<a class="quanto-link-btn" href="{{ route('services') }}#ai"--}}
+                        {{-->View Details--}}
+                            {{--<span>--}}
+                        {{--<i class="fa-solid fa-arrow-right arry1"></i>--}}
+                        {{--<i class="fa-solid fa-arrow-right arry2"></i>--}}
+                      {{--</span>--}}
+                        {{--</a>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</section>--}}
+{{--<!-- Serivce section End -->--}}
 
 <!-- Testimonial section Start -->
 {{--<section--}}
