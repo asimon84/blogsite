@@ -16,7 +16,7 @@
                             data-delay="0.45"
                     >
                         <h1 class="title">
-                            Creating unforgettable digital impressions
+                            Sample Projects
                         </h1>
                     </div>
                 </div>
