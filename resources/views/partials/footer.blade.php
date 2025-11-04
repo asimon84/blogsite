@@ -52,21 +52,13 @@
                             <h6 class="widget-title text-color-white">Architect</h6>
                             <div class="widget-links">
                                 <ul class="custom-ul">
-                                    <li>
-                                        <a href="{{ route('home') }}">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ route('about') }}">About</a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ route('services') }}">Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ route('contact') }}">Contact</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/asimon84">Codebase</a>
-                                    </li>
+                                    <li><a href="{{ route('home') }}">Home</a></li>
+                                    <li><a href="{{ route('about') }}">About</a></li>
+                                    {{--<li><a href="{{ route('services') }}">Services</a></li>--}}
+                                    <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
+                                    {{--<li><a href="{{ route('blog') }}">Blog</a></li>--}}
+                                    <li><a href="{{ route('contact') }}">Contact</a></li>
+                                    {{--<li><a href="https://github.com/asimon84">Codebase</a></li>--}}
                                 </ul>
                             </div>
                         </div>
@@ -74,18 +66,10 @@
                             <h6 class="widget-title text-color-white">Services</h6>
                             <div class="widget-links">
                                 <ul class="custom-ul">
-                                    <li>
-                                        <a href="{{ route('services') }}#rest">RESTful APIs</a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ route('services') }}#saas">SaaS Development</a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ route('services') }}#ecommerce">eCommerce</a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ route('services') }}#ai">AI / ML</a>
-                                    </li>
+                                    <li><a href="{{ route('services') }}#rest">RESTful APIs</a></li>
+                                    <li><a href="{{ route('services') }}#saas">SaaS Development</a></li>
+                                    <li><a href="{{ route('services') }}#ecommerce">eCommerce</a></li>
+                                    <li><a href="{{ route('services') }}#ai">AI / ML</a></li>
                                 </ul>
                             </div>
                         </div>
