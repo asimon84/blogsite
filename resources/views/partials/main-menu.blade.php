@@ -20,7 +20,7 @@
                                     <a href="{{ route('about') }}">About</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a class="no-border" href="{{ route('services') }}">Services</a>
+                                    <a class="no-border" href="#">Services</a>
                                     <ul class="sub-menu">
                                         <li><a href="{{ route('services') }}">All Services</a></li>
                                         <li><a href="{{ route('services') }}#rest">RESTful APIs</a></li>
@@ -30,7 +30,7 @@
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="{{ route('portfolio') }}">Portfolio</a>
+                                    <a href="#">Portfolio</a>
                                     <ul class="sub-menu">
                                         <li><a href="{{ route('portfolio') }}">All Projects</a></li>
                                         <li><a href="https://github.com/asimon84">Github Codebase</a></li>
