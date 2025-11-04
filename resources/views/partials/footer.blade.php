@@ -62,17 +62,17 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="footer-widgets fade-anim" data-delay="0.4">
-                            <h6 class="widget-title text-color-white">Services</h6>
-                            <div class="widget-links">
-                                <ul class="custom-ul">
-                                    <li><a href="{{ route('services') }}#rest">RESTful APIs</a></li>
-                                    <li><a href="{{ route('services') }}#saas">SaaS Development</a></li>
-                                    <li><a href="{{ route('services') }}#ecommerce">eCommerce</a></li>
-                                    <li><a href="{{ route('services') }}#ai">AI / ML</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                        {{--<div class="footer-widgets fade-anim" data-delay="0.4">--}}
+                            {{--<h6 class="widget-title text-color-white">Services</h6>--}}
+                            {{--<div class="widget-links">--}}
+                                {{--<ul class="custom-ul">--}}
+                                    {{--<li><a href="{{ route('services') }}#rest">RESTful APIs</a></li>--}}
+                                    {{--<li><a href="{{ route('services') }}#saas">SaaS Development</a></li>--}}
+                                    {{--<li><a href="{{ route('services') }}#ecommerce">eCommerce</a></li>--}}
+                                    {{--<li><a href="{{ route('services') }}#ai">AI / ML</a></li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
                         <div class="footer-widgets fade-anim" data-delay="0.6">
                             <div class="social-links">
                                 <ul class="custom-ul">
