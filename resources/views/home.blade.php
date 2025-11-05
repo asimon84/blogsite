@@ -230,10 +230,10 @@
                     </div>
                     <div class="col-md-8 mx-auto project-row-gap">
                         <div class="quanto-project-box overflow-hidden">
-                            <a href="{{ route('portfolio') }}">
+                            <a href="{{ route('project', ['id' => $projects[1]->id]) }}">
                                 <div class="quanto-project-thumb overflow-hidden">
                                     <img
-                                            src="{{ asset('/storage/images/project/project-3.png') }}"
+                                            src="{{ asset($projects[1]->image) }}"
                                             alt="project-thumb"
                                             class="w-100 img_reveal"
                                     />
@@ -241,24 +241,22 @@
                             </a>
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
-                                    <a href="{{ route('portfolio') }}"
-                                    >Brooklyn Brewery</a
+                                    <a href="{{ route('project', ['id' => $projects[1]->id]) }}"
+                                    >{{ $projects[1]->name }}</a
                                     >
                                 </h5>
                                 <span class="quanto-project-date text-color-white">
-                          2024
-                          <i class="bi bi-dash"></i>
-                          Photography
-                        </span>
+                                  {{ $projects[1]->brief }}
+                                </span>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="quanto-project-box overflow-hidden">
-                            <a href="{{ route('portfolio') }}">
+                            <a href="{{ route('project', ['id' => $projects[2]->id]) }}">
                                 <div class="quanto-project-thumb overflow-hidden">
                                     <img
-                                            src="{{ asset('/storage/images/project/project-5.png') }}"
+                                            src="{{ asset($projects[2]->image) }}"
                                             alt="project-thumb"
                                             class="w-100 img_reveal"
                                     />
@@ -266,15 +264,13 @@
                             </a>
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
-                                    <a href="{{ route('portfolio') }}"
-                                    >Regenerative Farming</a
+                                    <a href="{{ route('project', ['id' => $projects[2]->id]) }}"
+                                    >{{ $projects[2]->name }}</a
                                     >
                                 </h5>
                                 <span class="quanto-project-date text-color-white">
-                          2024
-                          <i class="bi bi-dash"></i>
-                          Branding
-                        </span>
+                                  {{ $projects[2]->brief }}
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -297,12 +293,12 @@
                     </div>
                     <div class="col-md-10 ms-auto project-row-gap">
                         <div class="quanto-project-box overflow-hidden">
-                            <a href="{{ route('portfolio') }}">
+                            <a href="{{ route('project', ['id' => $projects[3]->id]) }}">
                                 <div
                                         class="quanto-project-thumb max-655 overflow-hidden"
                                 >
                                     <img
-                                            src="{{ asset('/storage/images/project/project-2.png') }}"
+                                            src="{{ asset($projects[3]->image) }}"
                                             alt="project-thumb"
                                             class="w-100 img_reveal"
                                     />
@@ -310,24 +306,22 @@
                             </a>
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
-                                    <a href="{{ route('portfolio') }}"
-                                    >Hopscotch Payments</a
+                                    <a href="{{ route('project', ['id' => $projects[3]->id]) }}"
+                                    >{{ $projects[3]->name }}</a
                                     >
                                 </h5>
                                 <span class="quanto-project-date text-color-white">
-                          2024
-                          <i class="bi bi-dash"></i>
-                          Development
-                        </span>
+                                  {{ $projects[3]->brief }}
+                                </span>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-9 me-auto project-row-gap">
                         <div class="quanto-project-box overflow-hidden">
-                            <a href="{{ route('portfolio') }}">
+                            <a href="{{ route('project', ['id' => $projects[4]->id]) }}">
                                 <div class="quanto-project-thumboverflow-hidden">
                                     <img
-                                            src="{{ asset('/storage/images/project/project-4.png') }}"
+                                            src="{{ asset($projects[4]->image) }}"
                                             alt="project-thumb"
                                             class="w-100 img_reveal"
                                     />
@@ -335,24 +329,22 @@
                             </a>
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
-                                    <a href="{{ route('portfolio') }}"
-                                    >Stories Worthwhile</a
+                                    <a href="{{ route('project', ['id' => $projects[4]->id]) }}"
+                                    >{{ $projects[4]->name }}</a
                                     >
                                 </h5>
                                 <span class="quanto-project-date text-color-white">
-                          2024
-                          <i class="bi bi-dash"></i>
-                          UI/UX Design
-                        </span>
+                                  {{ $projects[4]->brief }}
+                                </span>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-10 ms-auto">
                         <div class="quanto-project-box overflow-hidden">
-                            <a href="{{ route('portfolio') }}">
+                            <a href="{{ route('project', ['id' => $projects[5]->id]) }}">
                                 <div class="quanto-project-thumb overflow-hidden">
                                     <img
-                                            src="{{ asset('/storage/images/project/project-6.png') }}"
+                                            src="{{ asset($projects[5]->image) }}"
                                             alt="project-thumb"
                                             class="w-100 img_reveal"
                                     />
@@ -360,15 +352,13 @@
                             </a>
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
-                                    <a href="{{ route('portfolio') }}"
-                                    >Fintech Accelerator</a
+                                    <a href="{{ route('project', ['id' => $projects[5]->id]) }}"
+                                    >{{ $projects[5]->name }}</a
                                     >
                                 </h5>
                                 <span class="quanto-project-date text-color-white">
-                          2024
-                          <i class="bi bi-dash"></i>
-                          UI/UX Design
-                        </span>
+                                  {{ $projects[5]->brief }}
+                                </span>
                             </div>
                         </div>
                     </div>
