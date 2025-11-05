@@ -207,10 +207,10 @@
                 <div class="row g-0">
                     <div class="col-md-12 project-row-gap">
                         <div class="quanto-project-box overflow-hidden">
-                            <a href="{{ route('portfolio') }}">
+                            <a href="{{ route('project', ['id' => $projects[0]->id]) }}">
                                 <div class="quanto-project-thumb overflow-hidden">
                                     <img
-                                            src="{{ asset('/storage/images/project/rest-api.png') }}"
+                                            src="{{ asset($projects[0]->image) }}"
                                             alt="project-thumb"
                                             class="w-100 img_reveal"
                                     />
@@ -218,15 +218,13 @@
                             </a>
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
-                                    <a href="{{ route('portfolio') }}"
-                                    >Kinetic Sandscapes</a
+                                    <a href="{{ route('project', ['id' => $projects[0]->id]) }}"
+                                    >{{ $projects[0]->name }}</a
                                     >
                                 </h5>
                                 <span class="quanto-project-date text-color-white">
-                          2024
-                          <i class="bi bi-dash"></i>
-                          Branding
-                        </span>
+                                  {{ $projects[0]->brief }}
+                                </span>
                             </div>
                         </div>
                     </div>
