@@ -15,7 +15,7 @@ class ProjectsSeeder extends Seeder
         Project::factory()->create([
             'name' => 'RESTful API',
             'repo' => 'https://github.com/asimon84/rest-api',
-            'image' => 'storage/images/project/portfolio-gallery-1.png',
+            'image' => 'storage/images/project/rest-api.png',
             'brief' => 'Simple REST API and Client Portal',
         ]);
 
