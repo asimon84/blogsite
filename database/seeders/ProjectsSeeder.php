@@ -22,35 +22,35 @@ class ProjectsSeeder extends Seeder
         Project::factory()->create([
             'name' => 'Task Scheduler',
             'repo' => 'https://github.com/asimon84/task-scheduler',
-            'image' => 'storage/images/project/portfolio-gallery-2.png',
+            'image' => 'storage/images/project/task-scheduler.png',
             'brief' => 'Drag and drop Task Scheduler',
         ]);
 
         Project::factory()->create([
             'name' => 'Laravel CRM (Blade/Livewire)',
             'repo' => 'https://github.com/asimon84/laravel-crm-livewire',
-            'image' => 'storage/images/project/portfolio-gallery-3.png',
+            'image' => 'storage/images/project/crm-livewire.png',
             'brief' => 'Laravel based CRM with Blade/Livewire frontend',
         ]);
 
         Project::factory()->create([
             'name' => 'Laravel CRM (React)',
             'repo' => 'https://github.com/asimon84/laravel-crm-react',
-            'image' => 'storage/images/project/portfolio-gallery-4.png',
+            'image' => 'storage/images/project/crm-react.png',
             'brief' => 'Laravel based CRM with React frontend',
         ]);
 
         Project::factory()->create([
             'name' => 'Laravel CRM (Vue.js)',
             'repo' => 'https://github.com/asimon84/laravel-crm-vue',
-            'image' => 'storage/images/project/portfolio-gallery-5.png',
+            'image' => 'storage/images/project/crm-vue.png',
             'brief' => 'Laravel based CRM with Vue.js frontend',
         ]);
 
         Project::factory()->create([
             'name' => 'Laravel AI',
             'repo' => 'https://github.com/asimon84/laravel-ai',
-            'image' => 'storage/images/project/portfolio-gallery-6.png',
+            'image' => 'storage/images/project/laravel-ai.png',
             'brief' => 'Laravel based AI/ML test project',
         ]);
     }
