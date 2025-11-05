@@ -210,7 +210,7 @@
                             <a href="{{ route('portfolio') }}">
                                 <div class="quanto-project-thumb overflow-hidden">
                                     <img
-                                            src="{{ asset('/storage/images/project/project-1.png') }}"
+                                            src="{{ asset('/storage/images/project/rest-api.png') }}"
                                             alt="project-thumb"
                                             class="w-100 img_reveal"
                                     />
