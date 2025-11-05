@@ -13,7 +13,7 @@ class HomeController extends Controller
      *
      * @param Request $request
      *
-     * @return \Illuminate\View\View
+     * @return View
      */
     public function index(Request $request):View {
         $projects = Project::all();

@@ -27,9 +27,9 @@ class PortfolioController extends Controller
      * @param Request $request
      * @param int $id
      *
-     * @return mixed
+     * @return View
      */
-    public function show(Request $request, int $id) {
+    public function show(Request $request, int $id):View {
         $project = Project::find($id)->toJSON();
 
         return view('project', compact('project'));
