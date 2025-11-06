@@ -48,9 +48,8 @@
                                         </a>
                                         <div class="quanto-project-content">
                                             <h5 class="text-color-primary line-clamp-1">
-                                                <a href="{{ route('project', ['id' => $project->id]) }}"
-                                                >{{ $project->name }}</a
-                                                >
+                                                {{--<a href="{{ route('project', ['id' => $project->id]) }}">{{ $project->name }}</a>--}}
+                                                <a href="{{ $project->repo }}">{{ $project->name }}</a>
                                             </h5>
                                             <span class="quanto-project-date text-color-primary">
                                                 {{ $project->brief }}
