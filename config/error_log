@@ -1,0 +1,16 @@
+[08-Nov-2025 15:55:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/alexvqzq/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/alexvqzq/public_html/config/cache.php on line 18
+[08-Nov-2025 16:04:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/alexvqzq/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/alexvqzq/public_html/config/services.php on line 18
+[08-Nov-2025 16:15:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/alexvqzq/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/alexvqzq/public_html/config/mail.php on line 17
+[08-Nov-2025 16:25:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/alexvqzq/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/alexvqzq/public_html/config/session.php on line 21
