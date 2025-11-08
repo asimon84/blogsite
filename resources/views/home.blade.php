@@ -219,7 +219,7 @@
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
                                     {{--<a href="{{ route('project', ['id' => $projects[0]->id]) }}">{{ $projects[0]->name }}</a>--}}
-                                    <a href="{{ $project[0]->repo }}">{{ $project[0]->name }}</a>
+                                    <a href="{{ $projects[0]->repo }}">{{ $projects[0]->name }}</a>
                                 </h5>
                                 <span class="quanto-project-date text-color-white">
                                   {{ $projects[0]->brief }}
@@ -241,7 +241,7 @@
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
                                     {{--<a href="{{ route('project', ['id' => $projects[1]->id]) }}">{{ $projects[1]->name }}</a>--}}
-                                    <a href="{{ $project[1]->repo }}">{{ $project[1]->name }}</a>
+                                    <a href="{{ $projects[1]->repo }}">{{ $projects[1]->name }}</a>
                                 </h5>
                                 <span class="quanto-project-date text-color-white">
                                   {{ $projects[1]->brief }}
@@ -263,7 +263,7 @@
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
                                     {{--<a href="{{ route('project', ['id' => $projects[2]->id]) }}">{{ $projects[2]->name }}</a>--}}
-                                    <a href="{{ $project[2]->repo }}">{{ $project[2]->name }}</a>
+                                    <a href="{{ $projects[2]->repo }}">{{ $projects[2]->name }}</a>
                                 </h5>
                                 <span class="quanto-project-date text-color-white">
                                   {{ $projects[2]->brief }}
@@ -304,7 +304,7 @@
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
                                     {{--<a href="{{ route('project', ['id' => $projects[3]->id]) }}">{{ $projects[3]->name }}</a>--}}
-                                    <a href="{{ $project[3]->repo }}">{{ $project[3]->name }}</a>
+                                    <a href="{{ $projects[3]->repo }}">{{ $projects[3]->name }}</a>
                                 </h5>
                                 <span class="quanto-project-date text-color-white">
                                   {{ $projects[3]->brief }}
@@ -326,7 +326,7 @@
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
                                     <a href="{{ route('project', ['id' => $projects[4]->id]) }}">{{ $projects[4]->name }}</a>
-                                    <a href="{{ $project[4]->repo }}">{{ $project[4]->name }}</a>
+                                    <a href="{{ $projects[4]->repo }}">{{ $projects[4]->name }}</a>
                                 </h5>
                                 <span class="quanto-project-date text-color-white">
                                   {{ $projects[4]->brief }}
@@ -348,7 +348,7 @@
                             <div class="quanto-project-content">
                                 <h5 class="text-color-white line-clamp-1">
                                     {{--<a href="{{ route('project', ['id' => $projects[5]->id]) }}">{{ $projects[5]->name }}</a>--}}
-                                    <a href="{{ $project[5]->repo }}">{{ $project[5]->name }}</a>
+                                    <a href="{{ $projects[5]->repo }}">{{ $projects[5]->name }}</a>
                                 </h5>
                                 <span class="quanto-project-date text-color-white">
                                   {{ $projects[5]->brief }}
