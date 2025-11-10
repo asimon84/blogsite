@@ -63,7 +63,7 @@ class Contact extends Model
         $message .= "Name: $contact->name\r\n";
         $message .= "Company Name: $contact->company_name\r\n";
         $message .= "\r\n\r\n";
-        $message .= $contact->message
+        $message .= $contact->message;
 
         $to = "asimon1984@gmail.com";
         $subject = $contact->subject;
