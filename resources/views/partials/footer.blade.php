@@ -40,11 +40,11 @@
                                         >ajsimon1984@gmail.com</a
                                         >
                                     </li>
-                                    <li>
-                                        <a class="mobile" href="tel:+19518925183"
-                                        >1 951 892 5183</a
-                                        >
-                                    </li>
+                                    {{--<li>--}}
+                                        {{--<a class="mobile" href="tel:+15555555555"--}}
+                                        {{-->1 555 555 5555</a--}}
+                                        {{-->--}}
+                                    {{--</li>--}}
                                 </ul>
                             </div>
                         </div>
