@@ -35,20 +35,20 @@
                         together we can make it real!
                     </p>
                     <div class="client-info fade-anim" data-delay="0.60">
-                        <div class="client-images">
-                            <img
-                                    src="{{ asset('/storage/images/hero/avatar-add.png') }}"
-                                    alt="avatar-add"
-                            />
-                            <img
-                                    src="{{ asset('/storage/images/hero/avatar-1.png') }}"
-                                    alt="avatar"
-                            />
-                            <img
-                                    src="{{ asset('/storage/images/hero/avatar-2.png') }}"
-                                    alt="avatar"
-                            />
-                        </div>
+                        {{--<div class="client-images">--}}
+                            {{--<img--}}
+                                    {{--src="{{ asset('/storage/images/hero/avatar-add.png') }}"--}}
+                                    {{--alt="avatar-add"--}}
+                            {{--/>--}}
+                            {{--<img--}}
+                                    {{--src="{{ asset('/storage/images/hero/avatar-1.png') }}"--}}
+                                    {{--alt="avatar"--}}
+                            {{--/>--}}
+                            {{--<img--}}
+                                    {{--src="{{ asset('/storage/images/hero/avatar-2.png') }}"--}}
+                                    {{--alt="avatar"--}}
+                            {{--/>--}}
+                        {{--</div>--}}
                         <div class="client-data">
                             <h6 class="counter-item d-flex align-items-center">
                                 {{--<span--}}
