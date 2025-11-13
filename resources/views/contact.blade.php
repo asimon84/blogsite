@@ -70,11 +70,11 @@
                     </span>
                         </div>
                         <div class="contact-info">
-                            <h5>
-                                <a href="mailto:ajsimon1984@gmail.com"
-                                >ajsimon1984@gmail.com</a
-                                >
-                            </h5>
+                            {{--<h5>--}}
+                                {{--<a href="mailto:ajsimon1984@gmail.com"--}}
+                                {{-->ajsimon1984@gmail.com</a--}}
+                                {{-->--}}
+                            {{--</h5>--}}
                             {{--<a href="tel:+15555555555">+15555555555</a>--}}
                         </div>
                     </div>

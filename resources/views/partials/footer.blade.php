@@ -36,9 +36,10 @@
                             <div class="contacts">
                                 <ul class="custom-ul">
                                     <li>
-                                        <a class="email" href="mailto:ajsimon1984@gmail.com"
-                                        >ajsimon1984@gmail.com</a
-                                        >
+                                        {{--<a class="email" href="mailto:test@test.com"--}}
+                                        {{-->test@test.com</a--}}
+                                        {{-->--}}
+                                        <a class="email" href="{{ route('contact') }}">Contact Me</a>
                                     </li>
                                     {{--<li>--}}
                                         {{--<a class="mobile" href="tel:+15555555555"--}}
