@@ -20,6 +20,7 @@ class Project extends Model
         'repo',
         'image',
         'brief',
+        'description',
     ];
 
     /**
@@ -43,6 +44,7 @@ class Project extends Model
             'repo' => 'string',
             'image' => 'string',
             'brief' => 'string',
+            'description' => 'string',
         ];
     }
 }

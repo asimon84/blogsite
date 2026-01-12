@@ -3,7 +3,6 @@
 @section('title', 'Project')
 
 @section('content')
-
     <!-- Hero section Start -->
     <section
             class="quanto-hero-common-section section-padding-bottom overflow-hidden"
@@ -15,7 +14,7 @@
                             class="quanto-hero-common__content move-anim"
                             data-delay="0.45"
                     >
-                        <h1 class="title">Project</h1>
+                        <h1 class="title">{{ $project->name }}</h1>
                     </div>
                 </div>
             </div>
