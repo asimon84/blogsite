@@ -17,7 +17,7 @@ class ProjectsSeeder extends Seeder
             'repo' => 'https://github.com/asimon84/rest-api',
             'image' => 'storage/images/project/rest-api.png',
             'brief' => 'Simple REST API and Client Portal',
-            'description' => '',
+            'description' => 'This is a sample API written in Laravel 12 and PHP using RESTful standards. REST stands for REpresentational State Transfer, offering ways to make idempotent requests that will have the same effect no matter how many times they are called. Distrubuted systems and microservice architecture often utilize REST APIs to offer a window to the data layer that accessible across multiple application front ends. This API also contains a small admin portal built with Blade and Livewire. This allows easy viewing and reporting of data added or updated through the API. ',
         ]);
 
         Project::factory()->create([
