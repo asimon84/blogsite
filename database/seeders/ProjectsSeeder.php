@@ -25,7 +25,7 @@ class ProjectsSeeder extends Seeder
             'repo' => 'https://github.com/asimon84/task-scheduler',
             'image' => 'storage/images/project/task-scheduler.png',
             'brief' => 'Drag and drop Task Scheduler',
-            'description' => '',
+            'description' => 'This is a very simple application demonstrating a drag and drop interface for a sample project task scheduler. It is meant to show more advanced javascript interactive functionality.',
         ]);
 
         Project::factory()->create([
