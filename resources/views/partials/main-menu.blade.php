@@ -30,6 +30,9 @@
                                     {{--</ul>--}}
                                 {{--</li>--}}
                                 <li class="menu-item-has-children">
+                                    <a href="{{ route('blog') }}">Blog</a>
+                                </li>
+                                <li class="menu-item-has-children">
                                     <a href="{{ route('portfolio') }}">Portfolio</a>
                                     {{--<ul class="sub-menu">--}}
                                         {{--<li><a href="{{ route('portfolio') }}">All Projects</a></li>--}}
@@ -42,9 +45,6 @@
                                         {{--<li><a href="https://github.com/asimon84/laravel-ai">Boost AI</a></li>--}}
                                     {{--</ul>--}}
                                 </li>
-                                {{--<li class="menu-item-has-children">--}}
-                                    {{--<a href="{{ route('blog') }}">Blog</a>--}}
-                                {{--</li>--}}
                                 <li>
                                     <a href="{{ route('contact') }}">Contact</a>
                                 </li>
