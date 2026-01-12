@@ -21,6 +21,7 @@ class ProjectFactory extends Factory
             'repo' => fake()->name(),
             'image' => fake()->name(),
             'brief' => fake()->name(),
+            'description' => fake()->text(),
         ];
     }
 }
