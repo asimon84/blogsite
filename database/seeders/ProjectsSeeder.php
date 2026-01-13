@@ -33,7 +33,7 @@ class ProjectsSeeder extends Seeder
             'repo' => 'https://github.com/asimon84/laravel-crm-livewire',
             'image' => 'storage/images/project/crm-livewire.png',
             'brief' => 'Laravel based CRM with Blade/Livewire frontend',
-            'description' => 'A simple CRM project built in Laravel 12 with a Blade template front end augmented with Livewire. This demonstrated MVC architecture, datatables, and c3 charts for simple reporting. Also contains unit tests, db migrations and seeders, and jQuery scripting.',
+            'description' => 'A simple CRM project built in Laravel 12 with a Blade template front end augmented with Livewire. This demonstrates MVC architecture, datatables, and c3 charts for simple reporting. Also contains unit tests, db migrations and seeders, and jQuery scripting.',
         ]);
 
         Project::factory()->create([
@@ -41,7 +41,7 @@ class ProjectsSeeder extends Seeder
             'repo' => 'https://github.com/asimon84/laravel-crm-react',
             'image' => 'storage/images/project/crm-react.png',
             'brief' => 'Laravel based CRM with React frontend',
-            'description' => 'A simple CRM project built in Laravel 12 with a React front end. This demonstrated MVC architecture, datatables, and c3 charts for simple reporting. Also contains unit tests, db migrations and seeders, componentization, and basic scripting.',
+            'description' => 'A simple CRM project built in Laravel 12 with a React front end. This demonstrates MVC architecture, datatables, and c3 charts for simple reporting. Also contains unit tests, db migrations and seeders, componentization, and basic scripting.',
         ]);
 
         Project::factory()->create([
@@ -49,7 +49,7 @@ class ProjectsSeeder extends Seeder
             'repo' => 'https://github.com/asimon84/laravel-crm-vue',
             'image' => 'storage/images/project/crm-vue.png',
             'brief' => 'Laravel based CRM with Vue.js frontend',
-            'description' => '',
+            'description' => 'A simple CRM project built in Laravel 12 with a Vue.js front end. This demonstrates MVC architecture, datatables, and c3 charts for simple reporting. Also contains unit tests, db migrations and seeders, componentization, and basic scripting.',
         ]);
 
         Project::factory()->create([
