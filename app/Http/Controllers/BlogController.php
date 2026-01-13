@@ -20,4 +20,18 @@ class BlogController extends Controller
 
         return view('blog', compact('blogs'));
     }
+
+    /**
+     * Get data for blog details page
+     *
+     * @param Request $request
+     * @param int $id
+     *
+     * @return View
+     */
+    public function show(Request $request, int $id):View {
+        $blog = Blog::find($id);
+
+        return view('blog', compact('blog'));
+    }
 }
