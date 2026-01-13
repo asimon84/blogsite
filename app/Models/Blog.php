@@ -16,7 +16,10 @@ class Blog extends Model
      * @var list<string>
      */
     protected $fillable = [
-        'name',
+        'title',
+        'thumb',
+        'image',
+        'video',
         'content',
     ];
 
@@ -37,7 +40,10 @@ class Blog extends Model
     protected function casts(): array
     {
         return [
-            'name' => 'string',
+            'title' => 'string',
+            'thumb' => 'string',
+            'image' => 'string',
+            'video' => 'string',
             'content' => 'string',
         ];
     }
