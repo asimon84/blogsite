@@ -14,7 +14,7 @@ class BlogSeeder extends Seeder
     {
         Blog::factory()->create([
             'title' => 'First Blog',
-            'thumb' => '',
+            'thumb' => 'storage/images/blog/blog-thumb-1.png',
             'image' => '',
             'video' => '',
             'content' => 'Some blog text.',

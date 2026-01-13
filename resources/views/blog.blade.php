@@ -36,7 +36,7 @@
                                 <span class="quanto-blog-date">March 8, 2024</span>
                                 <h5 class="line-clamp-3">
                                     <a href="./blog-details.html">
-                                        Reveal business opportunities with our five point brand audit
+                                        {{ $blog->name }}
                                     </a>
                                 </h5>
 
@@ -50,7 +50,7 @@
                             </div>
                             <div class="quanto-blog-thumb">
                                 <a href="./blog-details.html" class="d-inline-block overflow-hidden">
-                                    <img src="{{ asset('storage/images/blog/blog-thumb-1.png') }}" alt="blog-thumb" class="w-100"/>
+                                    <img src="{{ asset($blog->thumb) }}" alt="blog-thumb" class="w-100"/>
                                 </a>
                             </div>
                         </div>
