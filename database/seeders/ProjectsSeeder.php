@@ -33,7 +33,7 @@ class ProjectsSeeder extends Seeder
             'repo' => 'https://github.com/asimon84/laravel-crm-livewire',
             'image' => 'storage/images/project/crm-livewire.png',
             'brief' => 'Laravel based CRM with Blade/Livewire frontend',
-            'description' => '',
+            'description' => 'A simple CRM project built in Laravel 12 with a Blade template front end augmented with Livewire. This demonstrated MVC architecture, datatables, and c3 charts for simple reporting. Also contains unit tests, db migrations and seeders, and jQuery scripting.',
         ]);
 
         Project::factory()->create([
