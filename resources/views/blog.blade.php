@@ -15,7 +15,7 @@
                             class="quanto-hero-blog__content move-anim"
                             data-delay="0.45"
                     >
-                        <h1 class="title">Explore latest news and insights</h1>
+                        <h1 class="title">Blogs and Videos</h1>
                     </div>
                 </div>
             </div>
@@ -29,6 +29,8 @@
     >
         <div class="container custom-container">
             <div class="row g-4 g-xl-6 quanto-blog3__row overflow-hidden">
+
+
                 <div class="col-xl-6">
                     <div
                             class="quanto-blog-box style-2 border-bottom-style fade-anim"
@@ -323,6 +325,8 @@
                         </div>
                     </div>
                 </div>
+
+
             </div>
             <div class="row row-padding-top">
                 <div class="col-12">
