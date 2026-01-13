@@ -30,13 +30,16 @@
         <div class="container custom-container">
             <div class="row g-4 g-xl-6 quanto-blog3__row overflow-hidden">
                 @foreach($blogs as $blog)
+                    @php
+                        $date = new DateTime($blog->created_at);
+                    @endphp
                     <div class="col-xl-6">
                         <div class="quanto-blog-box style-2 border-bottom-style fade-anim" data-delay="0.30" data-direction="right">
                             <div class="quanto-blog-content">
-                                <span class="quanto-blog-date">March 8, 2024</span>
+                                <span class="quanto-blog-date">{{ $date->format('F j, Y') }}</span>
                                 <h5 class="line-clamp-3">
                                     <a href="./blog-details.html">
-                                        {{ $blog->name }}
+                                        {{ $blog->title }}
                                     </a>
                                 </h5>
 
