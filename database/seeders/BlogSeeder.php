@@ -19,5 +19,21 @@ class BlogSeeder extends Seeder
             'video' => '',
             'content' => 'Some blog text.',
         ]);
+
+        Blog::factory()->create([
+            'title' => 'Second Blog',
+            'thumb' => 'storage/images/blog/blog-thumb-1.png',
+            'image' => '',
+            'video' => '',
+            'content' => 'Some blog text.',
+        ]);
+
+        Blog::factory()->create([
+            'title' => 'Third Blog',
+            'thumb' => 'storage/images/blog/blog-thumb-1.png',
+            'image' => '',
+            'video' => '',
+            'content' => 'Some blog text.',
+        ]);
     }
 }
