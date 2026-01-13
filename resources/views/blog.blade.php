@@ -32,6 +32,7 @@
                 @foreach($blogs as $blog)
                     @php
                         $date = new DateTime($blog->created_at);
+                        $link = './blog/' . $blog->id;
                     @endphp
                     <div class="col-xl-6">
                         <div class="quanto-blog-box style-2 border-bottom-style fade-anim" data-delay="0.30" data-direction="right">
@@ -43,7 +44,7 @@
                                     </a>
                                 </h5>
 
-                                <a class="quanto-link-btn" href="./blog-details.html">
+                                <a class="quanto-link-btn" href="{{ $link }}">
                                     Read more
                                     <span>
                                         <i class="fa-solid fa-arrow-right arry1"></i>
@@ -52,7 +53,7 @@
                                 </a>
                             </div>
                             <div class="quanto-blog-thumb">
-                                <a href="./blog-details.html" class="d-inline-block overflow-hidden">
+                                <a href="{{ $link }}" class="d-inline-block overflow-hidden">
                                     <img src="{{ asset($blog->thumb) }}" alt="blog-thumb" class="w-100"/>
                                 </a>
                             </div>
