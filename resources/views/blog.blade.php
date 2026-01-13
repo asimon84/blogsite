@@ -30,6 +30,33 @@
         <div class="container custom-container">
             <div class="row g-4 g-xl-6 quanto-blog3__row overflow-hidden">
 
+                @foreach($blogs as $blog)
+                    <div class="col-xl-6">
+                        <div class="quanto-blog-box style-2 border-bottom-style fade-anim" data-delay="0.30" data-direction="right">
+                            <div class="quanto-blog-content">
+                                <span class="quanto-blog-date">March 8, 2024</span>
+                                <h5 class="line-clamp-3">
+                                    <a href="./blog-details.html">
+                                        Reveal business opportunities with our five point brand audit
+                                    </a>
+                                </h5>
+
+                                <a class="quanto-link-btn" href="./blog-details.html">
+                                    Read more
+                                    <span>
+                                        <i class="fa-solid fa-arrow-right arry1"></i>
+                                        <i class="fa-solid fa-arrow-right arry2"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="quanto-blog-thumb">
+                                <a href="./blog-details.html" class="d-inline-block overflow-hidden">
+                                    <img src="{{ asset('storage/images/blog/blog-thumb-1.png') }}" alt="blog-thumb" class="w-100"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
 
                 <div class="col-xl-6">
                     <div
