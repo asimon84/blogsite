@@ -90,11 +90,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="quanto__header text-center text-md-start row-padding-bottom">
-                        <h3
-                                class="title fade-anim"
-                                data-delay="0.30"
-                                data-direction="left"
-                        >
+                        <h3 class="title fade-anim" data-delay="0.30" data-direction="left">
                             More Articles
                         </h3>
                     </div>
