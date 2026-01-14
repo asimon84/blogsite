@@ -20,7 +20,7 @@ class BlogSeeder extends Seeder
             'image' => 'storage/images/blog/blog-details-1.png',
             'video' => '',
             'content' => '<p class="blog-text">Welcome!</p>
-                <p class="blog-text">This blog will contain random software engineering thoughts, code samples, and coding exercises. Feel free to peruse the topics, and watch any accompanying videos!</p>
+                <p class="blog-text">This website is my own personal portfolio and blog website to showcase software engineering concepts. This site is built in Laravel 12 using Blade templating. Laravel is my favorite framework since it is very powerful and can perform complex tasks while still be simple and easy to use!</p>
                 <blockquote>
                     <img src="./../storage/images/icons/blockquote.svg" alt="blockquote"/>
                     <div class="text">
@@ -30,6 +30,7 @@ class BlogSeeder extends Seeder
                         <cite>─ Doug Linder</cite>
                     </div>
                 </blockquote>
+                <p class="blog-text">This blog will contain random software engineering thoughts, code samples, and coding exercises. Feel free to peruse the topics, and watch any accompanying videos!</p>
                 ',
         ]);
 
