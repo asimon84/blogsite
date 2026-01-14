@@ -34,7 +34,7 @@ class BlogController extends Controller
 
         $linkedBlogs = Blog::select(['id', 'title', 'thumb', 'created_at'])
             ->whereNotIn('id', [$id])
-            ->orderBy('created_at', 'asc')
+            ->inRandomOrder()
             ->limit(3)
             ->get();
 

@@ -20,7 +20,7 @@ class BlogSeeder extends Seeder
             'image' => 'storage/images/blog/blog-details-1.png',
             'video' => '',
             'content' => '<p class="blog-text">Welcome!</p>
-                <p class="blog-text">My name is Alexander, I am a software engineer, team lead, and architect with nearly 20 years of experience! I have 12 years of experience in enterprise level SaaS application and REST API development.</p>
+                <p class="blog-text">My name is Alexander Simon. I am a software engineer, team lead, and architect with nearly 20 years of experience! I have 12 years of experience in enterprise level SaaS application and REST API development.</p>
                 <p class="blog-text">This website is my own personal portfolio and blog website to showcase software engineering concepts. This site is built in Laravel 12 using Blade templating. Laravel is my favorite framework since it is very powerful and can perform complex tasks while still be simple and easy to use!</p>
                 <blockquote>
                     <img src="./../storage/images/icons/blockquote.svg" alt="blockquote"/>
@@ -31,6 +31,7 @@ class BlogSeeder extends Seeder
                         <cite>─ Doug Linder</cite>
                     </div>
                 </blockquote>
+                <p class="blog-text">I also have several years experience in the Symfony framework. I have also worked with Angular frameowkrs, React, and Vue.js. I am a full stack engineer with emphasis on the backend in PHP and MySQL.</p>
                 <p class="blog-text">This blog will contain random software engineering thoughts, code samples, and coding exercises. Feel free to peruse the topics, and watch any accompanying videos!</p>
                 ',
         ]);
