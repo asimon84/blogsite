@@ -110,7 +110,7 @@
                         <div class="quanto-blog-box fade-anim" data-delay="0.45" data-direction="right">
                             <div class="quanto-blog-thumb">
                                 <a href="{{ $link }}">
-                                    <img src="{{ asset($linkedBlog->image) }}" alt="blog-thumb"/>
+                                    <img src="{{ asset($linkedBlog->thumb) }}" alt="blog-thumb"/>
                                 </a>
                             </div>
                             <div class="quanto-blog-content">
