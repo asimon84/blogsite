@@ -32,8 +32,8 @@ class BlogController extends Controller
     public function show(Request $request, int $id):View {
         $blog = Blog::find($id);
 
-        $moreBlogs = Blog::whereNotIn('id', [$id])->orderBy('created_at', 'asc')->limit(3)->get();
+        $linkedBlogs = Blog::whereNotIn('id', [$id])->orderBy('created_at', 'asc')->limit(3)->get();
 
-        return view('blog-details', compact('blog', 'moreBlogs'));
+        return view('blog-details', compact('blog', 'linkedBlogs'));
     }
 }
