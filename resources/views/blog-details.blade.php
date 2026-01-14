@@ -116,7 +116,7 @@
                             <div class="quanto-blog-content">
                                 <h5 class="line-clamp-2">
                                     <a href="{{ $link }}">
-                                        Common UX pain in design related projects you must know
+                                        {{ $linkedBlog->title }}
                                     </a>
                                 </h5>
                                 <span class="quanto-blog-date">{{ $date->format('F j, Y') }}</span>
