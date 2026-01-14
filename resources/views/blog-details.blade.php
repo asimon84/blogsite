@@ -81,7 +81,7 @@
                                 <div class="row justify-content-center social-links-scroll position-relative">
                                     <div class="col-xl-9 col-xxl-8">
                                         <div class="blog-body">
-                                            {{ $blog->content }}
+                                            {!! $blog->content !!}
                                         </div>
                                     </div>
                                 </div>

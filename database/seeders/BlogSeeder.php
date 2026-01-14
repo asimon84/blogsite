@@ -19,7 +19,7 @@ class BlogSeeder extends Seeder
             'thumb' => 'storage/images/blog/blog-thumb-1.png',
             'image' => 'storage/images/blog/blog-details-1.png',
             'video' => '',
-            'content' => '<p>Welcome!</p><p>This blog will contain random software engineering thoughts, code samples, and coding exercises. Feel free to peruse the topics, and watch any accompanying videos!</p>',
+            'content' => '<p class="blog-text">Welcome!</p><p class="blog-text">This blog will contain random software engineering thoughts, code samples, and coding exercises. Feel free to peruse the topics, and watch any accompanying videos!</p>',
         ]);
 
         Blog::factory()->create([
