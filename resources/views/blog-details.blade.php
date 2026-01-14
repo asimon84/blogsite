@@ -52,29 +52,19 @@
                                 <div class="social-links">
                                     <ul class="custom-ul">
                                         <li>
-                                            <a href="#" target="_blank"
-                                            ><i class="fab fa-x-twitter"></i
-                                                ></a>
+                                            <a href="https://x.com/AlexanderS21097" target="_blank">
+                                                <i class="fab fa-x-twitter"></i>
+                                            </a>
                                         </li>
                                         <li>
-                                            <a href="#" target="_blank"
-                                            ><i class="fab fa-instagram"></i
-                                                ></a>
+                                            <a href="https://www.instagram.com/ajsimon19843/" target="_blank">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
                                         </li>
                                         <li>
-                                            <a href="#" target="_blank"
-                                            ><i class="fab fa-linkedin-in"></i
-                                                ></a>
-                                        </li>
-                                        <li>
-                                            <a href="#" target="_blank"
-                                            ><i class="fab fa-dribbble"></i
-                                                ></a>
-                                        </li>
-                                        <li>
-                                            <a href="#" target="_blank"
-                                            ><i class="fab fa-behance"></i
-                                                ></a>
+                                            <a href="https://www.linkedin.com/in/alexander-simon-b1564a29a/" target="_blank">
+                                                <i class="fab fa-linkedin-in"></i>
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>
