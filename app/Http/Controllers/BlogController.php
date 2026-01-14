@@ -32,6 +32,6 @@ class BlogController extends Controller
     public function show(Request $request, int $id):View {
         $blog = Blog::find($id);
 
-        return view('blog', compact('blog'));
+        return view('blog-details', compact('blog'));
     }
 }

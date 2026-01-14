@@ -39,7 +39,7 @@
                             <div class="quanto-blog-content">
                                 <span class="quanto-blog-date">{{ $date->format('F j, Y') }}</span>
                                 <h5 class="line-clamp-3">
-                                    <a href="./blog-details.html">
+                                    <a href="{{ $link }}">
                                         {{ $blog->title }}
                                     </a>
                                 </h5>
