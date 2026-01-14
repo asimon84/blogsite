@@ -84,4 +84,101 @@
     </section>
     <!-- Blog Details section Start -->
 
+    <!-- Blog section Start -->
+    <section
+            class="quanto-blog-section section-padding-bottom overflow-hidden"
+    >
+        <div class="container custom-container">
+            <div class="row">
+                <div class="col-12">
+                    <div
+                            class="quanto__header text-center text-md-start row-padding-bottom"
+                    >
+                        <h3
+                                class="title fade-anim"
+                                data-delay="0.30"
+                                data-direction="left"
+                        >
+                            More articles
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-4 gy-5">
+                <div class="col-md-6 col-lg-4">
+                    <div
+                            class="quanto-blog-box fade-anim"
+                            data-delay="0.45"
+                            data-direction="right"
+                    >
+                        <div class="quanto-blog-thumb">
+                            <a href="./blog-details.html">
+                                <img
+                                        src="./assets/images/blog/blog-thumb-5.png"
+                                        alt="blog-thumb"
+                                />
+                            </a>
+                        </div>
+                        <div class="quanto-blog-content">
+                            <h5 class="line-clamp-2">
+                                <a href="./blog-details.html"
+                                >Common UX pain in design related projects you must
+                                    know</a
+                                >
+                            </h5>
+                            <span class="quanto-blog-date">March 8, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="quanto-blog-box fade-anim" data-delay="0.60">
+                        <div class="quanto-blog-thumb">
+                            <a href="./blog-details.html">
+                                <img
+                                        src="./assets/images/blog/blog-thumb-6.png"
+                                        alt="blog-thumb"
+                                />
+                            </a>
+                        </div>
+                        <div class="quanto-blog-content">
+                            <h5 class="line-clamp-2">
+                                <a href="./blog-details.html"
+                                >How to bring fold to your startup company with
+                                    Quanto</a
+                                >
+                            </h5>
+                            <span class="quanto-blog-date">March 8, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div
+                            class="quanto-blog-box fade-anim"
+                            data-delay="0.30"
+                            data-direction="right"
+                    >
+                        <div class="quanto-blog-thumb">
+                            <a href="./blog-details.html">
+                                <img
+                                        src="./assets/images/blog/blog-thumb-7.png"
+                                        alt="blog-thumb"
+                                />
+                            </a>
+                        </div>
+                        <div class="quanto-blog-content">
+                            <h5 class="line-clamp-2">
+                                <a href="./blog-details.html"
+                                >Simple guide to retrieval auto generated read content
+                                    models</a
+                                >
+                            </h5>
+                            <span class="quanto-blog-date">March 8, 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog section End -->
+
 @endsection
