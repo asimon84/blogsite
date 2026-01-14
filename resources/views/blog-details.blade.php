@@ -119,7 +119,7 @@
                                         Common UX pain in design related projects you must know
                                     </a>
                                 </h5>
-                                <span class="quanto-blog-date">{{ $date }}</span>
+                                <span class="quanto-blog-date">{{ $date->format('F j, Y') }}</span>
                             </div>
                         </div>
                     </div>
