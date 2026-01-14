@@ -17,7 +17,7 @@ class BlogSeeder extends Seeder
             'author' => 'Alexander Simon',
             'category' => 'General',
             'thumb' => 'storage/images/blog/blog-thumb-1.png',
-            'image' => '',
+            'image' => 'storage/images/blog/blog-details-1.png',
             'video' => '',
             'content' => 'This blog will contain random software engineering thoughts, code samples, and coding exercises. Feel free to peruse the topics, and watch any accompanying videos!',
         ]);
@@ -27,7 +27,7 @@ class BlogSeeder extends Seeder
             'author' => 'Alexander Simon',
             'category' => 'General',
             'thumb' => 'storage/images/blog/blog-thumb-1.png',
-            'image' => '',
+            'image' => 'storage/images/blog/blog-details-1.png',
             'video' => '',
             'content' => 'Some blog text.',
         ]);
@@ -37,7 +37,7 @@ class BlogSeeder extends Seeder
             'author' => 'Alexander Simon',
             'category' => 'General',
             'thumb' => 'storage/images/blog/blog-thumb-1.png',
-            'image' => '',
+            'image' => 'storage/images/blog/blog-details-1.png',
             'video' => '',
             'content' => 'Some blog text.',
         ]);

@@ -21,8 +21,8 @@ class BlogFactory extends Factory
             'title' => Str::random(15) . ' Blog',
             'author' => 'Alexander Simon',
             'category' => 'General',
-            'thumb' => '',
-            'image' => '',
+            'thumb' => 'storage/images/blog/blog-thumb-1.png',
+            'image' => 'storage/images/blog/blog-details-1.png',
             'video' => '',
             'content' => fake()->text(),
         ];
