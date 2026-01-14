@@ -13,11 +13,11 @@ class BlogSeeder extends Seeder
     public function run(): void
     {
         Blog::factory()->create([
-            'title' => 'First Blog',
+            'title' => 'Introduction',
             'thumb' => 'storage/images/blog/blog-thumb-1.png',
             'image' => '',
             'video' => '',
-            'content' => 'Some blog text.',
+            'content' => 'This blog will contain random software engineering thoughts, code samples, and coding exercises. Feel free to peruse the topics, and watch any accompanying videos!',
         ]);
 
         Blog::factory()->create([
@@ -35,5 +35,7 @@ class BlogSeeder extends Seeder
             'video' => '',
             'content' => 'Some blog text.',
         ]);
+
+        Blog::factory(10)->create();
     }
 }
