@@ -19,7 +19,18 @@ class BlogSeeder extends Seeder
             'thumb' => 'storage/images/blog/blog-thumb-1.png',
             'image' => 'storage/images/blog/blog-details-1.png',
             'video' => '',
-            'content' => '<p class="blog-text">Welcome!</p><p class="blog-text">This blog will contain random software engineering thoughts, code samples, and coding exercises. Feel free to peruse the topics, and watch any accompanying videos!</p>',
+            'content' => '<p class="blog-text">Welcome!</p>
+                <p class="blog-text">This blog will contain random software engineering thoughts, code samples, and coding exercises. Feel free to peruse the topics, and watch any accompanying videos!</p>
+                <blockquote>
+                    <img src="./../storage/images/icons/blockquote.svg" alt="blockquote"/>
+                    <div class="text">
+                        <p>
+                            “Any fool can write code that a computer can understand. Good programmers write code that humans can understand”
+                        </p>
+                        <cite>─ Doug Linder</cite>
+                    </div>
+                </blockquote>
+                ',
         ]);
 
         Blog::factory()->create([
