@@ -14,6 +14,8 @@ class BlogSeeder extends Seeder
     {
         Blog::factory()->create([
             'title' => 'Introduction',
+            'author' => 'Alexander Simon',
+            'category' => 'General',
             'thumb' => 'storage/images/blog/blog-thumb-1.png',
             'image' => '',
             'video' => '',
@@ -22,6 +24,8 @@ class BlogSeeder extends Seeder
 
         Blog::factory()->create([
             'title' => 'Second Blog',
+            'author' => 'Alexander Simon',
+            'category' => 'General',
             'thumb' => 'storage/images/blog/blog-thumb-1.png',
             'image' => '',
             'video' => '',
@@ -30,6 +34,8 @@ class BlogSeeder extends Seeder
 
         Blog::factory()->create([
             'title' => 'Third Blog',
+            'author' => 'Alexander Simon',
+            'category' => 'General',
             'thumb' => 'storage/images/blog/blog-thumb-1.png',
             'image' => '',
             'video' => '',

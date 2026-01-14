@@ -17,6 +17,8 @@ class Blog extends Model
      */
     protected $fillable = [
         'title',
+        'author',
+        'category',
         'thumb',
         'image',
         'video',
@@ -41,6 +43,8 @@ class Blog extends Model
     {
         return [
             'title' => 'string',
+            'author' => 'string',
+            'category' => 'string',
             'thumb' => 'string',
             'image' => 'string',
             'video' => 'string',

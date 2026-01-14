@@ -31,10 +31,10 @@
                                                 <span><a href="#">{{ $date->format('F j, Y') }}</a></span>
                                             </li>
                                             <li>
-                                                <span><a href="#">Branding</a></span>
+                                                <span><a href="#">{{ $blog->category }}</a></span>
                                             </li>
                                             <li>
-                                                <span><a href="#">by Ashton Port er</a></span>
+                                                <span><a href="#">by {{ $blog->author }}</a></span>
                                             </li>
                                         </ul>
                                     </div>

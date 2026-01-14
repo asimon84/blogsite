@@ -19,6 +19,8 @@ class BlogFactory extends Factory
     {
         return [
             'title' => Str::random(15) . ' Blog',
+            'author' => 'Alexander Simon',
+            'category' => 'General',
             'thumb' => '',
             'image' => '',
             'video' => '',
