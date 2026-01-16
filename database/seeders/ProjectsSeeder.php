@@ -57,7 +57,7 @@ class ProjectsSeeder extends Seeder
             'repo' => 'https://github.com/asimon84/laravel-ai',
             'image' => 'storage/images/project/laravel-ai.png',
             'brief' => 'Laravel based AI/ML test project',
-            'description' => '<p>Implementing RAG architecture, LLM libraries, and AI/ML coding concepts to produce basic automation examples.</p><p>Work in progress!</p>',
+            'description' => '<p class="portfolio-text">Implementing RAG architecture, LLM libraries, and AI/ML coding concepts to produce basic automation examples.</p><p class="portfolio-text">Work in progress!</p>',
         ]);
     }
 }
