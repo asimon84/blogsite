@@ -69,7 +69,7 @@
                 <div class="col-lg-6">
                     <div class="portfolio-details__content">
                         <p class="move-anim" data-delay="0.45">
-                            {{ $project->description }}
+                            {!! $project->description !!}
                         </p>
                         <a class="quanto-link-btn" href="{{ $project->repo }}"
                         >View Code Repository
