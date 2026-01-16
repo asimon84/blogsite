@@ -17,7 +17,7 @@ class ProjectsSeeder extends Seeder
             'repo' => 'https://github.com/asimon84/rest-api',
             'image' => 'storage/images/project/rest-api.png',
             'brief' => 'Simple REST API and Client Portal',
-            'description' => 'This is a sample API written in Laravel 12 and PHP using RESTful standards. REST stands for REpresentational State Transfer, offering ways to make idempotent requests that will have the same effect no matter how many times they are called. Distrubuted systems and microservice architecture often utilize REST APIs to offer a window to the data layer that accessible across multiple application front ends. This API also contains a small admin portal built with Blade and Livewire. This allows easy viewing and reporting of data added or updated through the API. ',
+            'description' => '<p>This is a sample API written in Laravel 12 and PHP using RESTful standards. REST stands for REpresentational State Transfer, offering ways to make idempotent requests that will have the same effect no matter how many times they are called. Distrubuted systems and microservice architecture often utilize REST APIs to offer a window to the data layer that accessible across multiple application front ends. This API also contains a small admin portal built with Blade and Livewire. This allows easy viewing and reporting of data added or updated through the API.</p> ',
         ]);
 
         Project::factory()->create([
@@ -25,7 +25,7 @@ class ProjectsSeeder extends Seeder
             'repo' => 'https://github.com/asimon84/task-scheduler',
             'image' => 'storage/images/project/task-scheduler.png',
             'brief' => 'Drag and drop Task Scheduler',
-            'description' => 'This is a very simple application demonstrating a drag and drop interface for a sample project task scheduler. It is meant to show more advanced javascript interactive functionality.',
+            'description' => '<p>This is a very simple application demonstrating a drag and drop interface for a sample project task scheduler. It is meant to show more advanced javascript interactive functionality.</p>',
         ]);
 
         Project::factory()->create([
@@ -33,7 +33,7 @@ class ProjectsSeeder extends Seeder
             'repo' => 'https://github.com/asimon84/laravel-crm-livewire',
             'image' => 'storage/images/project/crm-livewire.png',
             'brief' => 'Laravel based CRM with Blade/Livewire frontend',
-            'description' => 'A simple CRM project built in Laravel 12 with a Blade template front end augmented with Livewire. This demonstrates MVC architecture, datatables, and c3 charts for simple reporting. Also contains unit tests, db migrations and seeders, and jQuery scripting.',
+            'description' => '<p>A simple CRM project built in Laravel 12 with a Blade template front end augmented with Livewire. This demonstrates MVC architecture, datatables, and c3 charts for simple reporting. Also contains unit tests, db migrations and seeders, and jQuery scripting.</p>',
         ]);
 
         Project::factory()->create([
@@ -41,7 +41,7 @@ class ProjectsSeeder extends Seeder
             'repo' => 'https://github.com/asimon84/laravel-crm-react',
             'image' => 'storage/images/project/crm-react.png',
             'brief' => 'Laravel based CRM with React frontend',
-            'description' => 'A simple CRM project built in Laravel 12 with a React front end. This demonstrates MVC architecture, datatables, and c3 charts for simple reporting. Also contains unit tests, db migrations and seeders, componentization, and basic scripting.',
+            'description' => '<p>A simple CRM project built in Laravel 12 with a React front end. This demonstrates MVC architecture, datatables, and c3 charts for simple reporting. Also contains unit tests, db migrations and seeders, componentization, and basic scripting.</p>',
         ]);
 
         Project::factory()->create([
@@ -49,7 +49,7 @@ class ProjectsSeeder extends Seeder
             'repo' => 'https://github.com/asimon84/laravel-crm-vue',
             'image' => 'storage/images/project/crm-vue.png',
             'brief' => 'Laravel based CRM with Vue.js frontend',
-            'description' => 'A simple CRM project built in Laravel 12 with a Vue.js front end. This demonstrates MVC architecture, datatables, and c3 charts for simple reporting. Also contains unit tests, db migrations and seeders, componentization, and basic scripting.',
+            'description' => '<p>A simple CRM project built in Laravel 12 with a Vue.js front end. This demonstrates MVC architecture, datatables, and c3 charts for simple reporting. Also contains unit tests, db migrations and seeders, componentization, and basic scripting.</p>',
         ]);
 
         Project::factory()->create([
