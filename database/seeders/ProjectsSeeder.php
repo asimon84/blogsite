@@ -25,7 +25,7 @@ class ProjectsSeeder extends Seeder
             'repo' => 'https://github.com/asimon84/accounts-payable',
             'image' => 'storage/images/project/rest-api.png',
             'brief' => 'React based invoicing and accounts payable application.',
-            'description' => '<p class="portfolio-text"></p>',
+            'description' => '<p class="portfolio-text">This is a small accounts payable application built in Laravel 12 using React for the front end. This allows you to create items and invoices, pay invoices, and view simple charts and data tables with all past records.</p>',
         ]);
 
         Project::factory()->create([
