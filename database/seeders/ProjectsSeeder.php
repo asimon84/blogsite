@@ -17,7 +17,15 @@ class ProjectsSeeder extends Seeder
             'repo' => 'https://github.com/asimon84/rest-api',
             'image' => 'storage/images/project/rest-api.png',
             'brief' => 'Simple REST API and Client Portal',
-            'description' => '<p class="portfolio-text">This is a sample API written in Laravel 12 and PHP using RESTful standards. REST stands for REpresentational State Transfer, offering ways to make idempotent requests that will have the same effect no matter how many times they are called. Distrubuted systems and microservice architecture often utilize REST APIs to offer a window to the data layer that accessible across multiple application front ends.</p><p class="portfolio-text">This API also contains a small admin portal built with Blade and Livewire. This allows easy viewing and reporting of data added or updated through the API.</p> ',
+            'description' => '<p class="portfolio-text">This is a sample API written in Laravel 12 and PHP using RESTful standards. REST stands for REpresentational State Transfer, offering ways to make idempotent requests that will have the same effect no matter how many times they are called. Distrubuted systems and microservice architecture often utilize REST APIs to offer a window to the data layer that accessible across multiple application front ends.</p><p class="portfolio-text">This API also contains a small admin portal built with Blade and Livewire. This allows easy viewing and reporting of data added or updated through the API.</p>',
+        ]);
+
+        Project::factory()->create([
+            'name' => 'Accounts Payable',
+            'repo' => 'https://github.com/asimon84/accounts-payable',
+            'image' => 'storage/images/project/rest-api.png',
+            'brief' => 'React based invoicing and accounts payable application.',
+            'description' => '<p class="portfolio-text"></p>',
         ]);
 
         Project::factory()->create([
