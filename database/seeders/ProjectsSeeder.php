@@ -21,14 +21,6 @@ class ProjectsSeeder extends Seeder
         ]);
 
         Project::factory()->create([
-            'name' => 'Task Scheduler',
-            'repo' => 'https://github.com/asimon84/task-scheduler',
-            'image' => 'storage/images/project/task-scheduler.png',
-            'brief' => 'Drag and drop Task Scheduler',
-            'description' => '<p class="portfolio-text">This is a very simple application demonstrating a drag and drop interface for a sample project task scheduler. It is meant to show more advanced javascript interactive functionality.</p>',
-        ]);
-
-        Project::factory()->create([
             'name' => 'Laravel CRM (Blade/Livewire)',
             'repo' => 'https://github.com/asimon84/laravel-crm-livewire',
             'image' => 'storage/images/project/crm-livewire.png',
@@ -50,6 +42,14 @@ class ProjectsSeeder extends Seeder
             'image' => 'storage/images/project/crm-vue.png',
             'brief' => 'Laravel based CRM with Vue.js frontend',
             'description' => '<p class="portfolio-text">A simple CRM project built in Laravel 12 with a Vue.js front end. This demonstrates MVC architecture, datatables, and c3 charts for simple reporting. Also contains unit tests, db migrations and seeders, componentization, and basic scripting.</p>',
+        ]);
+
+        Project::factory()->create([
+            'name' => 'Task Scheduler',
+            'repo' => 'https://github.com/asimon84/task-scheduler',
+            'image' => 'storage/images/project/task-scheduler.png',
+            'brief' => 'Drag and drop Task Scheduler',
+            'description' => '<p class="portfolio-text">This is a very simple application demonstrating a drag and drop interface for a sample project task scheduler. It is meant to show more advanced javascript interactive functionality.</p>',
         ]);
 
         Project::factory()->create([
