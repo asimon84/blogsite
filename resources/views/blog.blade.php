@@ -65,12 +65,13 @@
                 <div class="col-12">
                     <div class="blog-pagination">
                         <nav aria-label="Page navigation example">
-                            <ul
-                                    class="pagination justify-content-end align-items-center custom-ul"
-                            >
+                            <ul class="pagination justify-content-end align-items-center custom-ul">
                                 @for($i = 0; $i <= ceil($count / $limit); $i++)
+                                    @php
+                                        $active = ($page === ($i + 1)) ? 'active' : '';
+                                    @endphp
                                     <li class="page-item">
-                                        <a class="page-link" href="#">{{ ($i + 1) }}</a>
+                                        <a class="page-link {{ $active }}" href="#">{{ ($i + 1) }}</a>
                                     </li>
                                 @endfor
                                 <li class="page-item">
