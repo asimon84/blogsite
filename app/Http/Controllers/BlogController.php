@@ -9,6 +9,11 @@ use Illuminate\View\View;
 class BlogController extends Controller
 {
     /**
+     * @const int
+     */
+    const PAGE_LIMIT = 10;
+
+    /**
      * Show the view for the Blog page
      *
      * @param Request $request
@@ -16,7 +21,12 @@ class BlogController extends Controller
      * @return \Illuminate\View\View
      */
     public function index(Request $request):View {
-        $blogs = Blog::all();
+        $page = $request->get('page') ?? 1;
+
+        $limit = self::PAGE_LIMIT;
+        $offset = ($page === 1) ? 0 : (($page - 1) * $limit);
+
+        $blogs = Blog::offset($offset)->limit($limit)->get();
 
         return view('blog', compact('blogs'));
     }
