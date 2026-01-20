@@ -49,6 +49,6 @@ class BlogController extends Controller
             ->limit(3)
             ->get();
 
-        return view('blog-details', compact('blog', 'linkedBlogs'));
+        return view('blog', compact('blog', 'linkedBlogs'));
     }
 }

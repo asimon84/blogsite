@@ -14,7 +14,7 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 
 Route::get('/blogs', [BlogController::class, 'index'])->name('blogs');
-Route::get('/blog/{id}', [BlogController::class, 'show'])->name('blog.details');
+Route::get('/blog/{id}', [BlogController::class, 'show'])->name('blog');
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::get('/contact-form', [ContactController::class, 'form'])->name('contact.form');
