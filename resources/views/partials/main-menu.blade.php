@@ -30,7 +30,7 @@
                                     {{--</ul>--}}
                                 {{--</li>--}}
                                 <li class="menu-item-has-children">
-                                    <a href="{{ route('blog') }}">Blog</a>
+                                    <a href="{{ route('blogs') }}">Blogs</a>
                                 </li>
                                 <li class="menu-item-has-children">
                                     <a href="{{ route('portfolio') }}">Portfolio</a>
