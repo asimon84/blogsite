@@ -29,7 +29,7 @@ class BlogController extends Controller
         $blogs = Blog::offset($offset)->limit($limit)->get();
         $count = $blogs->count();
 
-        return view('blog', compact('blogs', 'count'));
+        return view('blog', compact('blogs', 'limit', 'count'));
     }
 
     /**

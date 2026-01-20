@@ -68,12 +68,11 @@
                             <ul
                                     class="pagination justify-content-end align-items-center custom-ul"
                             >
-                                <li class="page-item">
-                                    <a class="page-link" href="#">1</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">2</a>
-                                </li>
+                                @for($i = 0; $i <= ceil($count / $limit); $i++)
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">{{ ($i + 1) }}</a>
+                                    </li>
+                                @endfor
                                 <li class="page-item">
                                     <a class="page-link next" href="#">
                                         Next
