@@ -17,10 +17,7 @@
                         <div class="blog-item blog-item-details">
                             <div class="row justify-content-center row-padding-bottom">
                                 <div class="col-xl-9 col-xxl-9">
-                                    <div
-                                            class="title-box blog-title move-anim"
-                                            data-delay="0.45"
-                                    >
+                                    <div class="title-box blog-title move-anim" data-delay="0.45">
                                         <h2>
                                             <a href="#">{{ $blog->title }}</a>
                                         </h2>
@@ -41,12 +38,7 @@
                                 </div>
                             </div>
                             <div class="img-box overflow-hidden">
-                                <img
-                                        src="{{ asset($blog->image) }}"
-                                        alt="blog"
-                                        data-speed="0.8"
-                                        class="w-100 d-block"
-                                />
+                                <img src="{{ asset($blog->image) }}" alt="blog" data-speed="0.8" class="w-100 d-block"/>
                             </div>
                             <div class="content-box row-padding-top">
                                 <div class="social-links">
