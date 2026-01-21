@@ -3,6 +3,12 @@
 @section('title', 'Blogs')
 
 @section('content')
+    <style>
+        .current {
+            background-color: #000000;
+            color: #FFFFFF !important;
+        }
+    </style>
 
     <!-- Hero section Start -->
     <section
@@ -68,10 +74,10 @@
                             <ul class="pagination justify-content-end align-items-center custom-ul">
                                 @for($i = 0; $i <= ceil($count / $limit); $i++)
                                     @php
-                                        $active = ($page === ($i + 1)) ? 'active' : '';
+                                        $class = ($page === ($i + 1)) ? 'current' : '';
                                     @endphp
                                     <li class="page-item">
-                                        <a class="page-link {{ $active }}" href="#">{{ ($i + 1) }}</a>
+                                        <a class="page-link {{ $class }}" href="#">{{ ($i + 1) }}</a>
                                     </li>
                                 @endfor
                                 <li class="page-item">
