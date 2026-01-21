@@ -11,16 +11,11 @@
     </style>
 
     <!-- Hero section Start -->
-    <section
-            class="quanto-hero-blog-section section-padding-bottom overflow-hidden"
-    >
+    <section class="quanto-hero-blog-section section-padding-bottom overflow-hidden">
         <div class="container custom-container">
             <div class="row g-4">
                 <div class="col-lg-12 col-xxl-11">
-                    <div
-                            class="quanto-hero-blog__content move-anim"
-                            data-delay="0.45"
-                    >
+                    <div class="quanto-hero-blog__content move-anim" data-delay="0.45">
                         <h1 class="title">Blogs and Videos</h1>
                     </div>
                 </div>
@@ -30,9 +25,7 @@
     <!-- Hero section End -->
 
     <!-- Blog section Start -->
-    <section
-            class="quanto-blog-section section-padding-bottom overflow-hidden"
-    >
+    <section class="quanto-blog-section section-padding-bottom overflow-hidden">
         <div class="container custom-container">
             <div class="row g-4 g-xl-6 quanto-blog3__row overflow-hidden">
                 @foreach($blogs as $blog)
@@ -94,5 +87,4 @@
         </div>
     </section>
     <!-- Blog section End -->
-
 @endsection
