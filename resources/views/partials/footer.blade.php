@@ -5,17 +5,8 @@
             <a class="marquee-item-container" href="{{ route('contact') }}">
                 <div class="marquee-item text-color-white">
                     <h1 class="text-color-white">Let’s work together</h1>
-                    <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="150"
-                            height="150"
-                            viewBox="0 0 150 150"
-                            fill="none"
-                    >
-                        <path
-                                d="M100.023 58.8388L46.232 112.63L37.3932 103.791L91.1844 50H43.7733V37.5H112.523V106.25H100.023V58.8388Z"
-                                fill="white"
-                        />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150" fill="none">
+                        <path d="M100.023 58.8388L46.232 112.63L37.3932 103.791L91.1844 50H43.7733V37.5H112.523V106.25H100.023V58.8388Z" fill="white"/>
                     </svg>
                 </div>
             </a>
@@ -26,9 +17,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="footer-widgets-wrapper">
-                        <div
-                                class="footer-widgets contact text-color-white fade-anim"
-                        >
+                        <div class="footer-widgets contact text-color-white fade-anim">
                             <h6 class="widget-title text-color-white">Contact</h6>
                             <p class="address">
                                 Henderson, NV
