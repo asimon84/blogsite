@@ -5,16 +5,11 @@
 @section('content')
 
     <!-- Hero section Start -->
-    <section
-            class="quanto-hero-section section-padding-bottom overflow-hidden"
-    >
+    <section class="quanto-hero-section section-padding-bottom overflow-hidden">
         <div class="container custom-container">
             <div class="row g-4">
                 <div class="col-lg-12 col-xxl-11">
-                    <div
-                            class="quanto-hero-common__content move-anim"
-                            data-delay="0.45"
-                    >
+                    <div class="quanto-hero-common__content move-anim" data-delay="0.45">
                         <h1 class="title">Just a message away!</h1>
                     </div>
                 </div>
@@ -28,10 +23,7 @@
         <div class="container custom-container position-relative">
             <a href="#quanto-contact-section" class="scroll-down section-link">
                 Scroll down
-                <img
-                        src="{{ asset('storage/images/icons/scroll-down.svg') }}"
-                        alt="Scroll down"
-                />
+                <img src="{{ asset('storage/images/icons/scroll-down.svg') }}" alt="Scroll down"/>
             </a>
             <div class="row">
                 <div class="col-12">
@@ -50,10 +42,7 @@
     <!-- Map section End -->
 
     <!-- Contact section Start -->
-    <section
-            id="quanto-contact-section"
-            class="quanto-contact-section bg-color-white section-padding-top-bottom"
-    >
+    <section id="quanto-contact-section" class="quanto-contact-section bg-color-white section-padding-top-bottom">
         <div class="container custom-container">
             <div class="row g-4 justify-content-between">
                 <div class="col-lg-6 col-xxl-5">
@@ -66,8 +55,8 @@
                         <div class="address">
                             <h6>Address:</h6>
                             <span>
-                      Henderson, NV 89002
-                    </span>
+                                Henderson, NV 89002
+                            </span>
                         </div>
                         <div class="contact-info">
                             {{--<h5>--}}
@@ -80,11 +69,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-xxl-6">
-                    <form
-                            action="{{ route('contact.form') }}"
-                            class="quanto-contact__form"
-                            autocomplete="off"
-                    >
+                    <form action="{{ route('contact.form') }}" class="quanto-contact__form" autocomplete="off">
                         <div class="row g-3 g-xl-4">
                             <div class="col-md-6">
                                 <input
@@ -117,28 +102,18 @@
                                 />
                             </div>
                             <div class="col-12">
-                                <input
-                                        type="text"
-                                        name="subject"
-                                        placeholder="What is the subject of your query?"
-                                        class="form-control"
-                                />
+                                <input type="text" name="subject" placeholder="What is the subject of your query?" class="form-control"/>
                             </div>
                             <div class="col-12">
-                      <textarea
-                              name="message"
-                              rows="6"
-                              placeholder="Describe about your project"
-                              class="form-control"
-                      ></textarea>
+                                <textarea name="message" rows="6" placeholder="Describe about your project" class="form-control"></textarea>
                             </div>
                             <div class="col-12 mt-5">
                                 <button class="quanto-link-btn btn-pill">
                                     Submit
                                     <span>
-                          <i class="fa-solid fa-arrow-right arry1"></i>
-                          <i class="fa-solid fa-arrow-right arry2"></i>
-                        </span>
+                                        <i class="fa-solid fa-arrow-right arry1"></i>
+                                        <i class="fa-solid fa-arrow-right arry2"></i>
+                                    </span>
                                 </button>
                             </div>
                         </div>
