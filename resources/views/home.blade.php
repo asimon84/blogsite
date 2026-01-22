@@ -13,19 +13,10 @@
                     <h1 class="title">
                         Engineering with
                         <span>
-                      <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="110"
-                              height="110"
-                              viewBox="0 0 110 110"
-                              fill="none"
-                      >
-                        <path
-                                d="M60.5 0H49.5L53.0145 50.2065L19.9982 12.22L12.22 19.9982L50.2065 53.0145L1.44248e-06 49.5L0 60.5L50.2065 56.9856L12.22 90.0018L19.9982 97.78L53.0145 59.7935L49.5 110H60.5L56.9855 59.7935L90.0018 97.78L97.78 90.0018L59.7935 56.9855L110 60.5V49.5L59.7936 53.0145L97.78 19.9982L90.0018 12.22L56.9855 50.2065L60.5 0Z"
-                                fill="currentColor"
-                        />
-                      </svg>
-                      creativity
+                            <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110" fill="none">
+                                <path d="M60.5 0H49.5L53.0145 50.2065L19.9982 12.22L12.22 19.9982L50.2065 53.0145L1.44248e-06 49.5L0 60.5L50.2065 56.9856L12.22 90.0018L19.9982 97.78L53.0145 59.7935L49.5 110H60.5L56.9855 59.7935L90.0018 97.78L97.78 90.0018L59.7935 56.9855L110 60.5V49.5L59.7936 53.0145L97.78 19.9982L90.0018 12.22L56.9855 50.2065L60.5 0Z" fill="currentColor"/>
+                            </svg>
+                        creativity
                     </span>
                     </h1>
                 </div>
@@ -83,9 +74,7 @@
 <!-- Hero section End -->
 
 <!-- About section Start -->
-<section
-        class="quanto-about-section section-padding-top overflow-hidden"
->
+<section class="quanto-about-section section-padding-top overflow-hidden">
     <div class="container custom-container">
         <div class="row justify-content-end">
             <div class="col-lg-10 col-xl-9 col-xxl-10">
@@ -96,21 +85,18 @@
                         in React and Vue. Expert in the Laravel framework, RESTful
                         APIs, microservice architecture, and SaaS development.
                     </h4>
-                    <div
-                            class="about-info row-margin-top move-anim"
-                            data-delay="0.5"
-                    >
+                    <div class="about-info row-margin-top move-anim" data-delay="0.5">
                         <p class="">
                             Whatever you are crafting, you need an experienced
                             veteran who approaches each project with meticulous
                             attention to detail and unwavering dedication to quality.
                         </p>
-                        <a class="quanto-link-btn" href="{{ route('about') }}"
-                        >Read More
+                        <a class="quanto-link-btn" href="{{ route('about') }}">
+                            Read More
                             <span>
-                        <i class="fa-solid fa-arrow-right arry1"></i>
-                        <i class="fa-solid fa-arrow-right arry2"></i>
-                      </span>
+                                <i class="fa-solid fa-arrow-right arry1"></i>
+                                <i class="fa-solid fa-arrow-right arry2"></i>
+                            </span>
                         </a>
                     </div>
                 </div>
@@ -121,74 +107,38 @@
 <!-- About section End -->
 
 <!-- Funfacts section Start -->
-<section
-        class="quanto-funfacts-section section-padding-top-bottom overflow-hidden"
->
+<section class="quanto-funfacts-section section-padding-top-bottom overflow-hidden">
     <div class="container custom-container">
         <div class="row">
             <div class="col-12">
                 <div class="quanto-funfacts__wrapper">
-                    <div
-                            class="quanto-funfact-box fade-anim"
-                            data-delay="0.30"
-                            data-direction="right"
-                    >
+                    <div class="quanto-funfact-box fade-anim" data-delay="0.30" data-direction="right">
                         <h2 class="counter-item d-inline-flex align-items-center">
-                      <span
-                              class="odometer d-inline-block"
-                              data-odometer-final="18"
-                      >.</span
-                      >
+                            <span class="odometer d-inline-block" data-odometer-final="18">.</span>
                             <em>+</em>
                         </h2>
                         <span class="funfact-info">Years of experience</span>
                     </div>
-                    <div
-                            class="quanto-funfact-box fade-anim"
-                            data-delay="0.30"
-                            data-direction="right"
-                    >
+                    <div class="quanto-funfact-box fade-anim" data-delay="0.30" data-direction="right">
                         <h2 class="counter-item d-inline-flex align-items-center">
-                      <span
-                              class="odometer d-inline-block"
-                              data-odometer-final="200"
-                      >.</span
-                      >
+                            <span class="odometer d-inline-block" data-odometer-final="200">.</span>
                             <em>+</em>
                         </h2>
                         <span class="funfact-info">Million in revenue</span>
                     </div>
-                    <div
-                            class="quanto-funfact-box fade-anim"
-                            data-delay="0.30"
-                            data-direction="right"
-                    >
+                    <div class="quanto-funfact-box fade-anim" data-delay="0.30" data-direction="right">
                         <h2 class="counter-item d-inline-flex align-items-center">
-                      <span
-                              class="odometer d-inline-block"
-                              data-odometer-final="12"
-                      >.</span
-                      >
+                            <span class="odometer d-inline-block" data-odometer-final="12">.</span>
                             <em>+</em>
                         </h2>
                         <span class="funfact-info">Enterprise level applications</span>
                     </div>
-                    <div
-                            class="quanto-funfact-box fade-anim"
-                            data-delay="0.30"
-                            data-direction="right"
-                    >
+                    <div class="quanto-funfact-box fade-anim" data-delay="0.30" data-direction="right">
                         <h2 class="counter-item d-inline-flex align-items-center">
-                      <span
-                              class="odometer d-inline-block"
-                              data-odometer-final="100"
-                      >.</span
-                      >
+                            <span class="odometer d-inline-block" data-odometer-final="100">.</span>
                             <em>%</em>
                         </h2>
-                        <span class="funfact-info"
-                        >Satisfaction</span
-                        >
+                        <span class="funfact-info">Satisfaction</span>
                     </div>
                 </div>
             </div>
@@ -198,9 +148,7 @@
 <!-- Funfacts section End -->
 
 <!-- Project section Start -->
-<section
-        class="quanto-project-section bg-color-primary section-padding-top-bottom overflow-hidden"
->
+<section class="quanto-project-section bg-color-primary section-padding-top-bottom overflow-hidden">
     <div class="container custom-container">
         <div class="row g-0 gy-4 gy-md-0 justify-content-between">
             <div class="col-12 col-md-5 order-1 order-md-0">
@@ -209,11 +157,7 @@
                         <div class="quanto-project-box overflow-hidden">
                             <a href="{{ route('project', ['id' => $projects[0]->id]) }}">
                                 <div class="quanto-project-thumb overflow-hidden">
-                                    <img
-                                            src="{{ asset($projects[0]->image) }}"
-                                            alt="project-thumb"
-                                            class="w-100 img_reveal"
-                                    />
+                                    <img src="{{ asset($projects[0]->image) }}" alt="project-thumb" class="w-100 img_reveal"/>
                                 </div>
                             </a>
                             <div class="quanto-project-content">
@@ -231,11 +175,7 @@
                         <div class="quanto-project-box overflow-hidden">
                             <a href="{{ route('project', ['id' => $projects[1]->id]) }}">
                                 <div class="quanto-project-thumb overflow-hidden">
-                                    <img
-                                            src="{{ asset($projects[1]->image) }}"
-                                            alt="project-thumb"
-                                            class="w-100 img_reveal"
-                                    />
+                                    <img src="{{ asset($projects[1]->image) }}" alt="project-thumb" class="w-100 img_reveal"/>
                                 </div>
                             </a>
                             <div class="quanto-project-content">
@@ -253,11 +193,7 @@
                         <div class="quanto-project-box overflow-hidden">
                             <a href="{{ route('project', ['id' => $projects[2]->id]) }}">
                                 <div class="quanto-project-thumb overflow-hidden">
-                                    <img
-                                            src="{{ asset($projects[2]->image) }}"
-                                            alt="project-thumb"
-                                            class="w-100 img_reveal"
-                                    />
+                                    <img src="{{ asset($projects[2]->image) }}" alt="project-thumb" class="w-100 img_reveal"/>
                                 </div>
                             </a>
                             <div class="quanto-project-content">
@@ -277,28 +213,20 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="quanto__header text-center text-md-end">
-                            <a
-                                    class="quanto-link-btn btn-dark"
-                                    href="https://github.com/asimon84"
-                            >View Codebase
+                            <a class="quanto-link-btn btn-dark" href="https://github.com/asimon84">
+                                View Codebase
                                 <span>
-                          <i class="fa-solid fa-arrow-right arry1"></i>
-                          <i class="fa-solid fa-arrow-right arry2"></i>
-                        </span>
+                                    <i class="fa-solid fa-arrow-right arry1"></i>
+                                    <i class="fa-solid fa-arrow-right arry2"></i>
+                                </span>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-10 ms-auto project-row-gap">
                         <div class="quanto-project-box overflow-hidden">
                             <a href="{{ route('project', ['id' => $projects[3]->id]) }}">
-                                <div
-                                        class="quanto-project-thumb max-655 overflow-hidden"
-                                >
-                                    <img
-                                            src="{{ asset($projects[3]->image) }}"
-                                            alt="project-thumb"
-                                            class="w-100 img_reveal"
-                                    />
+                                <div class="quanto-project-thumb max-655 overflow-hidden">
+                                    <img src="{{ asset($projects[3]->image) }}" alt="project-thumb" class="w-100 img_reveal"/>
                                 </div>
                             </a>
                             <div class="quanto-project-content">
@@ -316,11 +244,7 @@
                         <div class="quanto-project-box overflow-hidden">
                             <a href="{{ route('project', ['id' => $projects[4]->id]) }}">
                                 <div class="quanto-project-thumboverflow-hidden">
-                                    <img
-                                            src="{{ asset($projects[4]->image) }}"
-                                            alt="project-thumb"
-                                            class="w-100 img_reveal"
-                                    />
+                                    <img src="{{ asset($projects[4]->image) }}" alt="project-thumb" class="w-100 img_reveal"/>
                                 </div>
                             </a>
                             <div class="quanto-project-content">
@@ -338,11 +262,7 @@
                         <div class="quanto-project-box overflow-hidden">
                             <a href="{{ route('project', ['id' => $projects[5]->id]) }}">
                                 <div class="quanto-project-thumb overflow-hidden">
-                                    <img
-                                            src="{{ asset($projects[5]->image) }}"
-                                            alt="project-thumb"
-                                            class="w-100 img_reveal"
-                                    />
+                                    <img src="{{ asset($projects[5]->image) }}" alt="project-thumb" class="w-100 img_reveal"/>
                                 </div>
                             </a>
                             <div class="quanto-project-content">
