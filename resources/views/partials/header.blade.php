@@ -1,21 +1,12 @@
 <head>
     <!-- Basic Meta Tags -->
     <meta charset="UTF-8" />
-    <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
     <title>Alexander Simon - Software Architect / Senior Software Engineer</title>
 
     <!-- SEO Meta Tags -->
-    <meta
-            name="description"
-            content="Alexander Simon is a Software Architect and Senior Software Engineer and this is a portfolio to showcase past work."
-    />
-    <meta
-            name="keywords"
-            content="creative, business website, freelancer portfolio, Senior Software engineer, software architect"
-    />
+    <meta name="description" content="Alexander Simon is a Software Architect and Senior Software Engineer and this is a portfolio to showcase past work."/>
+    <meta name="keywords" content="creative, business website, freelancer portfolio, Senior Software engineer, software architect"/>
 
     <!-- Favicon -->
     <link rel="icon" href="{{ asset('/storage/images/favicon.png') }}" type="image/gif" />
