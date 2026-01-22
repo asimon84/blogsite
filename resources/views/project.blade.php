@@ -4,16 +4,11 @@
 
 @section('content')
     <!-- Hero section Start -->
-    <section
-            class="quanto-hero-common-section section-padding-bottom overflow-hidden"
-    >
+    <section class="quanto-hero-common-section section-padding-bottom overflow-hidden">
         <div class="container custom-container">
             <div class="row g-4">
                 <div class="col-lg-12 col-xxl-11">
-                    <div
-                            class="quanto-hero-common__content move-anim"
-                            data-delay="0.45"
-                    >
+                    <div class="quanto-hero-common__content move-anim" data-delay="0.45">
                         <h1 class="title">{{ $project->name }}</h1>
                     </div>
                 </div>
@@ -25,25 +20,14 @@
     <!-- Image section Start -->
     <div class="quanto-image-area style-2 overflow-hidden">
         <div class="container custom-container position-relative">
-            <a
-                    href="#quanto-portfolio-details-section"
-                    class="scroll-down section-link"
-            >
+            <a href="#quanto-portfolio-details-section" class="scroll-down section-link">
                 Scroll down
-                <img
-                        src="{{ asset('storage/images/icons/scroll-down.svg') }}"
-                        alt="Scroll down"
-                />
+                <img src="{{ asset('storage/images/icons/scroll-down.svg') }}" alt="Scroll down"/>
             </a>
             <div class="row">
                 <div class="col-12">
                     <div class="quanto-hero__thumb text-end">
-                        <img
-                                src="{{ asset($project->image) }}"
-                                alt="Image Area"
-                                data-speed="0.8"
-                                class="d-block w-100"
-                        />
+                        <img src="{{ asset($project->image) }}" alt="Image Area" data-speed="0.8" class="d-block w-100"/>
                     </div>
                 </div>
             </div>
@@ -52,17 +36,11 @@
     <!-- Image section End -->
 
     <!-- Portfolio Details section Start -->
-    <div
-            id="quanto-portfolio-details-section"
-            class="quanto-portfolio-details-section section-padding-top-bottom"
-    >
+    <div id="quanto-portfolio-details-section" class="quanto-portfolio-details-section section-padding-top-bottom">
         <div class="container custom-container">
             <div class="row g-4 justify-content-between">
                 <div class="col-lg-4">
-                    <h2
-                            class="portfolio-details__title move-anim"
-                            data-delay="0.45"
-                    >
+                    <h2 class="portfolio-details__title move-anim" data-delay="0.45">
                         Project overview
                     </h2>
                 </div>
@@ -71,12 +49,12 @@
                         <p class="move-anim" data-delay="0.45">
                             {!! $project->description !!}
                         </p>
-                        <a class="quanto-link-btn" href="{{ $project->repo }}"
-                        >View Code Repository
+                        <a class="quanto-link-btn" href="{{ $project->repo }}">
+                            View Code Repository
                             <span>
-                      <i class="fa-solid fa-arrow-right arry1"></i>
-                      <i class="fa-solid fa-arrow-right arry2"></i>
-                    </span>
+                                <i class="fa-solid fa-arrow-right arry1"></i>
+                                <i class="fa-solid fa-arrow-right arry2"></i>
+                            </span>
                         </a>
                     </div>
                     {{--<div class="portfolio-details__info row-padding-top">--}}
