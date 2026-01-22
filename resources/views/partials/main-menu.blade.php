@@ -50,30 +50,19 @@
                                 </li>
                             </ul>
                         </nav>
-                        <button
-                                class="menuBar-toggle quanto-menu-toggle d-inline-block d-lg-none"
-                        >
-                            <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="40"
-                                    height="40"
-                                    viewBox="0 0 40 40"
-                                    fill="none"
-                            >
-                                <path
-                                        d="M24.4444 26V28H0V26H24.4444ZM40 19V21H0V19H40ZM40 12V14H15.5556V12H40Z"
-                                        fill="currentColor"
-                                />
+                        <button class="menuBar-toggle quanto-menu-toggle d-inline-block d-lg-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M24.4444 26V28H0V26H24.4444ZM40 19V21H0V19H40ZM40 12V14H15.5556V12H40Z" fill="currentColor"/>
                             </svg>
                         </button>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <a class="quanto-link-btn btn-pill" href="{{ route('contact') }}"
-                        >Get in touch
+                        <a class="quanto-link-btn btn-pill" href="{{ route('contact') }}">
+                            Get in touch
                             <span>
-                      <i class="fa-solid fa-arrow-right arry1"></i>
-                      <i class="fa-solid fa-arrow-right arry2"></i>
-                    </span>
+                              <i class="fa-solid fa-arrow-right arry1"></i>
+                              <i class="fa-solid fa-arrow-right arry2"></i>
+                            </span>
                         </a>
                     </div>
                 </div>
