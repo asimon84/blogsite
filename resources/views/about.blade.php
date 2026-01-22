@@ -50,10 +50,7 @@
     {{--<!-- Video section End -->--}}
 
     <!-- FAQ section Start -->
-    <section
-            id="quanto-faq-area"
-            class="quanto-faq-area section-padding-top-bottom bg-color-white"
-    >
+    <section id="quanto-faq-area" class="quanto-faq-area section-padding-top-bottom bg-color-white">
         <div class="container custom-container">
             <div class="row g-4 justify-content-between">
                 <div class="col-lg-6 col-xl-5 col-xxl-4 gsap-sticky">
@@ -64,28 +61,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-7 col-xxl-7">
-                    <div
-                            class="accordion quanto-faq-accordion"
-                            id="accordionExample"
-                    >
+                    <div class="accordion quanto-faq-accordion" id="accordionExample">
                         <div class="accordion-item fade-anim">
                             <h6 class="accordion-header">
-                                <button
-                                        class="accordion-button"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne"
-                                        aria-expanded="true"
-                                        aria-controls="collapseOne"
-                                >
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"  aria-expanded="true" aria-controls="collapseOne">
                                     What's your story?
                                 </button>
                             </h6>
-                            <div
-                                    id="collapseOne"
-                                    class="accordion-collapse collapse show"
-                                    data-bs-parent="#accordionExample"
-                            >
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     I am a full stack senior software engineer with a backend focus. I started my
                                     software development journey in high school and college studying C++ and C#. My first
@@ -97,22 +80,11 @@
                         </div>
                         <div class="accordion-item fade-anim">
                             <h6 class="accordion-header">
-                                <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo"
-                                        aria-expanded="false"
-                                        aria-controls="collapseTwo"
-                                >
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     How many years experience?
                                 </button>
                             </h6>
-                            <div
-                                    id="collapseTwo"
-                                    class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample"
-                            >
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     I have over 18 years professional web development experience, including over 10
                                     years experience with enterprise level application development.
@@ -121,22 +93,11 @@
                         </div>
                         <div class="accordion-item fade-anim">
                             <h6 class="accordion-header">
-                                <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree"
-                                        aria-expanded="false"
-                                        aria-controls="collapseThree"
-                                >
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                     What frameworks are you proficient in?
                                 </button>
                             </h6>
-                            <div
-                                    id="collapseThree"
-                                    class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample"
-                            >
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     I am most experienced with the Laravel framework. I have used Laravel from version 3
                                     up until now, with the latest version 12. I have 10 years of professional
@@ -147,22 +108,11 @@
                         </div>
                         <div class="accordion-item fade-anim">
                             <h6 class="accordion-header">
-                                <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseFour"
-                                        aria-expanded="false"
-                                        aria-controls="collapseFour"
-                                >
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                     What front end frameworks are you proficient in?
                                 </button>
                             </h6>
-                            <div
-                                    id="collapseFour"
-                                    class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample"
-                            >
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     React, Vue, some Angular for JavaScript frameworks. I am most experienced with the
                                     Bootstrap CSS framework but have also used Tailwind CSS. Obviously, I am very
@@ -172,22 +122,11 @@
                         </div>
                         <div class="accordion-item fade-anim">
                             <h6 class="accordion-header">
-                                <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseFive"
-                                        aria-expanded="false"
-                                        aria-controls="collapseFive"
-                                >
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                     What about Microservices and REST APIs?
                                 </button>
                             </h6>
-                            <div
-                                    id="collapseFive"
-                                    class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample"
-                            >
+                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     I have utilized microservice architecture for most of the past 10 years. This
                                     allows independent, loosely coupled services that perform individual business
@@ -206,22 +145,11 @@
                         </div>
                         <div class="accordion-item fade-anim">
                             <h6 class="accordion-header">
-                                <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseSix"
-                                        aria-expanded="false"
-                                        aria-controls="collapseSix"
-                                >
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                     What about SaaS applications?
                                 </button>
                             </h6>
-                            <div
-                                    id="collapseSix"
-                                    class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample"
-                            >
+                            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     I have worked on many SaaS (Software as a Service) applications. I was architect and
                                     team lead on the initial version of the MIDigator ecommerce fraud prevention
@@ -231,22 +159,11 @@
                         </div>
                         <div class="accordion-item fade-anim">
                             <h6 class="accordion-header">
-                                <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseSeven"
-                                        aria-expanded="false"
-                                        aria-controls="collapseSeven"
-                                >
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                     Do you have experience with CD/CI? Docker? Kubernetes?
                                 </button>
                             </h6>
-                            <div
-                                    id="collapseSeven"
-                                    class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample"
-                            >
+                            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     I have many years experience working alongside DevOps or in the role of a DevOps
                                     engineer. I have worked with CD/CI tools like github automation and jenkins
@@ -257,22 +174,11 @@
                         </div>
                         <div class="accordion-item fade-anim">
                             <h6 class="accordion-header">
-                                <button
-                                        class="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseEight"
-                                        aria-expanded="false"
-                                        aria-controls="collapseEight"
-                                >
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                     Do you have experience with Agile development?
                                 </button>
                             </h6>
-                            <div
-                                    id="collapseEight"
-                                    class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample"
-                            >
+                            <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     Of course! Most of my career has been in Agile environments. I have also worked in
                                     Kanban and Waterfall environments but there is always a lot of overlap. It is all
@@ -288,74 +194,38 @@
     <!-- FAQ section End -->
 
     <!-- Funfacts section Start -->
-    <section
-            class="quanto-funfacts-section section-padding-top-bottom overflow-hidden"
-    >
+    <section class="quanto-funfacts-section section-padding-top-bottom overflow-hidden">
         <div class="container custom-container">
             <div class="row">
                 <div class="col-12">
                     <div class="quanto-funfacts__wrapper">
-                        <div
-                                class="quanto-funfact-box fade-anim"
-                                data-delay="0.30"
-                                data-direction="right"
-                        >
+                        <div class="quanto-funfact-box fade-anim" data-delay="0.30" data-direction="right">
                             <h2 class="counter-item d-inline-flex align-items-center">
-                      <span
-                              class="odometer d-inline-block"
-                              data-odometer-final="18"
-                      >.</span
-                      >
+                                <span class="odometer d-inline-block" data-odometer-final="18">.</span>
                                 <em>+</em>
                             </h2>
                             <span class="funfact-info">Years of experience</span>
                         </div>
-                        <div
-                                class="quanto-funfact-box fade-anim"
-                                data-delay="0.30"
-                                data-direction="right"
-                        >
+                        <div class="quanto-funfact-box fade-anim" data-delay="0.30" data-direction="right">
                             <h2 class="counter-item d-inline-flex align-items-center">
-                      <span
-                              class="odometer d-inline-block"
-                              data-odometer-final="200"
-                      >.</span
-                      >
+                                <span class="odometer d-inline-block" data-odometer-final="200">.</span>
                                 <em>+</em>
                             </h2>
                             <span class="funfact-info">Million in revenue</span>
                         </div>
-                        <div
-                                class="quanto-funfact-box fade-anim"
-                                data-delay="0.30"
-                                data-direction="right"
-                        >
+                        <div class="quanto-funfact-box fade-anim" data-delay="0.30" data-direction="right">
                             <h2 class="counter-item d-inline-flex align-items-center">
-                      <span
-                              class="odometer d-inline-block"
-                              data-odometer-final="12"
-                      >.</span
-                      >
+                                <span class="odometer d-inline-block" data-odometer-final="12">.</span>
                                 <em>+</em>
                             </h2>
                             <span class="funfact-info">Enterprise level applications</span>
                         </div>
-                        <div
-                                class="quanto-funfact-box fade-anim"
-                                data-delay="0.30"
-                                data-direction="right"
-                        >
+                        <div class="quanto-funfact-box fade-anim" data-delay="0.30" data-direction="right">
                             <h2 class="counter-item d-inline-flex align-items-center">
-                      <span
-                              class="odometer d-inline-block"
-                              data-odometer-final="100"
-                      >.</span
-                      >
+                                <span class="odometer d-inline-block" data-odometer-final="100">.</span>
                                 <em>%</em>
                             </h2>
-                            <span class="funfact-info"
-                            >Satisfaction</span
-                            >
+                            <span class="funfact-info">Satisfaction</span>
                         </div>
                     </div>
                 </div>
