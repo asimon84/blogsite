@@ -5,16 +5,11 @@
 @section('content')
 
     <!-- Hero section Start -->
-    <section
-            class="quanto-hero-common-section section-padding-bottom overflow-hidden"
-    >
+    <section class="quanto-hero-common-section section-padding-bottom overflow-hidden">
         <div class="container custom-container">
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-12 col-xl-10 col-xxl-9">
-                    <div
-                            class="quanto-hero-common__content move-anim"
-                            data-delay="0.45"
-                    >
+                    <div class="quanto-hero-common__content move-anim" data-delay="0.45">
                         <h1 class="title">Market Analysis & Planning</h1>
                     </div>
                 </div>
@@ -26,25 +21,14 @@
     <!-- Video section Start -->
     <div class="quanto-video-area style-2 overflow-hidden">
         <div class="container custom-container position-relative">
-            <a
-                    href="#quanto-service-details-section"
-                    class="scroll-down section-link"
-            >
+            <a href="#quanto-service-details-section" class="scroll-down section-link">
                 Scroll down
-                <img
-                        src="{{ asset('storage/images/icons/scroll-down.svg') }}"
-                        alt="Scroll down"
-                />
+                <img src="{{ asset('storage/images/icons/scroll-down.svg') }}" alt="Scroll down"/>
             </a>
             <div class="row">
                 <div class="col-12">
                     <div class="quanto-hero__thumb text-center">
-                        <img
-                                src="{{ asset('storage/images/hero/common-hero-thumb-2.png') }}"
-                                alt="hero-thumb"
-                                data-speed="0.8"
-                                class="w-100"
-                        />
+                        <img src="{{ asset('storage/images/hero/common-hero-thumb-2.png') }}" alt="hero-thumb" data-speed="0.8" class="w-100"/>
                     </div>
                 </div>
             </div>
@@ -53,10 +37,7 @@
     <!-- Video section End -->
 
     <!-- Service Details section Start -->
-    <section
-            id="quanto-service-details-section"
-            class="quanto-service-details-section row-padding-top row-padding-bottom overflow-hidden"
-    >
+    <section id="quanto-service-details-section" class="quanto-service-details-section row-padding-top row-padding-bottom overflow-hidden">
         <div class="container custom-container">
             <div class="row g-4 justify-content-center">
                 <div class="col-xl-8">
@@ -94,103 +75,97 @@
                                     <div class="col-sm-6 col-xl-5">
                                         <ul class="custom-ul">
                                             <li>
-                                                <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        viewBox="0 0 24 24"
-                                                        fill="none"
-                                                >
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                                     <path
-                                                            fill-rule="evenodd"
-                                                            clip-rule="evenodd"
-                                                            d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
-                                                            fill="currentColor"
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
+                                                        fill="currentColor"
                                                     />
                                                 </svg>
                                                 Custom Website Design
                                             </li>
                                             <li>
                                                 <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        viewBox="0 0 24 24"
-                                                        fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="24"
+                                                    height="24"
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
                                                 >
                                                     <path
-                                                            fill-rule="evenodd"
-                                                            clip-rule="evenodd"
-                                                            d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
-                                                            fill="currentColor"
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
+                                                        fill="currentColor"
                                                     />
                                                 </svg>
                                                 Responsive Web Development
                                             </li>
                                             <li>
                                                 <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        viewBox="0 0 24 24"
-                                                        fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="24"
+                                                    height="24"
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
                                                 >
                                                     <path
-                                                            fill-rule="evenodd"
-                                                            clip-rule="evenodd"
-                                                            d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
-                                                            fill="currentColor"
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
+                                                        fill="currentColor"
                                                     />
                                                 </svg>
                                                 E-Commerce Solutions
                                             </li>
                                             <li>
                                                 <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        viewBox="0 0 24 24"
-                                                        fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="24"
+                                                    height="24"
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
                                                 >
                                                     <path
-                                                            fill-rule="evenodd"
-                                                            clip-rule="evenodd"
-                                                            d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
-                                                            fill="currentColor"
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
+                                                        fill="currentColor"
                                                     />
                                                 </svg>
                                                 JavaScript
                                             </li>
                                             <li>
                                                 <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        viewBox="0 0 24 24"
-                                                        fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="24"
+                                                    height="24"
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
                                                 >
                                                     <path
-                                                            fill-rule="evenodd"
-                                                            clip-rule="evenodd"
-                                                            d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
-                                                            fill="currentColor"
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
+                                                        fill="currentColor"
                                                     />
                                                 </svg>
                                                 API Integration
                                             </li>
                                             <li>
                                                 <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        viewBox="0 0 24 24"
-                                                        fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="24"
+                                                    height="24"
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
                                                 >
                                                     <path
-                                                            fill-rule="evenodd"
-                                                            clip-rule="evenodd"
-                                                            d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
-                                                            fill="currentColor"
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
+                                                        fill="currentColor"
                                                     />
                                                 </svg>
                                                 Front End Development
@@ -201,85 +176,85 @@
                                         <ul class="custom-ul">
                                             <li>
                                                 <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        viewBox="0 0 24 24"
-                                                        fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="24"
+                                                    height="24"
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
                                                 >
                                                     <path
-                                                            fill-rule="evenodd"
-                                                            clip-rule="evenodd"
-                                                            d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
-                                                            fill="currentColor"
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
+                                                        fill="currentColor"
                                                     />
                                                 </svg>
                                                 Front End Development
                                             </li>
                                             <li>
                                                 <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        viewBox="0 0 24 24"
-                                                        fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="24"
+                                                    height="24"
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
                                                 >
                                                     <path
-                                                            fill-rule="evenodd"
-                                                            clip-rule="evenodd"
-                                                            d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
-                                                            fill="currentColor"
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
+                                                        fill="currentColor"
                                                     />
                                                 </svg>
                                                 Content Management Systems (CMS)
                                             </li>
                                             <li>
                                                 <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        viewBox="0 0 24 24"
-                                                        fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="24"
+                                                    height="24"
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
                                                 >
                                                     <path
-                                                            fill-rule="evenodd"
-                                                            clip-rule="evenodd"
-                                                            d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
-                                                            fill="currentColor"
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
+                                                        fill="currentColor"
                                                     />
                                                 </svg>
                                                 Website Maintenance and Support
                                             </li>
                                             <li>
                                                 <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        viewBox="0 0 24 24"
-                                                        fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="24"
+                                                    height="24"
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
                                                 >
                                                     <path
-                                                            fill-rule="evenodd"
-                                                            clip-rule="evenodd"
-                                                            d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
-                                                            fill="currentColor"
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
+                                                        fill="currentColor"
                                                     />
                                                 </svg>
                                                 SEO Optimization
                                             </li>
                                             <li>
                                                 <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        viewBox="0 0 24 24"
-                                                        fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="24"
+                                                    height="24"
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
                                                 >
                                                     <path
-                                                            fill-rule="evenodd"
-                                                            clip-rule="evenodd"
-                                                            d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
-                                                            fill="currentColor"
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M8.26686 17.2517L23.3996 2.09009C18.5966 8.6869 13.7937 15.2841 9.01958 21.9098L0.599609 11.6671C3.17479 13.5188 5.72074 15.3708 8.2673 17.2513L8.26686 17.2517Z"
+                                                        fill="currentColor"
                                                     />
                                                 </svg>
                                                 Performance Optimization
@@ -302,13 +277,13 @@
             <div class="row">
                 <div class="col-12">
                     <video
-                            muted
-                            autoplay
-                            loop
-                            src="https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.mp4?_=6"
-                            class="quanto-video d-block w-100"
-                            data-speed="0.8"
-                            id="quanto-video-2"
+                        muted
+                        autoplay
+                        loop
+                        src="https://2050today.org/wp-content/uploads/2020/07/Video-Placeholder.mp4?_=6"
+                        class="quanto-video d-block w-100"
+                        data-speed="0.8"
+                        id="quanto-video-2"
                     ></video>
                     <button class="play-btn">Play</button>
                 </div>
