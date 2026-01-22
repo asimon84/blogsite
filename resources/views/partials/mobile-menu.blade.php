@@ -62,28 +62,28 @@
             </div>
             <div class="social-btn style3">
                 <a href="https://www.facebook.com/">
-              <span class="link-effect">
-                <span class="effect-1"><i class="fab fa-facebook"></i></span>
-                <span class="effect-1"><i class="fab fa-facebook"></i></span>
-              </span>
+                    <span class="link-effect">
+                        <span class="effect-1"><i class="fab fa-facebook"></i></span>
+                        <span class="effect-1"><i class="fab fa-facebook"></i></span>
+                    </span>
                 </a>
                 <a href="https://instagram.com/">
-              <span class="link-effect">
-                <span class="effect-1"><i class="fab fa-instagram"></i></span>
-                <span class="effect-1"><i class="fab fa-instagram"></i></span>
-              </span>
+                    <span class="link-effect">
+                        <span class="effect-1"><i class="fab fa-instagram"></i></span>
+                        <span class="effect-1"><i class="fab fa-instagram"></i></span>
+                    </span>
                 </a>
                 <a href="https://twitter.com/">
-              <span class="link-effect">
-                <span class="effect-1"><i class="fab fa-twitter"></i></span>
-                <span class="effect-1"><i class="fab fa-twitter"></i></span>
-              </span>
+                    <span class="link-effect">
+                        <span class="effect-1"><i class="fab fa-twitter"></i></span>
+                        <span class="effect-1"><i class="fab fa-twitter"></i></span>
+                    </span>
                 </a>
                 <a href="https://dribbble.com/">
-              <span class="link-effect">
-                <span class="effect-1"><i class="fab fa-dribbble"></i></span>
-                <span class="effect-1"><i class="fab fa-dribbble"></i></span>
-              </span>
+                    <span class="link-effect">
+                        <span class="effect-1"><i class="fab fa-dribbble"></i></span>
+                        <span class="effect-1"><i class="fab fa-dribbble"></i></span>
+                    </span>
                 </a>
             </div>
         </div>
